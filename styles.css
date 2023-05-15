@@ -338,6 +338,29 @@ btn:focus {
   height: 100%;
 }
 
+p span {
+  color: #6928d8;
+  font-weight: 600;
+}
+
+#viewBio {
+  margin: 1.5em 0em 0.75em 0em;
+  font-size: x-large;
+}
+
+.category {
+  text-transform: lowercase;
+  /* margin: 2rem 0 1rem 1rem; */
+  background: rgba(221, 213, 230, 0.3);
+  color: blueviolet;
+  padding: 0.45rem 0.5rem;
+  border-radius: 13px;
+  font-size: 0.8rem;
+  font-family: "Major Mono Display", monospace;
+  display: inline-block; /* keep the background color wrapped tight */
+}
+
+
 /***********************/
 /******  IMAGES  *******/
 /***********************/
@@ -2019,12 +2042,12 @@ footer {
 /* calendar */
 
 .calendar {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* align-content: center;
+  display: flex; 
+  flex-wrap: wrap;
+  align-content: center;
   justify-content: center;
   flex-direction: row;
-  align-items: flex-start; */
+  align-items: flex-start;
 }
 
 .event {
