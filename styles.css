@@ -2096,8 +2096,9 @@ footer {
   color: #490f90;  
   /* width: 90%; */
   /* width: 95%; */
-  /* border-bottom: 1px dashed #73757849; */
-  border-bottom: 9px solid #77dcdd9e;
+  /* border-bottom: 9px solid #77dcdd9e; */
+  /* border-bottom: 9px solid #c0f4bfd6; */
+  border-bottom: 9px solid #eef4bfd6;
 }
 
 #thematic {
@@ -2135,7 +2136,8 @@ footer {
 
 .location {
   padding: 10px;
-  background: #c0f4bfd6;
+  /* background: #c0f4bfd6; */
+  background-color: lightcyan;
   color: #6928d8;
   font-size: 1.1rem;
 }
@@ -2206,8 +2208,9 @@ footer {
     /* margin: 1rem 0 0 4rem; */
     /* width: 90%; */
     /* width: 95%; */ 
-    /* border-bottom: 1px solid #73757849; */
-    border-bottom: 9px solid #77dcdd9e;
+    /* border-bottom: 9px solid #77dcdd9e; */
+    /* border-bottom: 9px solid #c0f4bfd6; */
+    border-bottom: 9px solid #eef4bfd6;
     text-align: center;
     /* padding-top: 3rem; */
     font-size: 1.6rem;
@@ -2287,7 +2290,7 @@ footer {
 .btn-d3
  {
   border: black dotted 3px;
-  background: lightcyan;
+  /* background: lightcyan; */
   color: black;
   padding: 15px 63px;
   text-align: center;
