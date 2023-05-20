@@ -425,7 +425,7 @@ img {
 @media (min-width: 60rem) {
   .landingImg {
     /* max-width: 20vw; */
-    max-width: 30vw;
+    max-width: 25vw;
     /* position: absolute; */
     top: 0px;
     right: 0px;
