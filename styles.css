@@ -2283,7 +2283,8 @@ footer {
 
 .badge-primary {
   color: #fff;
-  background-color: #2247ff;
+  background: #ca22ff;
+  /* background-color: #2247ff; */
   /* background-image: linear-gradient(to right, #23a6d5, rgb(76, 175, 76)); */
   /* background-color: #007bff; */
   font-weight: 400;
