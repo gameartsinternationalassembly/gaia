@@ -2189,7 +2189,7 @@ footer {
 
 .event-lookAhead {
   color: #f7fed0;
-  background: #226f1b;
+  background: #356231;
 }
 
 .details {
@@ -2267,12 +2267,12 @@ footer {
   display: inline-block;
   padding: 0.25em 0.4em;
   font-size: 75%;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: 0.25rem;
+  border-radius: 0.30rem;
 }
 
 .badge-pill {
@@ -2287,7 +2287,6 @@ footer {
   /* background-color: #2247ff; */
   /* background-image: linear-gradient(to right, #23a6d5, rgb(76, 175, 76)); */
   /* background-color: #007bff; */
-  font-weight: 400;
   border: solid 2px black;
 }
 
@@ -2297,7 +2296,6 @@ footer {
   background: #8ce9ff;
   /* background-image: linear-gradient(to right, #23a6d5, rgb(76, 175, 76)); */
   /* background-color: #007bff; */
-  font-weight: 400;
   border: solid 2px black;
 }
 
@@ -2306,7 +2304,6 @@ footer {
   background-color: #bbff00;
   /* background-image: linear-gradient(to right, #23a6d5, rgb(76, 175, 76)); */
   /* background-color: #007bff; */
-  font-weight: 400;
   border: solid 2px black;
 }
 
