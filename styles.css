@@ -403,13 +403,34 @@ img {
   width: 100vw;
 }
 
+@media (max-width: 912px) {
+  .landingImg {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 540px) {
+  .landingImg {
+    max-width: 65%;
+  }
+}
+
+@media (max-width: 414px) {
+  .landingImg {
+    max-width: 85%;
+  }
+}
+
+
 @media (min-width: 60rem) {
   .landingImg {
-    max-width: 20vw;
-    position: absolute;
+    /* max-width: 20vw; */
+    max-width: 30vw;
+    /* position: absolute; */
     top: 0px;
     right: 0px;
   }
+
 
   .footerImg {
     padding: 0;
@@ -823,7 +844,7 @@ header {
     width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 0;
     margin: 0;
     /* justify-content: normal; */
