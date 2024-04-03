@@ -208,6 +208,10 @@ main{
 
 }
 
+.speakerCardBox {
+  padding-top: 2rem;
+}
+
 .textBox {
   text-align: left;
   /* background-color: rgba(209, 223, 234, 0.76); */
@@ -2109,19 +2113,18 @@ footer {
   justify-content: center;
   flex-direction: row;
   align-items: flex-start;
+  margin: 1rem;
 }
 
 .event {
-  /* flex: 1; */
-  /* min-width: 40%; */
   background-color: rgba(255, 255, 255, 0.812);
-  padding: 0.5rem 0 2rem 0;
-  /* margin: 1rem 0.1rem; */
-  margin: 1rem 1rem;
-  border: 0.2rem solid rgba(51, 51, 137, 0.4);
-  /* border-radius: 2rem; */
-  border-radius: 1rem;
-  max-width: 90vw;
+  /* border: 0.2rem solid rgba(51, 51, 137, 0.4); */
+  /* max-width: 90vw; */
+  margin-top: 4rem;
+}
+
+.event li {
+  margin: 1rem;
 }
 
 /* .event {
@@ -2161,6 +2164,23 @@ footer {
   /* border-bottom: 9px solid #c0f4bfd6; */
   border-bottom: 9px solid #eef4bfd6;
 }
+
+@media screen and (min-width: 900px) {
+
+  .date {
+    /* margin: 1rem 0 0 4rem; */
+    /* width: 90%; */
+    /* width: 95%; */ 
+    /* border-bottom: 9px solid #77dcdd9e; */
+    /* border-bottom: 9px solid #c0f4bfd6; */
+    border-bottom: 9px solid #eef4bfd6;
+    text-align: center;
+    /* padding-top: 3rem; */
+    font-size: 3rem !important;
+  }
+}
+
+
 
 #thematic {
   color: var(--accentTwot);
@@ -2204,9 +2224,9 @@ footer {
 }
 
 .event-foundation {
-  color: var(--accentLight);
+  color: var(--accentMed);
   /* background: darkmagenta; */
-  background: #490f90;
+  /* background: #490f90; */
 }
 
 .event-breakout {
@@ -2266,17 +2286,7 @@ footer {
     margin: 3rem 0;
   }
 
-  .date {
-    /* margin: 1rem 0 0 4rem; */
-    /* width: 90%; */
-    /* width: 95%; */ 
-    /* border-bottom: 9px solid #77dcdd9e; */
-    /* border-bottom: 9px solid #c0f4bfd6; */
-    border-bottom: 9px solid #eef4bfd6;
-    text-align: center;
-    /* padding-top: 3rem; */
-    font-size: 1.6rem;
-  }
+  
 
   .title {
     margin: 3rem 0 0.7rem 0;
