@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+
 /***********************/
 /*****  CSS RESET  *****/
 /***********************/
@@ -135,8 +137,6 @@ table {
   src: url(home/fonts/Recursive.ttf);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
-
 :root {
   --white: rgb(244, 244, 244);
   --lightGrey: rgb(237, 237, 237);
@@ -200,15 +200,11 @@ p {
   font-style: bold;
 }
 
-main{
+main {
   background: linear-gradient(to bottom, #e4ffff, #6b85ff);
   width: 100vw;
   max-width: 100vw;
-
 }
-
-
-
 
 .contentContainer {
   display: flex;
@@ -217,11 +213,10 @@ main{
   margin: auto;
   /* margin-top: 10rem; */
   padding: 2rem 1rem 2rem 1.25rem;
-  background-color:rgb(245, 252, 255);
+  background-color: rgb(245, 252, 255);
   /* max-width: 70vw; */
   /* margin: 1rem; */
   flex-direction: column;
-
 }
 
 .speakerCardBox {
@@ -263,7 +258,7 @@ canvas {
     max-width: 65rem;
     border: 1px double #28b18a;
     outline: 3px solid #d0eaff;
-}
+  }
 
   .content {
     padding: 0 15%;
@@ -306,12 +301,12 @@ a {
   }
 
   li {
-    font-size: 1.7rem;  }
+    font-size: 1.7rem;
+  }
 
   .textBox {
-    padding-top:2rem;
+    padding-top: 2rem;
     max-width: 65rem;
-
   }
 }
 
@@ -322,8 +317,7 @@ a {
 a {
   color: var(--accentDark);
   text-decoration: rgba(0, 23, 128, 0.088) wavy underline;
-  text-decoration: double underline rgba(50, 100, 128, 0.203) 3px
-  
+  text-decoration: double underline rgba(50, 100, 128, 0.203) 3px;
 }
 
 a:hover {
@@ -399,8 +393,6 @@ p span {
   font-size: x-large;
 } */
 
-
-
 .category {
   text-transform: lowercase;
   /* margin: 2rem 0 1rem 1rem; */
@@ -412,7 +404,6 @@ p span {
   font-family: "Major Mono Display", monospace;
   display: inline-block; /* keep the background color wrapped tight */
 }
-
 
 /***********************/
 /******  IMAGES  *******/
@@ -443,13 +434,11 @@ img {
   width: 100vw;
 }
 
-
 @media (min-width: 60rem) {
   .landingImg {
     max-width: 40vw;
-    margin-top:5rem;
+    margin-top: 5rem;
   }
-
 
   .footerImg {
     padding: 0;
@@ -486,26 +475,18 @@ img {
   }
 }
 
-
 .profilePic {
   max-width: 50vw;
   /* height: 100%; */
   background: #d4dfe9;
-  font-family: Montserrat, sans-serif;;
+  font-family: Montserrat, sans-serif;
   font-size: 24px;
   line-height: 30px;
   font-weight: bold;
   color: #009688;
   padding: 36px;
-  box-shadow:
-	  inset #009688 0 0 0 5px, 
-    inset #059c8e 0 0 0 1px, 
-    inset #0cab9c 0 0 0 10px, 
-    inset #1fbdae 0 0 0 11px, 
-    inset #8ce9ff 0 0 0 16px, 
-    inset #48e4d6 0 0 0 17px, 
-    inset #e5f9f7 0 0 0 21px, 
-    inset #bfecf7 0 0 0 22px;
+  box-shadow: inset #009688 0 0 0 5px, inset #059c8e 0 0 0 1px, inset #0cab9c 0 0 0 10px, inset #1fbdae 0 0 0 11px, inset #8ce9ff 0 0 0 16px,
+    inset #48e4d6 0 0 0 17px, inset #e5f9f7 0 0 0 21px, inset #bfecf7 0 0 0 22px;
   text-shadow: 3px 3px 1px #bfecf7;
   border-radius: 50%;
   display: flex;
@@ -517,11 +498,11 @@ img {
     max-width: 18vw;
     /* height: 100%; */
     background: #d4dfe9;
-    font-family: Montserrat, sans-serif;;
+    font-family: Montserrat, sans-serif;
   }
 
   .speakerCard {
-    margin: 2rem .5rem;
+    margin: 2rem 0.5rem;
   }
 }
 .logo {
@@ -534,7 +515,6 @@ img {
   max-height: 10vh; /* Optional: you can set a maximum height relative to the viewport height */
 }
 
-
 .sponsorbox {
   display: flex;
   /* flex-direction: column; */
@@ -542,7 +522,6 @@ img {
   justify-content: center;
   /* align-items: center; */
   flex-wrap: wrap;
-
 }
 
 @media screen and (min-width: 900px) {
@@ -554,7 +533,7 @@ img {
     flex-basis: 0;
     /* background-color: white; */
   }
-  
+
   .sponsorbox {
     display: flex;
     flex-direction: row;
@@ -563,9 +542,7 @@ img {
     justify-content: center;
     /* align-items: center; */
     flex-wrap: wrap;
-  
   }
-
 }
 
 .materials {
@@ -676,7 +653,6 @@ h5 {
     /* margin: 2rem 0.2rem; */
     /* max-width: 70vw; */
     font-size: clamp(2.5rem, 2vw, 5rem); /* Adjusts between 1rem and 2rem, based on the viewport width */
-
   }
 
   h2 {
@@ -734,7 +710,6 @@ li {
   li {
     padding: 1rem;
     font-size: 1.7rem;
-
   }
 
   .controllerList {
@@ -875,7 +850,7 @@ select::-ms-expand {
 /***********************/
 
 header {
-  background-color: var(--white);
+  /* background-color: var(--white); */
   position: absolute;
   width: 100vw;
   display: flex;
@@ -891,7 +866,7 @@ header {
 
 @media screen and (min-width: 900px) {
   header {
-    background-color: blue;
+    /* background-color: blue; */
 
     width: 100vw;
     display: flex;
@@ -986,7 +961,6 @@ nav a {
   font-size: 1.2rem;
   transition: opacity 150ms ease-in-out;
   text-decoration: none;
-
 }
 
 /*************************/
@@ -1014,14 +988,12 @@ nav a {
     margin: 0 1.5em;
     /* background: #232323; */
     /* filter: hue-rotate(9f0deg); */
-    padding: .25rem;
-
+    padding: 0.25rem;
   }
 
   nav a {
     opacity: 1;
     position: relative;
-    
   }
 
   nav a:hover::before {
@@ -2128,7 +2100,7 @@ footer {
 /* calendar */
 
 .calendar {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
@@ -2147,41 +2119,36 @@ footer {
 .event li {
   margin-left: 0;
   list-style: none;
-  padding-left: 1.2em; 
+  padding-left: 1.2em;
   position: relative;
 }
 
 .event li:before {
-  content: '\2605'; 
+  content: "\2605";
   position: absolute;
-  left: 0; 
-  top: 10px; 
-  font-size: 0.65em; 
+  left: 0;
+  top: 10px;
+  font-size: 0.65em;
   color: #4e89d2;
-
 }
 
 @media screen and (min-width: 900px) {
-
   .event li {
     /* margin-left: 0; */
     /* list-style: none; */
-    padding-left: 1.2em; 
+    padding-left: 1.2em;
     /* position: relative; */
   }
-  
+
   .event li:before {
     /* content: '\2605';  */
     /* position: absolute; */
-    left: 0; 
-    top: 24px; 
+    left: 0;
+    top: 24px;
     /* font-size: 0.65em;  */
     /* color: #4e89d2; */
-  
   }
-
 }
-
 
 /* .event {
   background-color: #fff;
@@ -2203,10 +2170,10 @@ footer {
 } */
 
 .date {
-  color: #4e89d2; 
+  color: #4e89d2;
   font-size: 1.5rem;
- text-align: left;
- border-bottom: 5px solid #4e89d2;
+  text-align: left;
+  border-bottom: 5px solid #4e89d2;
 }
 
 @media screen and (min-width: 900px) {
@@ -2219,7 +2186,7 @@ footer {
 
 #thematic {
   color: var(--accentTwot);
-  background: #BFF7DD;
+  background: #bff7dd;
 }
 
 #special {
@@ -2321,8 +2288,6 @@ footer {
     margin: 3rem 0;
   }
 
-  
-
   .title {
     margin: 3rem 0 0.7rem 0;
     font-size: 2.6rem;
@@ -2344,7 +2309,7 @@ footer {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: 0.30rem;
+  border-radius: 0.3rem;
 }
 
 .badge-pill {
@@ -2399,15 +2364,12 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-
-#daySelector {
-  display: flex;
-  justify-content: center;
-  max-width: 65rem;
+  #daySelector {
+    display: flex;
+    justify-content: center;
+    max-width: 65rem;
+  }
 }
-}
-
-
 
 .btn-d1,
 .btn-d2,
@@ -2441,27 +2403,36 @@ footer {
   color: black;
 }
 
-.yearbtn{
+.yearbtn {
   flex-grow: 1;
 }
 
 /* Desktop styles */
 @media screen and (min-width: 768px) {
-  .btn-d1, .btn-d2, .btn-d3, .btn-d4, .btn-d5, .btn-d6, .btn-d7 {
+  .btn-d1,
+  .btn-d2,
+  .btn-d3,
+  .btn-d4,
+  .btn-d5,
+  .btn-d6,
+  .btn-d7 {
     font-size: 0; /* Hides the original text */
     padding: 15px 23px; /* Adjust padding to fit the full day name */
     margin: 10px 10px;
   }
-  
-  .btn-d1::after, .btn-d2::after, .btn-d3::after, .btn-d4::after, .btn-d5::after, .btn-d6::after, .btn-d7::after {
+
+  .btn-d1::after,
+  .btn-d2::after,
+  .btn-d3::after,
+  .btn-d4::after,
+  .btn-d5::after,
+  .btn-d6::after,
+  .btn-d7::after {
     content: attr(data-day); /* Inserts the full day name */
     font-size: 1.5rem; /* Adjust as needed */
     display: block;
   }
 }
-
-
-
 
 .btn-bios {
   border: #0f5690 solid 3px;
