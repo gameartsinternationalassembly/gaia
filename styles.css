@@ -184,7 +184,7 @@ body {
 
 p {
   text-align: left;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   /* text-align: left; */
   padding: 1rem;
 }
@@ -247,7 +247,7 @@ canvas {
 
   .contentContainer {
     padding: 2rem;
-    max-width: 50rem;
+    max-width: 40rem;
     border: 1px double #28b18a;
     outline: 3px solid #d0eaff;
   }
@@ -258,7 +258,7 @@ canvas {
 }
 
 li {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   /* text-align: left; */
   text-align: center;
   padding: 1rem;
@@ -266,7 +266,7 @@ li {
 }
 
 details {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-align: left;
   padding: 1rem;
 }
@@ -282,7 +282,7 @@ a {
 
 @media screen and (min-width: 900px) {
   p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     /* padding: 2rem 10%; */
   }
 
@@ -296,7 +296,7 @@ a {
   }
 
   li {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
    li {
@@ -639,7 +639,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   color: var(--accentLight);
@@ -661,7 +661,7 @@ h5 {
     text-overflow: ellipsis;
     /* margin: 2rem 0.2rem; */
     /* max-width: 70vw; */
-    font-size: clamp(2.3rem, 2vw, 5rem); /* Adjusts between 1rem and 2rem, based on the viewport width */
+    font-size: clamp(1.85rem, 2vw, 5rem); /* Adjusts between 1rem and 2rem, based on the viewport width */
   }
 
   h2 {
@@ -690,7 +690,7 @@ h5 {
 /***********************/
 
 ul {
-  padding-top: 1.2rem;
+  padding-top: 1.1rem;
 }
 
 li {
@@ -699,7 +699,7 @@ li {
   padding: 0.5rem 0;
   list-style-type: disc;
   /* text-indent: 1.5em; */
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   /* font-size: 1.7rem; */
 }
 
@@ -957,7 +957,7 @@ nav li {
 
 nav a {
   color: var(--accentDark);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   transition: opacity 150ms ease-in-out;
   text-decoration: none;
 }
@@ -1360,7 +1360,7 @@ footer {
 }
 
 .legend {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   border-bottom: #633ea4 dotted 3px;
 }
 
@@ -1375,7 +1375,7 @@ footer {
   #daySelector {
     display: flex;
     justify-content: center;
-    max-width: 45rem;
+    max-width: 40rem;
   }
 }
 
