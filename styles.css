@@ -466,13 +466,13 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1200px; /* Adjust this value based on your needs and the actual width of the cards */
+    /* max-width: 70vw;  */
   }
 
   .speakerCard {
-    flex: 2 2 50%; /* Adjust to ensure that cards take up exactly 25% (for 1 row of 4) or 50% (for 2 rows of 2) */
+    flex: 2 2 40%; /* Adjust to ensure that cards take up exactly 25% (for 1 row of 4) or 50% (for 2 rows of 2) */
     margin: 1rem; /* Adjust margin as needed */
-    max-width: calc(50% - 2rem); /* Adjust based on margin to ensure two cards per row */
+    max-width: calc(40% - 2rem); /* Adjust based on margin to ensure two cards per row */
   }
 }
 
