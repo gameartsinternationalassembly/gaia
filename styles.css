@@ -412,8 +412,160 @@ img {
   }
 }
 
+
+.landingImg {
+  /* background-size: cover; */
+  max-width: 80vw;
+  margin-top: 3rem;
+
+}
+
+.footerImg {
+  background-size: cover;
+  margin-top: 7rem;
+  width: 100vw;
+}
+
+@media (min-width: 60rem) {
+  .landingImg {
+    max-width: 40vw;
+    margin-top: 10rem;
+  }
+
+  .footerImg {
+    padding: 0;
+    margin: 0;
+    margin-top: 7rem;
+    background-size: cover;
+  }
+}
+
 @media screen and (min-width: 900px) {
-  h1 {
+  .contentContainer {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .speakerCardBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px; /* Adjust this value based on your needs and the actual width of the cards */
+  }
+
+  .speakerCard {
+    flex: 2 2 50%; /* Adjust to ensure that cards take up exactly 25% (for 1 row of 4) or 50% (for 2 rows of 2) */
+    margin: 1rem; /* Adjust margin as needed */
+    max-width: calc(50% - 2rem); /* Adjust based on margin to ensure two cards per row */
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .speakerCard {
+    max-width: calc(100% - 2rem); /* Full width for smaller screens, adjust margin as needed */
+  }
+}
+
+.profilePic {
+  max-width: 50vw;
+  /* height: 100%; */
+  background: #d4dfe9;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #009688;
+  padding: 36px;
+  box-shadow: inset #009688 0 0 0 5px, inset #059c8e 0 0 0 1px, inset #0cab9c 0 0 0 10px, inset #1fbdae 0 0 0 11px, inset #8ce9ff 0 0 0 16px,
+    inset #48e4d6 0 0 0 17px, inset #e5f9f7 0 0 0 21px, inset #bfecf7 0 0 0 22px;
+  text-shadow: 3px 3px 1px #bfecf7;
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
+}
+
+@media screen and (min-width: 900px) {
+  .profilePic {
+    max-width: 18vw;
+    /* height: 100%; */
+    background: #d4dfe9;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .speakerCard {
+    margin: 2rem 0.5rem;
+  }
+}
+
+.logo {
+  max-width: 20vw; 
+  margin: 1rem;
+  flex-grow: 1;
+  flex-basis: 0; /* This ensures that the basis for growth starts from 0 */
+  object-fit: contain; /* This will ensure the logo scales within the max-width and max-height constraints */
+  height: auto; /* Ensure the height adjusts to maintain the aspect ratio */
+  max-height: 10vh; /* Optional: you can set a maximum height relative to the viewport height */
+}
+
+.sponsorbox {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-content: center; */
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 900px) {
+  .logo {
+    max-width: 20vw;
+    /* max-height: auto; */
+    /* margin: 4rem; */
+    flex-grow: 1;
+    flex-basis: 0;
+    /* background-color: white; */
+  }
+
+  .sponsorbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* align-content: center; */
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+  }
+}
+
+.materials {
+  width: 25rem;
+  flex-grow: 1;
+}
+
+/***********************/
+/******* HEADERS *******/
+/***********************/
+
+h1,
+h2 {
+  /* font-family: "Major Mono Display", monospace; */
+}
+
+h1 {
+  color: var(--accentDark);
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+  margin: 2rem 0em 1rem 0em;
+  font-weight: 700;
+  background: linear-gradient(to right, #005a51, #067e5c, #27b18a, #16bbab);
+  /* text-shadow: #059c8e; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 900px) {
+  .bold {
     background-color: red;
   }
 }
