@@ -502,7 +502,7 @@ img {
 
 @media screen and (min-width: 900px) {
   .profilePic {
-    max-width: 18vw;
+    max-width: 13rem;
     /* height: 100%; */
     background: #d4dfe9;
     font-family: Montserrat, sans-serif;
