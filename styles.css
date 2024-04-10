@@ -281,9 +281,8 @@ a {
 }
 
 @media screen and (min-width: 900px) {
-  p,
-  li {
-    font-size: 1.7rem;
+  p {
+    font-size: 1.2rem;
     /* padding: 2rem 10%; */
   }
 
@@ -292,13 +291,26 @@ a {
     margin-bottom: 2rem;
   }
 
+  .notSpecialList {
+    margin: 1rem;
+  }
+
   li {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
+  }
+
+   li {
+    padding: 1rem;
+    /* font-size: 1.7rem; */
+    text-align: left;
+    margin-left: 3em;
+    padding: 1rem;
+    list-style-type: disc;
   }
 
   .textBox {
     padding-top: 2rem;
-    max-width: 65rem;
+    max-width: 40rem;
   }
 }
 
@@ -569,7 +581,7 @@ h1 {
 
 
 h1:hover {
-  letter-spacing: 0.2em;
+  /* letter-spacing: 0.2em; */
   /* font-size: 5rem; */
 }
 
@@ -704,10 +716,7 @@ li {
 }
 
 @media screen and (min-width: 900px) {
-  li {
-    padding: 1rem;
-    font-size: 1.7rem;
-  }
+ 
 
   .controllerList {
     list-style: none;
@@ -719,13 +728,6 @@ li {
 
   .controllerList li::before {
     content: "🎮 ";
-  }
-
-  li {
-    text-align: left;
-    margin-left: 3em;
-    padding: 1rem;
-    list-style-type: disc;
   }
 }
 
@@ -982,7 +984,7 @@ nav a {
 
   nav li {
     /* color:blue; */
-    margin: 0 1.5em;
+    margin: 0 1.1em;
     /* background: #232323; */
     /* filter: hue-rotate(9f0deg); */
     padding: 0.25rem;
@@ -1168,7 +1170,7 @@ footer {
     /* content: '\2605';  */
     /* position: absolute; */
     left: 0;
-    top: 24px;
+    top: 14px;
     /* font-size: 0.65em;  */
     /* color: #4e89d2; */
   }
@@ -1373,7 +1375,7 @@ footer {
   #daySelector {
     display: flex;
     justify-content: center;
-    max-width: 65rem;
+    max-width: 45rem;
   }
 }
 
