@@ -247,7 +247,7 @@ canvas {
 
   .contentContainer {
     padding: 2rem;
-    max-width: 65rem;
+    max-width: 50rem;
     border: 1px double #28b18a;
     outline: 3px solid #d0eaff;
   }
@@ -649,7 +649,7 @@ h5 {
     text-overflow: ellipsis;
     /* margin: 2rem 0.2rem; */
     /* max-width: 70vw; */
-    font-size: clamp(2.5rem, 2vw, 5rem); /* Adjusts between 1rem and 2rem, based on the viewport width */
+    font-size: clamp(2.3rem, 2vw, 5rem); /* Adjusts between 1rem and 2rem, based on the viewport width */
   }
 
   h2 {
