@@ -415,6 +415,8 @@ img {
 .landingImg {
   /* background-size: cover; */
   max-width: 80vw;
+  margin-top: 3rem;
+
 }
 
 .footerImg {
@@ -426,7 +428,7 @@ img {
 @media (min-width: 60rem) {
   .landingImg {
     max-width: 40vw;
-    margin-top: 5rem;
+    margin-top: 10rem;
   }
 
   .footerImg {
