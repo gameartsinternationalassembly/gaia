@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet" />
+    <title>Game Arts International Assembly</title>
+
+    <meta name="author" content="Marie Claire LeBlanc Flanagan" />
+    <meta name="description" content="A gathering of games curators, connectors, and intermediaries around the world" />
+
+    <meta property="og:title" content="Game Arts International Assembly" />
+    <meta property="og:description" content="A gathering of games curators, connectors, and intermediaries around the world" />
+
+    <meta property="og:image" content="https://gameartsinternationalassembly.com/img/gaiaColour.png" />
+
+    <meta property="og:url" content="https://gameartsinternationalassembly.com" />
+    <meta property="og:type" content="webpage" />
+
+    <meta name="twitter:title" content="Game Arts International Assembly" />
+    <meta name="twitter:description" content="A gathering of games curators, connectors, and intermediaries around the world" />
+    <meta name="twitter:image" content="img/gaiaColour.png" id="indexImage" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+
+  <body>
+    <header>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+
+      <div>
+        <a href=""><img alt="" /></a>
+      </div>
+      <nav>
+        <ul class="navigationMenu">
+          <li>
+            <a href="index.html">ABOUT</a>
+          </li>
+          <li>
+            <a href="index.html#upcoming">UPCOMING</a>
+          </li>
+          <li>
+            <a href="index.html#previous">PREVIOUS</a>
+          </li>
+          <!-- <li>
+              <a href="index.html#resources">RESOURCES</a>
+            </li> -->
+          <li>
+            <a href="index.html#programmers">PROGRAMMERS</a>
+          </li>
+          <li>
+            <a href="index.html#partners">PARTNERS</a>
+          </li>
+          <li>
+            <a href="index.html#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <img class="landingImg" src="img/gaiaColour.png" alt="GAIA Logo" />
+        <h1 id="about">GAME ARTS INTERNATIONAL ASSEMBLY</h1>
+
+        <section class="contentContainer">
+          <p>
+            The fourth Game Arts International Assembly will be on DATE, online. With a participant cap of 20, GAIA is an intimate symposium for game
+            art curators and game community organizers to level up their professional development and connect with their international peers. In
+            addition to talks sharing personal experiences, playful workshops, and practical sessions, GAIA will include XXX.
+          </p>
+        </section>
+
+        <h2>GAIA 2024 Participants</h2>
+
+        <section class="contentContainer">
+          <div class="heroBanner">
+            <button class="prev" onclick="changeBio(-1)">&#10094;</button>
+
+            <div class="bioCards">
+              <div class="bioCards">
+                <div class="bioCard" id="bio1" style="display: flex">
+                  <img src="img/participants/allison.png" alt="Allison profile photo" class="profilePic" />
+                  <p class="title">Allison JingYang</p>
+                  <p class="location">🇨🇳 Hong Kong, China</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://yangjing.one/">Yang Jing (Allison)</a> is a producer and storyteller currently based in Hong Kong. You can
+                      usually find her designing a game or game experience, curating a game-related exhibition, writing research and media pieces on
+                      game and gaming (particularly in the sinophone context), teaching game courses in universities.
+                    </p>
+                    <p class="location"><span>game art project(s)</span>: Game Kitchen</p>
+                    <!-- <p class="location"><span>a game they made</span>: Forgetter</p> -->
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio2" style="display: none">
+                  <img src="img/participants/Angelo.png" alt="Angelo profile photo" class="profilePic" />
+                  <p class="title">Angelo Careri</p>
+                  <p class="website">:: <a href="https://immersion-revue.fr/">website</a> ::</p>
+                  <p class="location">
+                    <!-- <span>country</span>:  -->
+                    🇫🇷 France
+                  </p>
+                  <p class="location">
+                    <span>game art project(s)</span>: Immersion magazine, La rencontre conference program (Sorbonne-Nouvelle University)
+                  </p>
+                  <p class="details">
+                    <a href="">Angelo Careri</a> is the chief editor of Immersion magazine and a researcher in the digital lab of École des Beaux Arts
+                    de Lyon (Unité de Recherche Numérique). His artistic practice mainly involves writing and performing, with a focus on political
+                    themes and utopias. He currently teaches video game theory at Ecole de Communication Visuelle and ITECOM Art & Design (Paris).
+                  </p>
+                </div>
+
+                <div class="bioCard" id="bio3" style="display: none">
+                  <img src="img/participants/arturas.png" alt="artūras profile photo" class="profilePic" />
+                  <p class="title">Artūras Rumiancevas</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇱🇹 Lithuania</p>
+                  <p class="location"><span>game art project(s)</span>: GameOn Baltics, BLON</p>
+                  <p class="location"><span>a game they made</span>: Atuel</p>
+                  <p class="location"><span>cultural affiliations</span>: board member of Lithuanian game developers association.</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://www.linkedin.com/in/arturasrumiancevas/?originalSubdomain=lt">Artūras</a> is a Media professional with a
+                      passion to understand and promote video game culture. Several years of experience covering online and offline media as well as
+                      organizing events of various scales, including the largest video games culture convent - GameOn Vilnius.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio4" style="display: none">
+                  <img src="img/participants/Jooyoung.png" alt="Jooyoung profile photo" class="profilePic" />
+                  <p class="title">Jooyoung Oh</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇰🇷 South Korea</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://jojooh.com/">Jooyoung</a> is a media artist who uses interactive technologies such as games and artificial
+                      intelligence chatbots. She has developed her work under two interdisciplinary backgrounds: visual design and engineering. She is
+                      interested in the process of human visual perception and studies the simulation of artificial cognitive models, while at the
+                      same time constantly asking questions about the limitations of science and technology from the perspective of her artist.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio5" style="display: none">
+                  <img src="img/participants/Lan.png" alt="leanne profile photo" class="profilePic" />
+                  <p class="title">Leanne (Lan) Roed</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇨🇦 Canada</p>
+                  <p class="location"><span>game art project(s)</span>: Alt Games Vancouver and Heart Projector</p>
+                  <p class="location"><span>a game they made</span>: Cribbage With Grandpas</p>
+                  <p class="location"><span>cultural affiliations</span>: Blackbird Interactive</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="http://leanneroed.com/">Lan</a> has been making games in the industry for ten years. In addition to working on projects
+                      at several studios in Vancouver she has worked on two independent games during that time. Cribbage With Grandpas, her most
+                      recent indie project, has been featured multiple times on the Apple App Store and was nominated for IndieCade 2017. In her spare
+                      time she works with a group she co-founded with a group of game devs called Heart Projector to curate pop up arcades in
+                      Vancouver.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio6" style="display: none">
+                  <img src="img/participants/Angelo.png" alt="Angelo profile photo" class="profilePic" />
+                  <p class="title">Angelo Careri</p>
+                  <p class="website">:: <a href="https://immersion-revue.fr/">website</a> ::</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇫🇷 France</p>
+                  <p class="location">
+                    <span>game art project(s)</span>: Immersion magazine, La rencontre conference program (Sorbonne-Nouvelle University)
+                  </p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="">Angelo Careri</a> is the chief editor of Immersion magazine and a researcher in the digital lab of École des Beaux
+                      Arts de Lyon (Unité de Recherche Numérique). His artistic practice mainly involves writing and performing, with a focus on
+                      political themes and utopias. He currently teaches video game theory at Ecole de Communication Visuelle and ITECOM Art & Design
+                      (Paris).
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio7" style="display: none">
+                  <img src="img/participants/len.png" alt="len profile photo" class="profilePic" />
+                  <p class="title">Len Predko</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇨🇦 Canada</p>
+                  <p class="location"><span>cultural affiliations</span>: Hand Eye Society</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://www.linkedin.com/in/len-predko-332771b9">Len</a> is a practising artist with a Bachelor of Design from OCAD
+                      University. He is the current Executive Director of Hand Eye Society and works as a Community Manager at Kitten Cup Studio. They
+                      have most recently completed a residency in Waiting and Escaping from the School of MAAA in Berlin as well as an intensive in
+                      puppetry from the Banff Centre for the Arts.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio8" style="display: none">
+                  <img src="img/participants/pablo.png" alt="pablo profile photo" class="profilePic" />
+                  <p class="title">Pablo Quarta</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇦🇷 Argentina</p>
+                  <p class="location"><span>game art project(s)</span>: Matajuegos</p>
+                  <p class="location"><span>a game they made</span>: Atuel</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://www.linkedin.com/in/pablo-f-quarta/?originalSubdomain=ar">Pablo</a> is a Narrative Designer and Producer who
+                      has been working on games since 2015. He is also one of the co-founders of the Argentine indie game collective and worker’s
+                      co-op, Matajuegos, which has focused on creating games with strong Latin-American identities that explore social, political, and
+                      artistic perspectives drawn from our their cultural context, personal lives, and activism. He has recently worked on Atuel, an
+                      award-winning surrealist documentary game about the history of the Atuel River Valley in western Argentina and the effects of
+                      climate change.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio9" style="display: none">
+                  <img src="img/participants/Pietro.png" alt="pietro profile photo" class="profilePic" />
+                  <p class="title">Pietro Righi-Riva</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇮🇹 Italy</p>
+                  <p class="location">
+                    <span>cultural affiliations</span>: Co-founder and creative director of Santa Ragione, curator of the Triennale Game Collection
+                    project at Triennale Milano
+                  </p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://www.actofplay.com/">Pietro Righi Riva</a>, co-founder and creative director of Santa Ragione, the independent
+                      studio that produced award-winning video games such as FOTONICA, MirrorMoon EP, Wheels of Aurelia, and Saturnalia. Righi Riva
+                      holds a PhD in Interaction Design at the Politecnico di Milano.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio10" style="display: none">
+                  <img src="img/participants/katherine.png" alt="katherine profile photo" class="profilePic" />
+                  <p class="title">Katherine Boutin</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇨🇦 Canada</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://www.linkedin.com/in/katherine-boutin/?originalSubdomain=ca">Katherine</a> is a freelance CM and floor producer
+                      based in Montreal. She currently manages events and raises communities over at Work With Indies, Loto-Quebec, and more. Her
+                      dreams include owning an Aibo someday and producing bigger shows that highlight the video game industry.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio11" style="display: none">
+                  <img src="img/participants/Sun.png" alt="sun profile photo" class="profilePic" />
+                  <p class="title">Sun Park (from Out of Index)</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇰🇷 South Korea</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://www.outofindex.org/">Sun Park</a> has a Multi Media bachelor degree from Segang Univ. He is the Creative
+                      director at Turtle Cream Game Studio Sun is also the Festival director of the Experimental Game festival Out Of Index and the
+                      South Korea regional organizer of the Global Game Jam.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio12" style="display: none">
+                  <img src="img/participants/Jo.png" alt="jo profile photo" class="profilePic" />
+                  <p class="title">Jo Summers</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇬🇧 UK</p>
+                  <p class="location"><span>game art project(s)</span>: Now Play This, Global Game Jam, Profanity Itd</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="http://www.profaniti.com/">Jo</a> specialises in digital production and technology events. Jo has eight years
+                      experience of running a wide range of community and technology focused events, from concept to completion.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio13" style="display: none">
+                  <img src="img/participants/Jonathan.png" alt="jonathan profile photo" class="profilePic" />
+                  <p class="title">Jonathan Kinkley</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇺🇸 USA</p>
+                  <p class="location"><span>cultural affiliations</span>: Chicago Gamespace / VGA Gallery</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://www.jonathankinkley.com/">Jonathan</a> is an arts writer and museum professional with a scholarly focus on
+                      video games and new media art. He is currently owner and curator, Chicago Gamespace; director of arts advancement at University
+                      of Illinois at Chicago; and Co-Founder, Executive Director (2013 - 2020) and Board Member, VGA Gallery.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio14" style="display: none">
+                  <img src="img/participants/D.Squinkifer.png" alt="squinky profile photo" class="profilePic" />
+                  <p class="title">D. Squinkifer</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇨🇦 Canada</p>
+                  <p class="location"><span>a game they made</span>: Founder of Soft Chaos</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://squinky.me/">D. Squinkifer</a>, aka Squinky, is a transgender and neurodivergent new media artist based in
+                      Montreal, with a background in game development and performance. They hold an MFA in Digital Arts and New Media from UC Santa
+                      Cruz and were recognized as part of Forbes' 30 Under 30 in Games in 2015. They are one of three cofounders of Soft Chaos, a
+                      worker-owned cooperative studio that designs experimental videogames, tabletop games, larps, art installations, and interactive
+                      performances.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio15" style="display: none">
+                  <img src="img/participants/matt.png" alt="matt profile photo" class="profilePic" />
+                  <p class="title">Matt Parker</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇺🇸 USA</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="madparker.com">Matt</a> is an Associate Professor of the Arts at the NYU Game Center, where he serves as the Area Head
+                      for Programming and is the Director of Special Projects. Professor Parker was the founder chair for IndieCade East and Chair for
+                      the festival and conference from 2013-2015. He was the lead Curator for the Game For Change conference in 2016 and 2018. In 2018
+                      he co-founded the OpenAir Collective, a global volunteer network that empowers its members to fight climate change by advancing
+                      carbon emissions reduction and removal. Matt is also a game designer and new media artist.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio16" style="display: none">
+                  <img src="img/participants/Shawn.png" alt="Shawn profile photo" class="profilePic" />
+                  <p class="title">Shawn Alexander Allen</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇺🇸 USA</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://twitter.com/ShawnDoubleA">Shawn Alexander Allen</a> is a game developer, artist, and writer based in New York
+                      City. He is known for his work on the game Treachery in Beatdown City and has a passion for exploring social and political
+                      themes through his creative projects.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio17" style="display: none">
+                  <img src="img/participants/Nick.png" alt="Nick profile photo" class="profilePic" />
+                  <p class="title">Nick Murray</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇬🇧 UK</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://nickmurray.horse/">Nick Murray</a> is a game designer and developer based in the UK. He is known for his
+                      innovative and experimental approach to game design, pushing the boundaries of interactive experiences.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio18" style="display: none">
+                  <img src="img/participants/arturas.png" alt="Artūras profile photo" class="profilePic" />
+                  <p class="title">Artūras Rumiancevas</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇱🇹 Lithuania</p>
+                  <p class="location"><span>game art project(s)</span>: GameOn Baltics, BLON</p>
+                  <p class="location"><span>a game they made</span>: Atuel</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://www.linkedin.com/in/arturasrumiancevas/?originalSubdomain=lt">Artūras</a> is a Media professional with a
+                      passion to understand and promote video game culture. Several years of experience covering online and offline media as well as
+                      organizing events of various scales, including the largest video games culture convent - GameOn Vilnius.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio19" style="display: none">
+                  <img src="img/participants/paloma.png" alt="paloma profile photo" class="profilePic" />
+                  <p class="title">Paloma Dawkins</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇨🇦 Canada</p>
+                  <p class="location"><span>experience</span>: Event producing, Community organizing, Game art/dev</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://palomadawkins.com/">Paloma Rendón Dawkins</a> is a Canadian cartoonist turned award winning virtual-reality and
+                      video-game artist. She is founder of the XR and animation studio Apocablyss Studios(2021). Rendón Dawkins games are praised for
+                      being digital spaces that celebrate natural life and rhythms. Pre-pandemic she organized events for avant-garde and performative
+                      games/experiences as well as game jams in Montreal and around the world.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio20" style="display: none">
+                  <img src="img/participants/lynn.png" alt="lynn profile photo" class="profilePic" />
+                  <p class="title">Lynn Hughes</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇨🇦 Canada</p>
+                  <p class="location"><span>game art project(s)</span>: TAG games research centre</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://en.wikipedia.org/wiki/Lynn_Hughes_(artist)">Lynn Hughes</a> has a background in English, Art and the History
+                      and Philosophy of Science and Technology. She was a painter for many years but began, around 2000, to slowly move into
+                      interactive production, and then games. In 2008 she founded the Technoculture Art and Games (TAG) research centre at Concordia
+                      University (Montreal) with Bart Simon. She has been making idiosyncratic games that avoid screens and focus on the body and
+                      sociality since then. She sometimes curates and organizes other events.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio21" style="display: none">
+                  <img src="img/participants/emily.png" alt="emily profile photo" class="profilePic" />
+                  <p class="title">Emily Koonce</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇺🇸 USA</p>
+                  <p class="location"><span>cultural affiliations</span>: NYU Game Center, Tender Claws</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://www.linkedin.com/in/emily-r-koonce/">Emily Koonce</a> (she/her) is a writer, educator, and game designer
+                      interested in the intersection of folk games, philosophy, and education.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio22" style="display: none">
+                  <img src="img/participants/Zuraida.png" alt="zuraida profile photo" class="profilePic" />
+                  <p class="title">Zuraida Buter</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇳🇱 Netherlands</p>
+                  <p class="location"><span>game art project(s)</span>: Playful Arts Festival</p>
+                  <p class="location">
+                    <span>cultural affiliations</span>: Curator: A MAZE. / Berlin, IndieCade EU, Incubate Arcade, Screenshake, The Overkill, Playtime
+                    20.22
+                  </p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://www.zo-ii.com/">Zuraida Buter</a> (she/her) is a playful arts curator with close to 20 years of experience. She
+                      curates, consults and documents events, exhibitions and projects focused on playful arts, digital culture and games.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio23" style="display: none">
+                  <img src="img/participants/susie.png" alt="susie profile photo" class="profilePic" />
+                  <p class="title">Susie Buchan</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇬🇧 UK</p>
+                  <p class="location"><span>game art project(s)</span>: Arcadia</p>
+                  <p class="location"><span>a game they made</span>: Biome Collective</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://www.linkedin.com/in/susie-buchan-b52789220/?originalSubdomain=uk">Susie Buchan</a> is a Creative Producer of
+                      events, festivals and digital experiences who works across games, arts and esports. She is currently a producer for Scottish
+                      independent games festival Arcadia and is a director of Dundee based games studio and community Biome Collective.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio24" style="display: none">
+                  <img src="img/participants/NPCKC.png" alt="npckc profile photo" class="profilePic" />
+                  <p class="title">NPCKC</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇯🇵 Japan</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://npckc.site/">npckc</a> is a solo developer based in japan making little story games. Their games can be found
+                      on itch.io, steam, google play & consoles. They also provide translation, review, writing & design services. Most recently they
+                      have organised a zine bundle called 同ZINE / douZINE, which showcases doujin and indie games made in Japan.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio25" style="display: none">
+                  <img src="img/participants/Chaz.png" alt="chaz profile photo" class="profilePic" />
+                  <p class="title">Chaz Evans</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇺🇸 USA</p>
+                  <p class="location"><span>cultural affiliations</span>: University of South Carolina, VGA Gallery</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://chazevans.net/">Chaz</a> is Assistant Professor of Media Art at the University of South Carolina as well as
+                      Co-Founder of VGA Gallery. Evans is an artist, educator, writer, and curator. His work deals with the connections between video
+                      game art, 3D animation, software production, and the art historical past as well as the tensions between global technological
+                      powers and local media cultures.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bioCard" id="bio26" style="display: none">
+                  <img src="img/participants/bethlehem.png" alt="bethlehem profile photo" class="profilePic" />
+                  <p class="title">Bethlehem Anteneh</p>
+                  <p class="location"><!-- <span>country</span>:  -->🇪🇹 Ethiopia</p>
+                  <p class="location"><span>game art project(s)</span>: EnterAfrica</p>
+                  <div class="bioCardDetails">
+                    <p class="details">
+                      <a href="https://www.linkedin.com/in/beth-ant/?originalSubdomain=et">Bethlehem</a> is an Architect and Game-Thinking designer
+                      interested in ways of how physical environment, challenges and their Game-Thinking overlap to create spaces and activities that
+                      elevate human activity, thought and experience. She has designed and facilitated 11+ workshops around 8 countries. Bethlehem
+                      defines herself as crazy passionate about finding different perspectives/understandings; designing new, simple and playful
+                      solutions. In this regard, she has been on 8+ different stages around Africa and Europe, to name some: Gamescom, Nordic Game
+                      Jam, AfricaTechSummit, Urban Age Conference, AMAZE fest, DW... I also have delivered 5+ Experiential Design and 8 mobile
+                      Experience Designs. She has worked on different projects with British Council, DFID, Goethe Institut, Alliance EthioFrancias,
+                      IceAddis…
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <button class="next" onclick="changeBio(1)">&#10095;</button>
+          </div>
+          <br />
+          <br />
+          <br />
+
+          <p>
+            All participants: <a data-bio-id="bio4">Jooyoung Oh</a> (Japan), <a data-bio-id="bio5">Leanne (Lan) Roed</a> (Canada),
+            <a data-bio-id="bio6">Angelo Careri</a> (France), <a data-bio-id="bio7">Len Predko</a> (Canada),
+            <a data-bio-id="bio8">Pablo Quarta</a> (Argentina), <a data-bio-id="bio9">Pietro Righi-Riva</a> (Italy),
+            <a data-bio-id="bio10">Katherine Boutin</a> (Canada), <a data-bio-id="bio11">Sun Park</a> (Korea),
+            <a data-bio-id="bio12">Jo Summers</a> (UK), <a data-bio-id="bio13">Jonathan Kinkley</a> (USA),
+            <a data-bio-id="bio14">D. Squinkifer</a> (Canada), <a data-bio-id="bio15">Matt Parker</a> (USA),
+            <a data-bio-id="bio1">Yang Jing</a> (China), <a data-bio-id="bio16">Shawn Alexander Allen</a> (USA),
+            <a data-bio-id="bio17">Nick Murray</a> (UK), <a data-bio-id="bio18">Artūras Rumiancevas</a> (Lithuania),
+            <a data-bio-id="bio19">Paloma Dawkins</a> (Canada), <a data-bio-id="bio20">Lynn Hughes</a> (Canada),
+            <a data-bio-id="bio21">Emily Koonce</a> (USA), <a data-bio-id="bio22">Zuraida Buter</a> (The Netherlands),
+            <a data-bio-id="bio23">Susie Buchan</a> (UK), <a data-bio-id="bio24">NPCKC</a> (Japan), <a data-bio-id="bio25">Chaz Evans</a> (USA),
+            <a data-bio-id="bio26">Bethlehem Anteneh</a> (Ethiopia).
+          </p>
+        </section>
+
+        <!-- <section class="contentContainer" id="">
+          <a role="button" href="bios.html" class="btn-bios">All Speaker Bios</a>
+        </section> -->
+
+        <h2>GAIA 2024 Program</h2>
+
+        <section class="contentContainer" id="">
+          <section class="textBox-btn" id="daySelector">
+            <a role="button" href="#day1" class="btn-d3 yearbtn" data-day="Day 1"> Day 1</a>
+            <a role="button" href="#day2" class="btn-d2 yearbtn" data-day="Day 2">Day 2</a>
+          </section>
+
+          <div class="grid">
+            <!-- ~ ~ DAY 1 ~ ~ -->
+            <div class="grid-item" id="day1">
+              <h3 class="date">Day 1: Tuesday September 10th</h3>
+              <!-- <h4 class="grid-item-foundation" id="general">FOUNDATIONS</h4> -->
+              <h4 class="location-program">
+                <span aria-hidden="true">&#x1f4cd;</span>
+                <a href="https://goo.gl/maps/Y9KHnUq4biYED9v47">OCAD game:play Lab (230 Richmond St. W, 3rd Floor)</a>
+              </h4>
+
+              <!-- session 1 -->
+              <h5 class="title h5CouldBeStrong">Coffee and Covid Testing</h5>
+              <p class="details">
+                <span>10:00 - 10:15 (15m)</span><br />
+                Time to get a coffee, meet and greet and COVID testing.
+              </p>
+              <p class="legend"></p>
+
+              <!-- session 2 -->
+              <h5 class="title">Opening Icebreaker</h5>
+              <p class="details">
+                <span>10:15 - 10:45 (30m)</span><br />
+                <a href="bios.html#emily">Emily Koonce</a><br />
+                We play several folk games to get to know each other better and put ourselves in an active and creative mood.
+              </p>
+              <p class="legend"></p>
+
+              <!-- session 3 -->
+              <h5 class="title">Admin Time</h5>
+              <p class="details">
+                <span>10:50 - 11:05 (15m)</span><br />
+                <a href="#jim">Jim Munroe</a> + <a href="#mclf">Marie LeBlanc Flanagan</a><br />
+                We outline the general schedule + rules + share code of conduct.
+              </p>
+              <p class="legend"></p>
+
+              <!-- session 4 -->
+              <h5 class="title">The Scene Report</h5>
+              <p class="details">
+                <span>11:10 - 12:00 (50m)</span><br />
+                <a href="bios.html#jo">Jo Summers</a> + <a href="bios.html#allison">Allison Yang</a><br />
+                What's going on in the global game art scene? We’ll each share our local events, as well as identify our global blind-spots.
+              </p>
+              <p class="legend"><span class="badge badge-pill badge-secondary">Thematic Session</span></p>
+              <!-- session 5 -->
+              <h5 class="title">Lunch Break + Afternoon Walk</h5>
+              <p class="details">
+                <span>12:00 - 14:00 (120m)</span><br />
+                <!-- <a href="#"></a> + <a href="#"></a><br> -->
+                Explore Chinatown and Kensington Market!
+              </p>
+              <p class="legend"><span class="badge badge-pill badge-secondary">Thematic Session</span></p>
+
+              <!-- session 6 -->
+              <h5 class="title">Curatorial Practice</h5>
+              <p class="details">
+                <span>14:10 - 15:00 (50m)</span><br />
+                <a href="bios.html#pietro">Pietro Righi-Riva</a> + <a href="bios.html#jonathan">Jonathan Kinkley</a><br />
+                Reviewing case studies of game exhibitions both IRL and digital, and workshopping solutions for various curatorial challenges.
+              </p>
+              <p class="legend"><span class="badge badge-pill badge-secondary">Thematic Session</span></p>
+
+              <!-- session 7 (break) -->
+              <h5 class="title">Break</h5>
+              <p class="details">
+                <span>15:00 - 15:10 (10m)</span><br />
+                <!-- <a href="#"></a> + <a href="#"></a><br>
+                  description -->
+              </p>
+              <p class="legend"></p>
+
+              <!-- session 8 -->
+              <h5 class="title">New Structures</h5>
+              <p class="details">
+                <span>15:15 - 16:00 (50m)</span><br />
+                <a href="bios.html#susie">Susie Buchan</a> + <a href="bios.html#pablo">Pablo Quarta</a><br />
+                How do we want to work together with our collaborators, peers, volunteers, or employees? We share our experiences and learnings, and
+                dream up new formats.
+              </p>
+              <p class="legend"><span class="badge badge-pill badge-secondary">Thematic Session</span></p>
+
+              <!-- session 9 (break) -->
+              <h5 class="title">Break</h5>
+              <p class="details">
+                <span>16:00 - 16:10 (10m)</span><br />
+                <!-- <a href="#"></a> + <a href="#"></a><br>
+                  description -->
+              </p>
+              <p class="legend"></p>
+
+              <!-- session 10 -->
+              <h5 class="title">Group Round Up</h5>
+              <p class="details">
+                <span>16:20 - 16:40 (30m)</span><br />
+                <a href="#shalev">Shalev Moran</a><br />
+                Looking back at today's highlights + Reminder of tomorrow's schedule. (Confirmation of outdoor location dependent on weather.)
+              </p>
+              <p class="legend"><span class="badge badge-pill badge-secondary">Thematic Session</span></p>
+
+              <p class="legend">
+                <span class="badge badge-pill badge-special">Special Activity</span> <span class="badge badge-outline">Field Trip</span>
+              </p>
+              <p><a href="#daySelector">Back to top</a></p>
+            </div>
+            <!-- Day 1 ~ end -->
+
+            <!-- ~ ~ DAY 2 ~ ~ -->
+            <div class="grid-item" id="day2">
+              <h3 class="date">Day 2: Thursday September 19th</h3>
+              <!-- <h4 class="grid-item-breakout" id="general">BREAK OUT!</h4> -->
+              <h4 class="location-program">
+                <span aria-hidden="true">&#x1f4cd;</span><a href="https://goo.gl/maps/1J3YY17bRzWp6MkH6">Toronto Island</a>
+              </h4>
+
+              <!-- session 1 -->
+              <h5 class="title">Coffee and Arrival</h5>
+              <p class="details">
+                <span>9:30 - 10:00 (15m)</span><br />
+                <!-- <a href="#"></a> + <a href="#"></a><br> -->
+                Time to get a coffee at the <a href="https://goo.gl/maps/qHsmWdB12NsxhasNA">Jack Layton ferry terminal</a>, meet and greet.
+              </p>
+              <p class="legend"></p>
+
+              <!-- session 2 -->
+              <h5 class="title">Daily Icebreaker</h5>
+              <p class="details">
+                <span>10:15 - 10:35 (20m)</span><br />
+                <!-- <a href="#"></a> + <a href="#"></a><br> -->
+                Someone (maybe you!) will be a-breaking that ice.
+              </p>
+              <p class="legend"></p>
+
+              <!-- session 3 -->
+              <h5 class="title">Admin Time</h5>
+              <p class="details">
+                <span>10:40 - 10:50 (15m)</span><br />
+                <a href="#jim">Jim Munroe</a> + <a href="#mclf">Marie LeBlanc Flanagan</a><br />
+                We outline today’s schedule + general event updates.
+              </p>
+              <p class="legend"></p>
+
+              <!-- session 4 -->
+              <h5 class="title">Games in Public Spaces</h5>
+              <p class="details">
+                <span>10:50 - 11:40 (50m)</span><br />
+                <a href="bios.html#lan">Lan Roed</a> + <a href="bios.html#matt">Matt Parker</a> + <a href="bios.html#arturas">Artūras Rumiancevas</a
+                ><br />
+                What are public spaces, who can access them and how, and who can safely subvert them? We will explore these topics through organizing
+                a public game together.
+              </p>
+              <p class="legend"><span class="badge badge-pill badge-secondary">Thematic Session</span></p>
+
+              <!-- session 5 (break) -->
+              <h5 class="title">Lunch Break + Afternoon Walk</h5>
+              <p class="details">
+                <span>11:45 - 14:00 (120m)</span><br />
+                <!-- <a href="#"></a> + <a href="#"></a><br>
+              description -->
+              </p>
+              <p class="legend"></p>
+
+              <!-- session 6 -->
+              <h5 class="title">Dream Big!</h5>
+              <p class="details">
+                <span>14:00 - 14:50 (50m)</span><br />
+                <a href="#mclf">Marie LeBlanc Flanagan</a> + <a href="bios.html#npckc">NPCKC</a><br />
+                What kinds of curation, events, or gatherings would you host with unlimited resources? Is there anything you've been dreaming of
+                making but are stuck on?
+              </p>
+              <p class="legend"><span class="badge badge-pill badge-secondary">Thematic Session</span></p>
+
+              <!-- session 7 (break) -->
+              <h5 class="title">Break</h5>
+              <p class="details">
+                <span>14:50 - 15:00 (10m)</span><br />
+                <!-- <a href="#"></a> + <a href="#"></a><br>
+              description -->
+              </p>
+              <p class="legend"></p>
+
+              <!-- session 8 -->
+              <h5 class="title">The Magic Square</h5>
+              <p class="details">
+                <span>15:00- 15:50 (50m)</span><br />
+                <a href="bios.html#emily">Emily Koonce</a> + <a href="bios.html#paloma">Paloma Rendon Dawkins</a><br />
+                We conjure our experiences and disciplines OUTSIDE of games and / or curation, and work through them to inspire ourselves and each
+                other.
+              </p>
+              <p class="legend"><span class="badge badge-pill badge-secondary">Thematic Session</span></p>
+
+              <!-- session 9 (break) -->
+              <h5 class="title">Break</h5>
+              <p class="details">
+                <span>15:50 - 16:00 (10m)</span><br />
+                <!-- <a href="#"></a> + <a href="#"></a><br>
+              description -->
+              </p>
+              <p class="legend"></p>
+
+              <!-- session 10 -->
+              <h5 class="title">Group Round Up</h5>
+              <p class="details">
+                <span>16:00 - 16:20</span><br />
+                <a href="#shalev">Shalev Moran</a><br />
+                Looking back at today's highlights + reminder of tomorrow's schedule.
+              </p>
+              <p class="legend"><span class="badge badge-pill badge-secondary">Thematic Session</span></p>
+              <p><a href="#daySelector">Back to top</a></p>
+            </div>
+            <!-- DAY 2 ~ end -->
+          </div>
+        </section>
+      </div>
+      <!-- program content section ~ end -->
+
+      <br />
+      <br />
+      <script src="bioBanner.js" defer></script>
+    </main>
+  </body>
+</html>
