@@ -1,0 +1,321 @@
+[
+    {
+        "id": "SolS",
+        "image": "img/participants/SolS.png",
+        "alt": "Sol profile photo",
+        "title": "Sol Sanchez",
+        "country": "🇵🇪 Perú",
+        "details": "Sol Sanchez CCO at Somber Pixel and President of FemDevs Peru. Sol started working on games as a Programmer and is now co-leader of an indie studio in Peru. In addition to video game development, Sol is very passionate about supporting the Peruvian industry. Her work in the industry has led her to receive recognitions such as 'GIBiz Game Changer' and 'The Game Awards Future Class.",
+        "link": "https://www.linkedin.com/in/solmsanchez?originalSubdomain=pe",
+        "years": [2024]
+    },
+    {
+        "id": "AngeloC",
+        "image": "img/participants/AngeloC.png",
+        "alt": "Angelo profile photo",
+        "title": "Angelo Careri",
+        "country": "🇫🇷 France",
+        "projects": "Immersion magazine, La rencontre conference program (Sorbonne-Nouvelle University)",
+        "details": "Angelo Careri is the chief editor of Immersion magazine and a researcher in the digital lab of École des Beaux Arts de Lyon (Unité de Recherche Numérique). His artistic practice mainly involves writing and performing, with a focus on political themes and utopias. He currently teaches video game theory at Ecole de Communication Visuelle and ITECOM Art & Design (Paris).",
+        "link": "",
+        "years": [2024]
+    },
+    {
+        "id": "CatB",
+        "image": "img/participants/CatB.png",
+        "alt": "Cat Bluemke profile photo",
+        "title": "Cat Bluemke",
+        "country": "🇨🇦 Canadá",
+        "details": "Cat uses game design, performance, and expanded reality to explore the dynamic relationship of work and play. Graduating in 2018 with her MFA in Design for Emerging Technologies from the School of the Art Institute of Chicago, she is interested in discussing technology's impact on social and working relations, with a focus on precarious, feminized, and domestic labour. Her work has been exhibited internationally at venues such as the 2018 Venice Architecture Biennale, Kunsternes Hus (Norway), and the Museum of Contemporary Art (Chicago). She currently lives and works in Treaty 4 territory.",
+        "link": "http://www.catbluemke.com/",
+        "years": [2024]
+    },
+    {
+        "id": "ChazE",
+        "image": "img/participants/ChazE.png",
+        "alt": "Chaz profile photo",
+        "title": "Chaz Evans",
+        "country": "🇺🇸 United States",
+        "details": "Chaz is Assistant Professor of Media Art at the University of South Carolina as well as Co-Founder of VGA Gallery. Evans is an artist, educator, writer, and curator. His work deals with the connections between video game art, 3D animation, software production, and the art historical past as well as the tensions between global technological powers and local media cultures.",
+        "link": "https://chazevans.net/",
+        "years": [2024]
+    },
+    {
+        "id": "DavidA",
+        "image": "img/participants/DavidA.png",
+        "alt": "David Antognoli profile photo",
+        "title": "David Antognoli",
+        "country": "🇺🇸 United States",
+        "details": "David Antognoli (he/him) is the Director at Night City, a Chicago studio focused on community-based game development, exhibitions, and educational resources. In addition, he is an Assistant Professor of Game Design in Columbia College Chicago where his creative and scholarly agenda emphasizes game experiences in community contexts. A game industry veteran with experience in both programming and design roles, David has worked on projects with companies like Microsoft, Sega, 2K Games, and Nickelodeon. Now he finds creative refuge in independent game development and helping others build, share, and experience amazing games.",
+        "link": "https://www.davidantognoli.com/",
+        "years": [2024]
+    },
+    {
+        "id": "DominiqueG",
+        "image": "img/participants/DominiqueG.png",
+        "alt": "Dominique Galowski profile photo",
+        "title": "Dominique Gawlowski",
+        "country": "🇿🇦 South Africa",
+        "projects": "Playtopia",
+        "details": "Dominique is the managing director at Free Lives by day, festival director for Playtopia by night. She has been in events for more than 15 years before moving to the games industry so when Free Lives wanted to start Playtopia, it was a major bonus they knew someone who could do it. Dominique and 3 friends whom she has done events together with in the past also work in games now (some at Free Lives) and so they have all come together to work on Playtopia as their passion for games and events are now combined! and the team as grown by A LOT!",
+        "link": "",
+        "years": [2024]
+    },
+    {
+        "id": "EmilyK",
+        "image": "img/participants/EmilyK.png",
+        "alt": "Emily profile photo",
+        "title": "Emily Koonce",
+        "country": "🇺🇸 United States",
+        "details": "Emily Koonce (she/her) is a multi-media artist, writer, and community organizer interested in the intersection of folk games, philosophy, and education. She has worked as an adjunct professor at the NYU Game Center, as the program director of the National Student Leadership Conference's game design high school program, and as a Meow at Babycastles in NYC. She is currently based in Chicago where she can be found turning movies into drinking games and giving riddles to strangers at parties. Her videogame crockpot about being bored in the suburbs released earlier this year.",
+        "link": "https://https://www.emilykoonce.com/",
+        "years": [2022, 2024]
+    },
+    {
+        "id": "GonzaloB",
+        "image": "img/participants/GonzaloB.png",
+        "alt": "Gonzalo profile photo",
+        "title": "Gonzalo Borzino",
+        "country": "🇦🇷 Argentina",
+        "projects": "Accion Dev",
+        "details": "Gonzalo is a professional Game Designer, a game jam enthusiast, a university teacher of video game production and part of the Red de Comunidades de Desarrollo de Videojuegos. Gonzalo co-founded AcciónDev, a community that promotes development around themes of social, ecological, reflexive and identity interest, from Latin American vision. Acciondev has participated in the creation of various gamejams, learning spaces and gaming articles.",
+        "link": "https://www.linkedin.com/in/gonzalo-esteban-borzino/?originalSubdomain=ar",
+        "years": [2024]
+    },
+    {
+        "id": "MerlinaR",
+        "image": "img/participants/MerlinaR.png",
+        "alt": "Merlina Rañi profile photo",
+        "title": "Merlina Rañi",
+        "country": "🇪🇸 Spain",
+        "details": "Merlina Rañi (Brazil, 1987) is an art curator specializing in digital media and scientific dissemination. Her research delves into virtual environments and their connection with physicality, aimed at developing a critical perspective on language transformations: new information circuits, misinformation formats, and the rhetoric of digital media. Through her writing practice, she explores formats between journalism and fiction in search of experience-oriented and multi-perspective narratives. Her latest works focus on the implications of technological abstraction on society's political and affective dimensions.",
+        "link": "https://merlinarani.xyz/",
+        "years": [2024]
+    },
+    {
+        "id": "HexeF",
+        "image": "img/participants/HexeF.png",
+        "alt": "Hexe profile photo",
+        "title": "Hexe Fey",
+        "country": "🇺🇸 United States",
+        "details": "Hexe Fey is an interdisciplinary games maker, curator, dancer, nerd, transsexual. Oglala Lakota and European.",
+        "link": "https://www.h3xtacy.party/",
+        "years": [2024]
+    },
+    {
+        "id": "JaminW",
+        "image": "img/participants/JaminW.png",
+        "alt": "Jamin profile photo",
+        "title": "Jamin Warren",
+        "country": "🇺🇸 United States",
+        "details": "Jamin founded Gameplayarts, an organization dedicated to the research and practice of game-based arts and culture. He has produced events such as the Versions conference for VR arts and creativity, in partnership with NEW INC. Warren also programmed the first Tribeca Games Festival, the groundbreaking Arcade at the Museum of Modern Art, and the Kill Screen Festival, which Mashable called 'the TED of videogames.' Additionally, he has served as an advisor for the Museum of Modern Art's design department, acted as cluster chair for the Gaming category for the Webbys, and hosted Game/Show for PBS Digital Studios.",
+        "link": "https://twofivesix.co/team/",
+        "years": [2024]
+    },
+    {
+        "id": "InesL",
+        "image": "img/participants/InesL.png",
+        "alt": "Ines profile photo",
+        "title": "Ines Alcolea Llopis",
+        "country": "🇪🇸 Spain",
+        "details": "Ines has been working in the field of cultural project communication and technology for over 10 years. She is also a writer of short stories, poetry, essays, and video games. Throughout her creative career, she has been awarded numerous prizes in both poetry and short story categories. Notably, she received the provincial Géminis award at just 14 years old and this year she was awarded the second runner-up in the national short story competition 'Mujeres de Santa Cruz de Tenerife.' Currently, she works as a communications manager at Gameloft and occasionally organizes writing projects and workshops with various entities.",
+        "link": "https://inesalcolea.com//",
+        "years": [2024]
+    },
+    {
+        "id": "KjellH",
+        "image": "img/participants/KjellH.png",
+        "alt": "Kjell profile photo",
+        "title": "Kjell Håftén",
+        "country": "🇸🇪 Sweden",
+        "details": "Kjell Håftén is a producer of independent games culture working with the local games scene in Gothenburg, Sweden. His work consists of building creative infrastructure around indie games through events, collaborations and building platforms for creation and exhibition of games and playful art. He also works as a freelance games educator, teaching kids how to make experimental games and spreading games literacy through talks and workshops.",
+        "link": "https://www.spelverkstad.com/kontakt",
+        "years": [2024]
+    },
+    {
+        "id": "OphelieO",
+        "image": "img/participants/OphelieO.png",
+        "alt": "Ophelie profile photo",
+        "title": "Ophélie Apie Oddy",
+        "country": "🇫🇷 France",
+        "details": "Paris native, blending her vibrant Parisian upbringing with Abidjan roots, Ophélie is a powerhouse in video games and comics. Armed with a Graduate degree in Economics and Management and a passion for human resources, she has created a cross-cultural educational blend. She worked as a Content Manager and Community Builder at GARA, a mobile games and comics distributor, Ophélie where she only brought entertainment but also ensured accessibility through mobile wallets. Beyond GARA, she collaborates with the Goethe-Institut, organizing events like the Goethe Gboro Night, displaying her commitment to educating African youth about gaming industry opportunities. Additionally, she serves as the African representative of the French association Afrogameuses, contributing to the advocacy for women in the gaming industry, and manages the African Gaming Talents project. A self-proclaimed multipotentialist with love for music, gaming, and an insatiable curiosity, Ophélie identifies as an African Gaming Promoter. Passionate about women's representation, she dreams of establishing the first women's-only gaming studio in Africa. Ophélie's journey is a personal dedication to diversity, creativity, and empowerment in the gaming world.",
+        "link": "https://www.linkedin.com/in/ooddy/",
+        "years": [2024]
+    },
+    {
+        "id": "LauraG",
+        "image": "img/participants/LauraG.png",
+        "alt": "Laura profile photo",
+        "title": "Laura Gonzalez",
+        "country": "🇪🇸 Spain",
+        "details": "~~~~~~~~~~~ ~~~~~~~~~~~ BIO coming soon! ~~~~~~~~~~~ ~~~~~~~~~~~ ",
+        "link": "http://lauragonzafer.com/",
+        "years": [2024]
+    },
+    {
+        "id": "MichaelB",
+        "image": "img/participants/MichaelB.png",
+        "alt": "Michael profile photo",
+        "title": "Michael Berto",
+        "country": "🇦🇺 Australia",
+        "details": "Michael Berto is a writer, composer and game developer from Australia. In 2017, he founded The Zium Society and released the first 'Art Gallery Video Game' called The Zium Museum. Since then, The Zium Society has released three separate, unique collections and galleries for free via the internet. He is currently working as a writer and composer in the video game industry.",
+        "link": "https://thezium.art/about",
+        "years": [2024]
+    },
+    {
+        "id": "NicolasH",
+        "image": "img/participants/NicolasH.png",
+        "alt": "Nico Valdivia profile photo",
+        "title": "Nicolas Valdivia Henning",
+        "country": "🇨🇱 Chile",
+        "details": "Nicolas Valdivia Hennig is a Chilean game designer, psychologist, and cultural studies researcher with a decade of experience in game design. Currently, as a PhD student in Hispanic Studies at the University of California, Riverside, their focus is on ludic activism, game design, and production in the Global South, particularly in Latin America. Nico co-founded Niebla Games, launching games for PC and mobile platforms, and will soon be an artist-in-residence of the Speculative Play and Just Futurities program at Indiana University. At the University of California, Riverside, they have been organizing events around 'Impactful Games & Ludic Activism,' showcasing games like 'Liyla & the Shadows of War' with Rasheed Abueideh, and 'Atuel' with Pablo Quarta from Matajuegos. The upcoming event will focus on ludic activism from Ukraine. Additionally, Nico was recently nominated with their team for the AMaze/Berlin Festival of Experimental Game Art 2024.",
+        "link": "https://www.linkedin.com/in/nico-valdivia-hennig/?originalSubdomain=cl",
+        "years": [2024]
+    },
+    {
+        "id": "BethlehemA",
+        "image": "img/participants/BethlehemA.png",
+        "alt": "Bethlehem profile photo",
+        "title": "Bethlehem Anteneh",
+        "country": "🇪🇹 Ethiopia",
+        "details": "Bethlehem Anteneh is an Ethiopian game-thinking expert and ecosystem builder with a background in architectural design, known for her innovative use of games to design environments and frameworks that enhance human experience and problem-solving. As the founder and co-founder of several initiatives, including PlayLab, Digital Learning Hub, and Games For Change Africa, she has been instrumental in advancing the games industry across Africa and Europe. Her work spans over 25 countries, where she has managed projects, curated communities, and led workshops and hackathons. Notably, she was the Game-Thinking Lead for the 'EnterAfrica-Gamify Your City Future!' project with the Goethe-Institut and currently curates Addis Abeba's annual gaming festival, ChewataCon. Bethlehem is also a thought leader in learning experience design, a founding member of the Ethiopian Games Association, and actively involved in global gaming and impact networks.",
+        "link": "https://www.linkedin.com/in/beth-ant/",
+        "years": [2024]
+    },
+    {
+        "id": "PeterD",
+        "image": "img/participants/PeterD.png",
+        "alt": "Peter profile photo",
+        "title": "Peter Devish",
+        "country": "🇧🇪 Belgium",
+        "details": "Peter Devisch is working as a music programmer and festival coordinator at the cultural centre of Bruges. It’s an organization that programs stage arts and plastic arts in several theatres in the city. Every two years they are changing their main old city theatre in a huge arcade hall during the Playtime festival. They present games for a young public who have a link with arts and/or society. The purpose is to introduce playful arts as a full-fledged art genre at the public. In the future, they will look for further international collaborations. The next festival Playtime 20.25 will take place from 7-10 March.",
+        "link": "https://www.ccbrugge.be/",
+        "years": [2024]
+    },
+    {
+        "id": "SebG",
+        "image": "img/participants/SebG.png",
+        "alt": "Seb profile photo",
+        "title": "Seb Galvez",
+        "country": "🇺🇸 United States",
+        "details": "Seb Galvez is an independent, multi-media artist with a focus on interactive art and narrative. Their current work focuses on experimenting with short-form games, as well as community organizing as part of Chicago nonprofit Indie City Games.",
+        "link": "",
+        "years": [2024]
+    },
+    {
+        "id": "TobiasK",
+        "image": "img/participants/TobiasK.png",
+        "alt": "Tobias profile photo",
+        "title": "Tobias Kopka",
+        "country": "🇩🇪 Germany",
+        "details": "Tobias is an experienced program director and connector in the games industry. Since 2009, he's directed events like Ludicious Zürich Game Festival, Next Level, devcom, Gamescom Congress, and Reboot Develop. Beyond event curation, Tobias co-creates VR&Dance pieces with the VR Dance Club and offers support as a Systemic Coach. He co-founded the European Game Showcase and the #ArtOfCoding campaign, pivotal in having the Demoscene recognized by UNESCO as the first digital culture to be considered intangible heritage.",
+        "link": "https://tobias-kopka.de/",
+        "years": [2024]
+    },
+    {
+        "id": "IsabelleA",
+        "image": "img/participants/IsabelleA.png",
+        "alt": "Isabelle profile photo",
+        "title": "Isabelle Arvers",
+        "country": "🇫🇷 France",
+        "details": "Isabelle Arvers, PHD, is a French artist and curator whose research focuses on the interaction between art and video games. For the past twenty years, she has been investigating the artistic, ethical, and critical implications of digital gaming. Her work explores the creative potential of hacking video games through machinima. As a curator, she focuses on video games as a new language for artists. She curated several shows and festivals around the world, including Jibambe na Tec (Nairobi, AF, 2020), Tecnofeminismo (Bogota, AF, 2019), Art Games World Tour exhibit (Buenos Aires, 2019), Interspecies Imaginaries (Overkill, 2019), Machinima in Mash Up (Vancouver Art Gallery, 2016), UCLA Gamelab Festival (Hammer Museum, Los Angeles 2015, 2017), Evolution of Gaming (Vancouver, 2014), Game Heroes (Alcazar, Marseille, 2011), Playing Real (Gamerz, 2007), Mind Control (Banana RAM Ancona, Italy, 2004), Node Runner (Paris, 2004) Playtime (Villette Numérique, 2002). In 2019, she embarked on an Art and Games World Tour in non western countries to promote the notion of diversity of gender, sexuality and geographic origin, focusing on queer, feminist, and decolonial practices. In 2024, Arvers completed her PHD on Art & Games decolonization.",
+        "link": "https://www.isabellearvers.com/",
+        "years": [2024]
+    },
+    {
+        "id": "PepijnW",
+        "image": "img/participants/PepijnW.png",
+        "alt": "Pepijn profile photo",
+        "title": "Pepijn Willekens",
+        "country": "🇧🇪 Belgium",
+        "details": "Pepijn Willekens is the Festival Director of @differentperspectives_festival, a Videogame Programmer, and the founder of REVEAL game studio.",
+        "link": "https://www.pepijnwillekens.com/",
+        "years": [2024]
+    },
+    {
+        "id": "AllisonY",
+        "image": "img/participants/AllisonY.png",
+        "alt": "Allison profile photo",
+        "title": "Allison JingYang",
+        "country": "🇨🇳 Hong Kong, China",
+        "projects": "Game Kitchen",
+        "details": "Yang Jing (Allison) is a producer and storyteller currently based in Hong Kong. You can usually find her designing a game or game experience, curating a game-related exhibition, writing research and media pieces on game and gaming (particularly in the sinophone context), teaching game courses in universities.",
+        "link": "https://yangjing.one/",
+        "years": [2022]
+    },
+    {
+        "id": "ArturasR",
+        "image": "img/participants/ArturasR.png",
+        "alt": "Artūras profile photo",
+        "title": "Artūras Rumiancevas",
+        "country": "🇱🇹 Lithuania",
+        "projects": "GameOn Baltics, BLON",
+        "details": "Artūras is a Media professional with a passion to understand and promote video game culture. Several years of experience covering online and offline media as well as organizing events of various scales, including the largest video games culture convent - GameOn Vilnius.",
+        "link": "https://www.linkedin.com/in/arturasrumiancevas/?originalSubdomain=lt",
+        "years": [2022]
+    },
+    {
+        "id": "JoS",
+        "image": "img/participants/JoS.png",
+        "alt": "Jo Summers profile photo",
+        "title": "Jo Summers",
+        "country": "🇬🇧 UK",
+        "projects": "Now Play This, Global Game Jam, Profanity Itd",
+        "details": "Jo specializes in digital production and technology events. Jo has eight years experience of running a wide range of community and technology-focused events, from concept to completion.",
+        "link": "http://www.profaniti.com/",
+        "years": [2022]
+    },
+    {
+        "id": "JonathanK",
+        "image": "img/participants/JonathanK.png",
+        "alt": "Jonathan profile photo",
+        "title": "Jonathan Kinkley",
+        "country": "🇺🇸 USA",
+        "projects": "Chicago Gamespace, VGA Gallery",
+        "details": "Jonathan is an arts writer and museum professional with a scholarly focus on video games and new media art. He is currently owner and curator, Chicago Gamespace; director of arts advancement at University of Illinois at Chicago; and Co-Founder, Executive Director (2013 - 2020) and Board Member, VGA Gallery.",
+        "link": "https://www.jonathankinkley.com/",
+        "years": [2022]
+    },
+    {
+        "id": "JooyoungO",
+        "image": "img/participants/JooyoungO.png",
+        "alt": "Jooyoung profile photo",
+        "title": "Jooyoung Oh",
+        "country": "🇰🇷 South Korea",
+        "details": "Jooyoung is a media artist who uses interactive technologies such as games and artificial intelligence chatbots. she has developed her work under two interdisciplinary backgrounds: visual design and engineering.",
+        "link": "https://jojooh.com/",
+        "years": [2022]
+    },
+    {
+        "id": "LenP",
+        "image": "img/participants/LenP.png",
+        "alt": "Len profile photo",
+        "title": "Len Predko",
+        "country": "🇨🇦 Canada",
+        "projects": "Hand Eye Society",
+        "details": "Len is a practicing artist with a Bachelor of Design from OCAD University. He is the current Executive Director of Hand Eye Society and works as a Community Manager at Kitten Cup Studio.",
+        "link": "https://www.linkedin.com/in/len-predko-332771b9",
+        "years": [2022]
+    },
+    {
+        "id": "LynnH",
+        "image": "img/participants/LynnH.png",
+        "alt": "Lynn profile photo",
+        "title": "Lynn Hughes",
+        "country": "🇨🇦 Canada",
+        "projects": "TAG games research centre",
+        "details": "Lynn has a background in English, Art and the History and Philosophy of Science and Technology. She was a painter for many years but began, around 2000, to slowly move into interactive production, and then games. In 2008 she founded the Technoculture Art and Games (TAG) research centre at Concordia University (Montreal) with Bart Simon.",
+        "link": "https://en.wikipedia.org/wiki/Lynn_Hughes_(artist)",
+        "years": [2022]
+    },
+    {
+        "id": "MarieJ",
+        "image": "img/participants/MarieJ.png",
+        "alt": "Marie profile photo",
+        "title": "Marie Janin (Overkill)",
+        "country": "🇳🇱 Netherlands",
+        "details": "Marie Janin (she/her) is the co-director of The Overkill together with Aike Lütkemöller, a gaming, art and film festival and co- director of Sickhouse, a playful art space in Enschede. As a curator she focuses on digital culture and its impact on our society.",
+        "link": "https://www.linkedin.com/in/marie-janin-04219494/",
+        "years": [2022]
+    }
+]
