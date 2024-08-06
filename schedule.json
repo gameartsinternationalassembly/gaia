@@ -1,0 +1,135 @@
+{
+    "days": [
+      {
+        "id": "day1",
+        "date": "Tuesday September 10th",
+        "sessions": [
+          {
+            "title": "Opening works",
+            "time": "16:45 - 17:00",
+            "details": "GAIA Team intro + program.",
+            "participants": []
+          },
+          {
+            "title": "The Scene Report",
+            "time": "17:00 - 17:45",
+            "details": "Microtalks introducing a variety of artgames events and projects from around the world: Different Perspectives (Belgium) Playtopia (Capetown), OneTwoSix (Los Angeles) xxxx(Sweden), Accion Devs (Argentina) & Indie Dev Day (Spain)",
+            "participants": [
+              {"id": "DominiqueG"},
+              {"id": "PepijnW"},
+              {"id": "KjellH"},
+              {"id": "JaminW"},
+              {"id": "LauraG"},
+              {"id": "GonzaloB"},
+              {"id": "OphelieO"}
+            ]
+          },
+          {
+            "title": "Supporting local game scenes as community organizers",
+            "time": "18:00 - 18:45",
+            "details": "As organizers, we seek to cultivate and support our local game scenes. This conversation will give participants an opportunity to enumerate the needs of their local game scenes, the challenges they face, and the resources they thrive on. What strategies might help us connect these resources to our game scenes? We seek to provide a venue for potential and current organizers to share their experience and actionable steps that have worked for them.",
+            "participants": [
+              {"id": "DavidA"},
+              {"id": "EmilyK"},
+              {"id": "SebG"},
+              {"id": "SolS"}
+            ]
+          },
+          {
+            "title": "Alternative ways of fostering the artgames scene",
+            "time": "19:00 - 19:50",
+            "details": "INFO PENDING.",
+            "participants": [
+              {"id": "MerlinaR"},
+              {"id": "AngeloC"},
+              {"id": "TBC"}
+            ]
+          },
+          {
+            "title": "Artgames Showcase",
+            "time": "20:00 - 20:45",
+            "details": "Microtalks presenting artgames, experimental projects and innovative wild ideas that merge art, play and technology- PENDING INFO",
+            "participants": [
+              {"id": "NicolasH"},
+              {"id": "IsabelleA"},
+              {"id": "NicoH"},
+              {"id": "InesL"}
+            ]
+          }
+        ]
+      },
+      {
+        "id": "day2",
+        "date": "Thursday September 19th",
+        "sessions": [
+          {
+            "title": "Opening words",
+            "time": "16:45 - 17:00",
+            "details": "GAIA team intro + Program presentation",
+            "participants": []
+          },
+          {
+            "title": "From Physical to Virtual: Curating Digital Art Experiences",
+            "time": "17:00 - 17:45",
+            "details": "PENDING INFO.",
+            "participants": [
+              {"id": "CatB"},
+              {"id": "MichaelB"},
+              {"id": "TBC"}
+            ]
+          },
+          {
+            "title": "Sensory Curations: Beyond Traditional Game Exhibits",
+            "time": "18:00 - 18:45",
+            "details": "PENDING INFO",
+            "participants": [
+              {"id": "HeatherK"},
+              {"id": "PeterD"},
+              {"id": "MerlinaR"}
+            ]
+          },
+          {
+            "title": "Caring and Community - Title to be confirmed",
+            "time": "19:00 - 19:25",
+            "details": "PENDING INFO",
+            "participants": [
+              {"id": "HexeF"},
+              {"id": "BethlehemA"}
+            ]
+          },
+          {
+            "title": "Caring and Community - Title to be confirmed",
+            "time": "19:30 - 20:15",
+            "details": "description",
+            "participants": [
+              {"id": "LanR"},
+              {"id": "AllisonY"},
+              {"id": "TobiasK"},
+              {"id": "BethlehemA"}
+            ]
+          },
+          {
+            "title": "Return of the GACK",
+            "time": "20:15 - 21:00",
+            "details": "Pending Info",
+            "participants": [
+              {"id": "ChazE"},
+              {"id": "AngeloC"},
+              {"id": "TBC"}
+            ]
+          },
+          {
+            "title": "Playful session + Closing words",
+            "time": "21:00 - 21:10",
+            "details": "description",
+            "participants": [
+              {"id": "EmilyK"},
+              {"id": "MarieJ"},
+              {"id": "LuO"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
