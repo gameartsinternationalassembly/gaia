@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
       })
       .then(() => {
         // Fetch schedule data after bios data is loaded
-        return fetch('schedule.json');
+        return fetch('schedule2024.json');
       })
       .then(response => response.json())
       .then(schedule => {
