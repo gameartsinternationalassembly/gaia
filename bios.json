@@ -10,6 +10,16 @@
         "years": [2024]
     },
     {
+        "id": "Agnes",
+        "image": "img/participants/Agnes.png",
+        "alt": "Agnes profile photo",
+        "title": "Ágnes Karolina Bakk",
+        "country": "🇭🇺 Hungary",
+        "details": "Ph.D. is the head and lead researcher of Immersion and Interaction Hub at the Innovation Center of Moholy-Nagy University of Art and Design. She is also a narrative designer focusing on immersive theatrical formats, immersive storytelling & the science of magic. She currently leads research projects on romantic relationships in Metaverse-like environments and on psychological restoration in a nature-simulation VR and its clinical use. She is the founder of the Zip-Scene conference that is running since 2018, and cofounder of Random Error Studio which focuses on creation of VR productions. She is also the co-curator of Vektor VR section, Hungary’s first VR-focused event. She teaches immersive storytelling, and speculative design and offers talks at various conferences from Kobe (JP) to Montreal (CA) including festivals (Stereopsia, DokLeipzig). She is also a narrative designer for several video games",
+        "link": "",
+        "years": [2024]
+    },
+    {
         "id": "SolS",
         "image": "img/participants/SolS.png",
         "alt": "Sol profile photo",
