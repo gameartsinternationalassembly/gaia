@@ -38,9 +38,9 @@
           {
             "title": "Alternative ways of fostering the artgames scene",
             "time": "19:00 - 19:50",
-            "details": "INFO PENDING.",
+            "details": "A panel discussion about creating unique editorial projects that elevate the visibility of independent and artistic game productions and explore their crossover with other media. We’ll be hearing from Mer Grazzini, from PressOver a website, podcast series and exhibit focused on Argentine and Latin American indie games, and from Angelo Careri, editor of the french magazine Immersion that blends film and video games ",
             "participants": [
-              {"id": "MerlinaR"},
+              {"id": "TBC"},
               {"id": "AngeloC"},
               {"id": "TBC", "role": "host"}
             ]
@@ -48,7 +48,7 @@
           {
             "title": "Artgames Showcase",
             "time": "20:00 - 20:45",
-            "details": "Microtalks presenting artgames, experimental projects and innovative wild ideas that merge art, play and technology- PENDING INFO",
+            "details": "A series of micro-presentations where six artists and developers from different countries will share the exploratory projects they are currently working on. This session offers a global perspective on how video games intersect with other fields and the diverse ways artists are pushing the boundaries and reimagining the medium.",
             "participants": [
               {"id": "NicolasH"},
               {"id": "IsabelleA"},
