@@ -64,7 +64,7 @@
               {"id": "MarieJ"},
               {"id": "TBC"},
               {"id": "TBC"},
-              {"id": "Shalev", "role": "host"}
+              {"id": "ShalevM", "role": "host"}
             ]
           }
         ]
@@ -130,12 +130,12 @@
             ]
           },
           {
-            "title": "Playful session + Closing words",
+            "title": "Playful session + Open mic",
             "time": "21:00 - 21:10",
             "details": "description",
             "participants": [
               {"id": "EmilyK"},
-              {"id": "MarieJ"},
+
               {"id": "LuO"}
             ]
           }
