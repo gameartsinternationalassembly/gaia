@@ -21,7 +21,7 @@
               {"id": "JaminW"},
               {"id": "LauraG"},
               {"id": "GonzaloB"},
-              {"id": "OphelieO"}
+              {"id": "OphelieO", "role": "host"}
             ]
           },
           {
@@ -32,7 +32,7 @@
               {"id": "DavidA"},
               {"id": "EmilyK"},
               {"id": "SebG"},
-              {"id": "SolS"}
+              {"id": "SolS", "role": "host"}
             ]
           },
           {
@@ -40,9 +40,9 @@
             "time": "19:00 - 19:50",
             "details": "INFO PENDING.",
             "participants": [
-              {"id": "TBC"},
+              {"id": "MerlinaR"},
               {"id": "AngeloC"},
-              {"id": "TBC"}
+              {"id": "TBC", "role": "host"}
             ]
           },
           {
@@ -51,23 +51,14 @@
             "details": "Microtalks presenting artgames, experimental projects and innovative wild ideas that merge art, play and technology- PENDING INFO",
             "participants": [
               {"id": "NicolasH"},
-              {"id": "MarioB"},
               {"id": "IsabelleA"},
               {"id": "NicoH"},
-              {"id": "InesL"}
-             ]
-           },
-          {
-            "title": "Title TBC",
-            "time": "21:00 - 21:30",
-            "details": "INFO PENDING.",
-            "participants": [
-              {"id": "Shalev"}
+              {"id": "InesL", "role": "host"}
             ]
-           }
-         ]
-       }, 
-       {
+          }
+        ]
+      },
+      {
         "id": "day2",
         "date": "Thursday September 19th",
         "sessions": [
@@ -84,7 +75,7 @@
             "participants": [
               {"id": "CatB"},
               {"id": "MichaelB"},
-              {"id": "TBC"}
+              {"id": "TBC", "role": "host"}
             ]
           },
           {
@@ -94,7 +85,7 @@
             "participants": [
               {"id": "HeatherK"},
               {"id": "PeterD"},
-              {"id": "MerlinaR"}
+              {"id": "MerlinaR", "role": "host"}
             ]
           },
           {
@@ -103,7 +94,7 @@
             "details": "PENDING INFO",
             "participants": [
               {"id": "HexeF"},
-              {"id": "BethlehemA"}
+              {"id": "BethlehemA", "role": "host"}
             ]
           },
           {
@@ -114,29 +105,31 @@
               {"id": "LanR"},
               {"id": "AllisonY"},
               {"id": "TobiasK"},
-              {"id": "BethlehemA"}
+              {"id": "BethlehemA", "role": "host"}
             ]
           },
           {
             "title": "Return of the GACK",
-            "time": "20:30 - 21:15",
+            "time": "20:15 - 21:00",
             "details": "Pending Info",
             "participants": [
               {"id": "ChazE"},
               {"id": "AngeloC"},
-              {"id": "TBC"}
+              {"id": "TBC", "role": "host"}
             ]
           },
           {
-            "title": "Playful session + Open mic",
-            "time": "21:30 - 22:00",
+            "title": "Playful session + Closing words",
+            "time": "21:00 - 21:10",
             "details": "description",
             "participants": [
               {"id": "EmilyK"},
-              {"id": "Lu"}
+              {"id": "MarieJ"},
+              {"id": "LuO"}
             ]
           }
         ]
       }
     ]
   }
+  
