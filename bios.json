@@ -332,10 +332,21 @@
         "id": "MarieJ",
         "image": "img/participants/MarieJ.png",
         "alt": "Marie profile photo",
-        "title": "Marie Janin (Overkill)",
+        "title": "Marie Janin",
         "country": "🇳🇱 Netherlands",
-        "details": "Marie Janin (she/her) is the co-director of The Overkill together with Aike Lütkemöller, a gaming, art and film festival and co- director of Sickhouse, a playful art space in Enschede. As a curator she focuses on digital culture and its impact on our society.",
+        "details": "(she/her) is the co-director of The Overkill together with Aike Lütkemöller, a gaming, art and film festival and co- director of Sickhouse, a playful art space in Enschede. As a curator she focuses on digital culture and its impact on our society.",
         "link": "https://www.linkedin.com/in/marie-janin-04219494/",
         "years": [2022,2024]
+    }
+    {
+        "id": "ShalevM",
+        "image": "img/participants/ShalevM.png",
+        "alt": "shalevprofile photo",
+        "title": "Shalev",
+        "country": "🇩🇰 Denmark",
+        "details": "is a designer and artist based in Copenhagen. He currently works as a game designer and director at Bird Island, and co-runs the political-sci-fi project Speculative Tourism.
+Previously he was the games curator at Print Screen Festival, a lecturer at Shenkar College’s Game Center, and a game designer at various companies. He received his B.A. from TAU's Honors Program in the Humanities and Arts, and his M.A. in Game Design from The Royal Danish Academy of Fine Arts.",
+        "link": "https://www.shalevmoran.com/",
+        "years": [2024]
     }
 ]
