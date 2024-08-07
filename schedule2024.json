@@ -13,7 +13,7 @@
           {
             "title": "The Scene Report",
             "time": "17:00 - 17:45",
-            "details": "Microtalks introducing a variety of artgames events and projects from around the world: Different Perspectives (Belgium) Playtopia (Capetown), OneTwoSix (Los Angeles) xxxx(Sweden), Accion Devs (Argentina) & Indie Dev Day (Spain)",
+            "details": "A staple of the event, The Scene Report is a panel that consistently blends new voices with well-established events, celebrating both the evolution and the roots of the artistic, experimental, and indie video game scene. This session highlights emerging initiatives and enduring communities, offering a comprehensive look at the forces shaping the future of artgames.This time we'll be hearing from Different Perspectives (Belgium) Playtopia (Capetown), OneTwoSix (Los Angeles) xxxx(Sweden), Accion Devs (Argentina) & Indie Dev Day (Spain)",
             "participants": [
               {"id": "DominiqueG"},
               {"id": "PepijnW"},
@@ -142,4 +142,3 @@
       }
     ]
   }
-  
