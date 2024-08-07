@@ -1,5 +1,19 @@
 [
     {
+        "id": "MarioB",
+        "image": "img/participants/Marriob.png",
+        "alt": "Mario B profile photo",
+        "title": "Mario Barranco",
+        "country": "🇪🇸 Spain",
+        "details": "Graduated in Social and Cultural Anthropology from the University of Seville, with a Master's in Contemporary Film and Audiovisual Studies and a Ph.D. in Communication from Pompeu Fabra University. Member of the CINEMA Research Group in the Department of Communication at UPF. He has participated in funded projects on Spanish cinema (CINEMA group 2020-2022) and experimental ethnography (ETSICO group 2018-2021). He has also coordinated and edited international academic journals on video games and cinema such as Lifeplay and Comparative Cinema. Currently, he combines his teaching duties with his work as a digital artist and game designer in experimental video game projects, participating with his project Maya in development incubators such as Gameplay and Arsenal (Pompeu Fabra University).
+
+
+His areas of interest include, among others, the avant-garde in video games and their relationship with experimental cinema, the gamification of aesthetics, artificial intelligence, digital humanities, and cyber microcultures.
+.",
+        "link": "",
+        "years": [2024]
+    },
+    {
         "id": "SolS",
         "image": "img/participants/SolS.png",
         "alt": "Sol profile photo",
