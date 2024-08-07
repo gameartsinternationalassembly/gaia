@@ -1,4 +1,14 @@
 [
+     {
+        "id": "HeatherK",
+        "image": "img/participants/HeatherK.png",
+        "alt": "heather photo",
+        "title": "Heather Kelley",
+        "country": "🇺🇸 United States",
+        "details": "pending bio.",
+        "link": "https://www.perfectplum.com/",
+        "years": [2024]
+    },
     {
         "id": "ShalevM",
         "image": "img/participants/ShalevM.png",
