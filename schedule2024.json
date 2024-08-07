@@ -50,10 +50,10 @@
             "time": "20:00 - 20:45",
             "details": "A series of micro-presentations where six artists and developers from different countries will share the exploratory projects they are currently working on. This session offers a global perspective on how video games intersect with other fields and the diverse ways artists are pushing the boundaries and reimagining the medium.",
             "participants": [
-              {"id": "NicolasH"},
+              {"id": "MarrioB"},
               {"id": "IsabelleA"},
-              {"id": "NicoH"},
-              {"id": "InesL", "role": "host"}
+              {"id": "NicoV"},
+              {"id": "InesLl", "role": "host"}
             ]
           },
              {
@@ -86,7 +86,7 @@
             "participants": [
               {"id": "CatB"},
               {"id": "MichaelB"},
-              {"id": "TBC", "role": "host"}
+              {"id": "Agnes", "role": "host"}
             ]
           },
           {
@@ -96,7 +96,7 @@
             "participants": [
               {"id": "HeatherK"},
               {"id": "PeterD"},
-              {"id": "MerlinaR", "role": "host"}
+              {"id": "MerlinaraniR", "role": "host"}
             ]
           },
           {
