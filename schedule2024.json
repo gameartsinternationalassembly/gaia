@@ -40,7 +40,7 @@
             "time": "19:00 - 19:50",
             "details": "A panel discussion about creating unique editorial projects that elevate the visibility of independent and artistic game productions and explore their crossover with other media. We’ll be hearing from Mer Grazzini, from PressOver a website, podcast series and exhibit focused on Argentine and Latin American indie games, and from Angelo Careri, editor of the french magazine Immersion that blends film and video games ",
             "participants": [
-              {"id": "TBC"},
+              {"id": "MerG"},
               {"id": "AngeloC"},
               {"id": "TBC", "role": "host"}
             ]
