@@ -55,7 +55,18 @@
               {"id": "NicoH"},
               {"id": "InesL", "role": "host"}
             ]
-          }
+          },
+             {
+            "title": "The Palestinian Voices in Games Network",
+            "time": "21:00 - 21:30",
+            "details": "This session will present a new initiative, that began in response to the current war in Palestine, to support Palestinian creators in making games that could not be made otherwise. Several of the network's organizers will gather to present its current state, goals, needs, and what it offers, and invite listeners to join, take action, and grow the network's reach",
+            "participants": [
+              {"id": "MarieJ"},
+              {"id": "TBC"},
+              {"id": "TBC"},
+              {"id": "Shalev", "role": "host"}
+            ]
+          },
         ]
       },
       {
