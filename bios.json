@@ -1,4 +1,14 @@
 [
+      {
+        "id": "MerG",
+        "image": "img/participants/MerG.png",
+        "alt": "mer grazzini photo",
+        "title": "Mer Grazzini",
+        "country": "🇦🇷 Argentina",
+        "details": "pending bio.",
+        "link": "https://mergrazzini.itch.io/",
+        "years": [2024]
+    },
      {
         "id": "HeatherK",
         "image": "img/participants/HeatherK.png",
