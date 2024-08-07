@@ -30,8 +30,8 @@
             "details": "As organizers, we seek to cultivate and support our local game scenes. This conversation will give participants an opportunity to enumerate the needs of their local game scenes, the challenges they face, and the resources they thrive on. What strategies might help us connect these resources to our game scenes? We seek to provide a venue for potential and current organizers to share their experience and actionable steps that have worked for them.",
             "participants": [
               {"id": "DavidA"},
-              {"id": "EmilyK"},
-              {"id": "SebG"},
+              {"id": "emily"},
+              {"id": "SebGalvez"},
               {"id": "SolS", "role": "host"}
             ]
           },
