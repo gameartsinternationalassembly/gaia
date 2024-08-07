@@ -92,7 +92,7 @@
           {
             "title": "Sensory Curations: Beyond Traditional Game Exhibits",
             "time": "18:00 - 18:45",
-            "details": "PENDING INFO",
+            "details": "This panel invites the audience to rethink the exhibition of video games as a performative space, where the relationship between bodies and games is central. Heather Kelley and Peter Davison will draw from their experiences to explore how cultural spaces can engage all the senses, going beyond visual displays. Together, we’ll delve into case studies and collaboratively develop ideas for a best practices kit that reimagines the physical interaction with games in exhibition settings.",
             "participants": [
               {"id": "HeatherK"},
               {"id": "PeterD"},
@@ -100,18 +100,18 @@
             ]
           },
           {
-            "title": "Caring and Community - Title to be confirmed",
+            "title": "Caring and Community - Curating Indigenous Games",
             "time": "19:00 - 19:25",
-            "details": "PENDING INFO",
+            "details": "Hexe Fey will lead us in a hybrid talk-workshop, drawing from their personal experience and work within the indigenous game creators community. They will share best practices for supporting the growth of this community and increasing the visibility of their productions. This session offers an opportunity to learn and engage with the unique challenges and opportunities in curating indigenous games",
             "participants": [
               {"id": "HexeF"},
               {"id": "BethlehemA", "role": "host"}
             ]
           },
           {
-            "title": "Caring and Community - Title to be confirmed",
+            "title": "Caring and Community - Nurturing Healthy Communities: Sustainable Practices in Game Culture",
             "time": "19:30 - 20:15",
-            "details": "description",
+            "details": "This session explores strategies for maintaining a vibrant and inclusive game community over time. Allison will discuss the importance of mentorship and supporting new voices. Lan will address how to create accommodating environments for neurodivergent members without requiring disclosure. Tobias will share his insights from over 15 years in the industry on building long-term support structures for artistic and community practices. Together, they will offer practical advice on fostering sustainable and healthy communities in game culture",
             "participants": [
               {"id": "LanR"},
               {"id": "AllisonY"},
@@ -122,7 +122,7 @@
           {
             "title": "Return of the GACK",
             "time": "20:15 - 21:00",
-            "details": "Pending Info",
+            "details": "This session is an invitation to revisit the original Game Arts Curatorial Kit, featuring the official presentation of its physical edition, released earlier this year. We will then explore the next steps: updating the content to tackle new challenges in video game curation and fostering sustainable communities. Join us in shaping the future of the GACK and contributing to its ongoing evolution.",
             "participants": [
               {"id": "ChazE"},
               {"id": "AngeloC"},
@@ -132,7 +132,7 @@
           {
             "title": "Playful session + Open mic",
             "time": "21:00 - 21:10",
-            "details": "description",
+            "details": "We’ll close the event in the most fitting way—by playing. Emily Koonce will lead us through an interactive online playful session, followed by an open mic where the audience can share their thoughts, ideas, and suggestions for the next edition of GAIA, giving everyone a chance to contribute to the future of the event.",
             "participants": [
               {"id": "EmilyK"},
               {"id": "LuO"}
