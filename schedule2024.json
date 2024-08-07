@@ -121,7 +121,7 @@
           },
           {
             "title": "Return of the GACK",
-            "time": "20:15 - 21:00",
+            "time": "20:30 - 21:15",
             "details": "Pending Info",
             "participants": [
               {"id": "ChazE"},
@@ -130,12 +130,12 @@
             ]
           },
           {
-            "title": "Playful session + Closing words",
-            "time": "21:00 - 21:10",
+            "title": "Playful session + Open mic",
+            "time": "21:30 - 22:00",
             "details": "description",
             "participants": [
               {"id": "EmilyK"},
-              {"id": "MarieJ"},
+              
               {"id": "Lu"}
             ]
           }
