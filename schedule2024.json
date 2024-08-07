@@ -57,22 +57,16 @@
               {"id": "InesL"}
             ]
           },
-        
-      
         {
             "title": "Title TBC",
             "time": "21:00 - 21:30",
             "details": "INFO PENDING.",
             "participants": [
               {"id": "Shalev"},
-        
-              
             ]
           }
               ]
-          },
-          
-          
+          }, 
       {
         "id": "day2",
         "date": "Thursday September 19th",
@@ -139,7 +133,6 @@
             "details": "description",
             "participants": [
               {"id": "EmilyK"},
-              
               {"id": "Lu"}
             ]
           }
