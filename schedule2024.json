@@ -41,7 +41,7 @@
             "details": "A panel discussion about creating unique editorial projects that elevate the visibility of independent and artistic game productions and explore their crossover with other media. We’ll be hearing from Mer Grazzini, from PressOver a website, podcast series and exhibit focused on Argentine and Latin American indie games, and from Angelo Careri, editor of the french magazine Immersion that blends film and video games ",
             "participants": [
               {"id": "MerG"},
-              {"id": "AngeloC"},
+              {"id": "Angelo"},
               {"id": "Fierce", "role": "host"}
             ]
           },
@@ -117,7 +117,7 @@
               {"id": "LanR"},
               {"id": "AllisonY"},
               {"id": "TobiasK"},
-              {"id": "BethlehemA", "role": "host"}
+              {"id": "BethlehemAnteneh", "role": "host"}
             ]
           },
           {
@@ -125,8 +125,8 @@
             "time": "20:15 - 21:00",
             "details": "This session is an invitation to revisit the original Game Arts Curatorial Kit, featuring the official presentation of its physical edition, released earlier this year. We will then explore the next steps: updating the content to tackle new challenges in video game curation and fostering sustainable communities. Join us in shaping the future of the GACK and contributing to its ongoing evolution.",
             "participants": [
-              {"id": "ChazE"},
-              {"id": "AngeloC"},
+              {"id": "Chaz"},
+              {"id": "Angelo"},
               {"id": "TBC", "role": "host"}
             ]
           },
@@ -135,7 +135,7 @@
             "time": "21:00 - 21:10",
             "details": "We’ll close the event in the most fitting way—by playing. Emily Koonce will lead us through an interactive online playful session, followed by an open mic where the audience can share their thoughts, ideas, and suggestions for the next edition of GAIA, giving everyone a chance to contribute to the future of the event.",
             "participants": [
-              {"id": "EmilyK"},
+              {"id": "emily"},
               {"id": "LuO"}
             ]
           }
