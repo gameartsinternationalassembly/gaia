@@ -13,10 +13,9 @@
           {
             "title": "The Scene Report",
             "time": "17:00 - 17:45",
-            "details": "A staple of the event, The Scene Report is a panel that consistently blends new voices with well-established events, celebrating both the evolution and the roots of the artistic, experimental, and indie video game scene. This session highlights emerging initiatives and enduring communities, offering a comprehensive look at the forces shaping the future of artgames.This time we'll be hearing from Different Perspectives (Belgium) Playtopia (Capetown), OneTwoSix (Los Angeles) xxxx(Sweden), Accion Devs (Argentina) & Indie Dev Day (Spain)",
+            "details": "A staple of the event, The Scene Report is a panel that consistently blends new voices with well-established events, celebrating both the evolution and the roots of the artistic, experimental, and indie video game scene. This time time we’ll be hearing from Playtopia (Capetown), OneTwoSix (Los Angeles) the local indie scene in Gothenburg (Sweden), Accion Devs (Argentina) & Indie Dev Day (Spain)",
             "participants": [
               {"id": "DominiqueG"},
-              {"id": "PepijnW"},
               {"id": "KjellH"},
               {"id": "JaminW"},
               {"id": "LauraG"},
@@ -27,7 +26,7 @@
           {
             "title": "Supporting local game scenes as community organizers",
             "time": "18:00 - 18:45",
-            "details": "As organizers, we seek to cultivate and support our local game scenes. This conversation will give participants an opportunity to enumerate the needs of their local game scenes, the challenges they face, and the resources they thrive on. What strategies might help us connect these resources to our game scenes? We seek to provide a venue for potential and current organizers to share their experience and actionable steps that have worked for them.",
+            "details": "As organizers, we seek to cultivate and support our local game scenes but sometimes they are overshadowed by international work. This conversation will give participants an opportunity to enumerate the needs of their local game scenes, the challenges they face, and the resources they thrive on. What strategies might help us connect these resources to our game scenes? We seek to provide a venue for potential and current organizers to share their experience and actionable steps that have worked for them.",
             "participants": [
               {"id": "DavidA"},
               {"id": "emily"},
@@ -38,7 +37,7 @@
           {
             "title": "Alternative ways of fostering the artgames scene",
             "time": "19:00 - 19:50",
-            "details": "A panel discussion about creating unique editorial projects that elevate the visibility of independent and artistic game productions and explore their crossover with other media. We’ll be hearing from Mer Grazzini, from PressOver a website, podcast series and exhibit focused on Argentine and Latin American indie games, and from Angelo Careri, editor of the french magazine Immersion that blends film and video games ",
+            "details": "A panel discussion about creating unique editorial projects that elevate the visibility of independent and artistic game productions and explore their crossover with other media. We’ll be hearing from Mer Grazzini, from PressOver (a website, podcast series and exhibit focused on Argentine and Latin American indie games), and from Angelo Careri, editor of the French magazine Immersion that blends film and video games.",
             "participants": [
               {"id": "MerG"},
               {"id": "Angelo"},
@@ -60,7 +59,7 @@
              {
             "title": "The Palestinian Voices in Games Network",
             "time": "21:00 - 21:30",
-            "details": "This session will present a new initiative, that began in response to the current war in Palestine, to support Palestinian creators in making games that could not be made otherwise. Several of the network's organizers will gather to present its current state, goals, needs, and what it offers, and invite listeners to join, take action, and grow the network's reach",
+            "details": "This session will present a new initiative begun in response to the current war in Palestine to support Palestinian creators in making games that could not be made otherwise. Several of the network's organizers will present its current state, goals, needs, and what it offers, and invite listeners to join, take action, and grow the network.",
             "participants": [
               {"id": "MarieJ"},
               {"id": "TBC"},
@@ -83,7 +82,7 @@
           {
             "title": "From Physical to Virtual: Curating Digital Art Experiences",
             "time": "17:00 - 17:45",
-            "details": "A conversation highlighting two approaches to transforming physical gallery experiences into immersive virtual worlds. Drawing from the creators' work with The ZIUM MUSEUM and the Mackenzie Gallery's digital kit, this session will focus on how best to adapt and translate the physical into the digital realm, exploring practical strategies for future digital curation.",
+            "details": "A conversation highlighting two approaches to transforming physical gallery experiences into immersive virtual worlds. Drawing from the creators' work with The ZIUM MUSEUM and the Mackenzie Gallery's digital kit, this session will focus on how best to adapt and translate the physical into the digital realm andexplore practical strategies for future digital curation.",
             "participants": [
               {"id": "CatB"},
               {"id": "MichaelB"},
@@ -103,7 +102,7 @@
           {
             "title": "Caring and Community - Curating Indigenous Games",
             "time": "19:00 - 19:25",
-            "details": "Hexe Fey will lead us in a hybrid talk-workshop, drawing from their personal experience and work within the indigenous game creators community. They will share best practices for supporting the growth of this community and increasing the visibility of their productions. This session offers an opportunity to learn and engage with the unique challenges and opportunities in curating indigenous games",
+            "details": "Hexe Fey will lead us in a hybrid talk-workshop, drawing from their personal experience and work within the indigenous game creators community. They will share best practices for supporting the growth of this community and increasing the visibility of their productions. This session offers an opportunity to learn and engage with the unique challenges and opportunities in curating indigenous games.",
             "participants": [
               {"id": "HexeF"},
               {"id": "BethlehemA", "role": "host"}
@@ -112,7 +111,7 @@
           {
             "title": "Caring and Community - Nurturing Healthy Communities: Sustainable Practices in Game Culture",
             "time": "19:30 - 20:15",
-            "details": "This session explores strategies for maintaining a vibrant and inclusive game community over time. Allison will discuss the importance of mentorship and supporting new voices. Lan will address how to create accommodating environments for neurodivergent members without requiring disclosure. Tobias will share his insights from over 15 years in the industry on building long-term support structures for artistic and community practices. Together, they will offer practical advice on fostering sustainable and healthy communities in game culture",
+            "details": "This session explores strategies for maintaining a vibrant and inclusive game community over time. Allison will discuss the importance of mentorship and supporting new voices. Lan will address how to create accommodating environments for neurodivergent members without requiring disclosure. Tobias will share his insights from over 15 years of experience with building long-term support structures for artistic and community practices. Together, they will offer practical advice on fostering sustainable and healthy communities in game culture.",
             "participants": [
               {"id": "LanR"},
               {"id": "AllisonY"},
