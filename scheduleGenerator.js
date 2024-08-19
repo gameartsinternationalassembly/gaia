@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
           const endTime = timeParts[1];
           const duration = calculateDuration(startTime, endTime);
 
-          sessionDetails.innerHTML = `<span>${session.time} (${duration})</span><br />`;
+          sessionDetails.innerHTML = `<span>${session.time} CEST (${duration})</span><br />`;
 
           // Separate hosts and other participants
           const hosts = [];
