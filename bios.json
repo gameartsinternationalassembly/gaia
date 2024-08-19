@@ -9,6 +9,16 @@
         "link": "https://www.twitch.tv/fierceaxolotl",
         "years": [2024]
     },
+       {
+        "id": "LanRoed",
+        "image": "img/participants/LanRoed.png",
+        "alt": "Lan Roed photo",
+        "title": "Lan Roed",
+        "country": "🇨🇦 Canada",
+        "details": "is a creative and practical game designer with a decade of experience in the gaming industry, during which she has contributed to successful projects and released her own indie game Cribbage With Grandpas. This game received regular features on the Apple App Store and earned a nomination at IndieCade in 2017. In addition to my professional work Lan has designed and taught courses in Photoshop, Illustrator, InDesign, and Typography at Vancouver Film School. She is deeply passionate about experimental and non-traditional games; Has founded the 500+ member Alt Games Vancouver meetup group and Heart Projector — a group she co-founded with a few other local developers in town which has been curating exhibitions of experimental experiences for over six years.",
+        "link": "https://leanneroed.com/",
+        "years": [2024]
+    },
       {
         "id": "SamuelB",
         "image": "img/participants/SamuelB.png",
@@ -345,15 +355,15 @@
         "years": [2022]
     },
     {
-        "id": "Lan",
-        "image": "img/participants/Lan.png",
+        "id": "LenP",
+        "image": "img/participants/LenP.png",
         "alt": "Len profile photo",
         "title": "Len Predko",
         "country": "🇨🇦 Canada",
         "projects": "Hand Eye Society",
         "details": "Len is a practicing artist with a Bachelor of Design from OCAD University. He is the current Executive Director of Hand Eye Society and works as a Community Manager at Kitten Cup Studio.",
         "link": "https://www.linkedin.com/in/len-predko-332771b9",
-        "years": [2022, 2024]
+        "years": [2022]
     },
     {
         "id": "LynnH",
