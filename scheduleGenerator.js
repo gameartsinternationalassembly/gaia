@@ -158,7 +158,7 @@ function convertToLocalTime(ceTime) {
   const startTime = new Date(`1970-01-01T${timeParts[0]}:00+02:00`); // CEST offset is UTC+2
   const endTime = new Date(`1970-01-01T${timeParts[1]}:00+02:00`);
 
-  const timeOptions = { hour: '2-digit', minute: '2-digit', hour12: true };
+  const timeOptions = { hour: '2-digit', minute: '2-digit', hour12: false };
   const timezoneOptions = { timeZoneName: 'short' };
 
   const localStartTime = startTime.toLocaleTimeString([], timeOptions);
@@ -167,6 +167,7 @@ function convertToLocalTime(ceTime) {
 
   return `${localStartTime} - ${localEndTime} ${timezone}`;
 }
+
 
 // Function to show bio by ID
 function showBioById(bioId) {
