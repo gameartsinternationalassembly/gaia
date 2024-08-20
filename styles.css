@@ -199,6 +199,11 @@ main {
   /* max-width: 100vw; */
 }
 
+.highlight {
+  background: #feeeff;
+  /* stroke: 2px solid blue; */
+}
+
 .contentContainer {
   display: flex;
   justify-content: center;
