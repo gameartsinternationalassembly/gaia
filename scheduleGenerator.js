@@ -71,7 +71,6 @@ document.addEventListener('DOMContentLoaded', function() {
               hostLink.href = '#bios';
               hostLink.setAttribute('data-bio-id', host.id);
               hostLink.textContent = `Host: ${bio.title}`;
-
               sessionDetails.appendChild(hostLink);
 
               if (index < hosts.length - 1) {
@@ -93,7 +92,6 @@ document.addEventListener('DOMContentLoaded', function() {
               participantLink.href = '#bios';
               participantLink.setAttribute('data-bio-id', participant.id);
               participantLink.textContent = bio.title;
-
               sessionDetails.appendChild(participantLink);
 
               if (index < participants.length - 1) {
@@ -189,11 +187,6 @@ function convertToLocalTime(ceTime) {
   console.log("Returning converted time range:", `${localStartTime} - ${localEndTime} ${timezone}`);
   return `${localStartTime} - ${localEndTime} ${timezone}`;
 }
-
-
-
-
-
 
 // Function to show bio by ID
 function showBioById(bioId) {
