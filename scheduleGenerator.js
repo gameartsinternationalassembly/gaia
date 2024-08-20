@@ -154,8 +154,13 @@ function calculateDuration(startTime, endTime) {
 
 function convertToLocalTime(ceTime) {
   const timeParts = ceTime.split(' - ');
+  console.log("CEST Time Parts:", timeParts);
+
   const startTime = new Date(`1970-01-01T${timeParts[0]}:00+02:00`); // CEST offset is UTC+2
   const endTime = new Date(`1970-01-01T${timeParts[1]}:00+02:00`);
+  
+  console.log("Start Time:", startTime);
+  console.log("End Time:", endTime);
 
   const timeOptions = { hour: '2-digit', minute: '2-digit', hour12: false };
   const timezoneOptions = { timeZoneName: 'short' };
@@ -163,20 +168,28 @@ function convertToLocalTime(ceTime) {
   const localStartTime = startTime.toLocaleTimeString([], timeOptions);
   const localEndTime = endTime.toLocaleTimeString([], timeOptions);
   const timezone = startTime.toLocaleTimeString([], timezoneOptions).split(' ').pop() || 'local time'; // Fallback if timezone cannot be extracted
+  
+  console.log("Local Start Time:", localStartTime);
+  console.log("Local End Time:", localEndTime);
+  console.log("Detected Timezone:", timezone);
 
   // Handle the case where the second time is the same as the first time
   if (localStartTime === localEndTime) {
+    console.log("Same start and end time detected. Returning:", `${localStartTime} ${timezone}`);
     return `${localStartTime} ${timezone}`;
   }
 
   // Handle the case where the user is in the same timezone as CEST
   if (timezone === 'CEST') {
+    console.log("User is in CEST timezone. Returning original CEST time.");
     return `${ceTime} CEST`;
   }
 
   // Return the formatted time range with the timezone
+  console.log("Returning converted time range:", `${localStartTime} - ${localEndTime} ${timezone}`);
   return `${localStartTime} - ${localEndTime} ${timezone}`;
 }
+
 
 
 
