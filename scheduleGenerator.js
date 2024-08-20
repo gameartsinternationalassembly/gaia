@@ -152,7 +152,6 @@ function calculateDuration(startTime, endTime) {
   return `${diffMins}m`;
 }
 
-// Function to convert CEST time to user's local time
 function convertToLocalTime(ceTime) {
   const timeParts = ceTime.split(' - ');
   const startTime = new Date(`1970-01-01T${timeParts[0]}:00+02:00`); // CEST offset is UTC+2
@@ -163,10 +162,12 @@ function convertToLocalTime(ceTime) {
 
   const localStartTime = startTime.toLocaleTimeString([], timeOptions);
   const localEndTime = endTime.toLocaleTimeString([], timeOptions);
-  const timezone = startTime.toLocaleTimeString([], timezoneOptions).split(' ')[1]; // Extract timezone abbreviation
+  const timezone = startTime.toLocaleTimeString([], timezoneOptions).split(' ').pop(); // Extract timezone abbreviation
 
   return `${localStartTime} - ${localEndTime} ${timezone}`;
 }
+
+
 
 
 // Function to show bio by ID
