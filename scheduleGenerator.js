@@ -47,7 +47,10 @@ document.addEventListener('DOMContentLoaded', function() {
           const endTime = timeParts[1];
           const duration = calculateDuration(startTime, endTime);
 
-          sessionDetails.innerHTML = `<span>${session.time} CEST (${duration})</span><br />`;
+          // Convert CEST time to user's local time
+          const localTime = convertToLocalTime(session.time);
+
+          sessionDetails.innerHTML = `<span>${session.time} CEST // ${localTime} (${duration})</span><br />`;
 
           // Separate hosts and other participants
           const hosts = [];
@@ -90,20 +93,20 @@ document.addEventListener('DOMContentLoaded', function() {
               participantLink.href = '#bios';
               participantLink.setAttribute('data-bio-id', participant.id);
               participantLink.textContent = bio.title;
-          
+
               sessionDetails.appendChild(participantLink);
-          
+
               if (index < participants.length - 1) {
                 sessionDetails.innerHTML += ' + ';
               }
             }
           });
-          
+
           // Ensure there's no trailing '+' sign
           if (sessionDetails.innerHTML.endsWith(' + ')) {
             sessionDetails.innerHTML = sessionDetails.innerHTML.slice(0, -3);
           }
-          
+
           sessionDetails.innerHTML += `<br />${session.details}`;
           dayContainer.appendChild(sessionDetails);
 
@@ -147,6 +150,22 @@ function calculateDuration(startTime, endTime) {
   const diffMins = Math.round(diffMs / 60000);
 
   return `${diffMins}m`;
+}
+
+// Function to convert CEST time to user's local time
+function convertToLocalTime(ceTime) {
+  const timeParts = ceTime.split(' - ');
+  const startTime = new Date(`1970-01-01T${timeParts[0]}:00+02:00`); // CEST offset is UTC+2
+  const endTime = new Date(`1970-01-01T${timeParts[1]}:00+02:00`);
+
+  const timeOptions = { hour: '2-digit', minute: '2-digit', hour12: true };
+  const timezoneOptions = { timeZoneName: 'short' };
+
+  const localStartTime = startTime.toLocaleTimeString([], timeOptions);
+  const localEndTime = endTime.toLocaleTimeString([], timeOptions);
+  const timezone = startTime.toLocaleTimeString([], timezoneOptions).split(' ')[1]; // Extract timezone abbreviation
+
+  return `${localStartTime} - ${localEndTime} ${timezone}`;
 }
 
 // Function to show bio by ID
