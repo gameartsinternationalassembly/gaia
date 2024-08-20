@@ -162,10 +162,22 @@ function convertToLocalTime(ceTime) {
 
   const localStartTime = startTime.toLocaleTimeString([], timeOptions);
   const localEndTime = endTime.toLocaleTimeString([], timeOptions);
-  const timezone = startTime.toLocaleTimeString([], timezoneOptions).split(' ').pop(); // Extract timezone abbreviation
+  const timezone = startTime.toLocaleTimeString([], timezoneOptions).split(' ').pop() || 'local time'; // Fallback if timezone cannot be extracted
 
+  // Handle the case where the second time is the same as the first time
+  if (localStartTime === localEndTime) {
+    return `${localStartTime} ${timezone}`;
+  }
+
+  // Handle the case where the user is in the same timezone as CEST
+  if (timezone === 'CEST') {
+    return `${ceTime} CEST`;
+  }
+
+  // Return the formatted time range with the timezone
   return `${localStartTime} - ${localEndTime} ${timezone}`;
 }
+
 
 
 
