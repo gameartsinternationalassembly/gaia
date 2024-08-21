@@ -114,7 +114,7 @@
             "details": "This session explores strategies for maintaining a vibrant and inclusive game community over time. Allison will discuss the importance of mentorship and supporting new voices. Lan will address how to create accommodating environments for neurodivergent members without requiring disclosure. Tobias will share his insights from over 15 years of experience with building long-term support structures for artistic and community practices. Together, they will offer practical advice on fostering sustainable and healthy communities in game culture.",
             "participants": [
               {"id": "LanRoed"},
-              {"id": "AllisonY"},
+              {"id": "allison"},
               {"id": "TobiasK"},
               {"id": "BethlehemAnteneh", "role": "host"}
             ]
