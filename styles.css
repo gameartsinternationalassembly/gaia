@@ -189,6 +189,10 @@ p {
   /* padding: 1rem; */
 }
 
+.wallofText p {
+  padding-top: 1rem;
+}
+
 .bold {
   font-style: bold;
 }
