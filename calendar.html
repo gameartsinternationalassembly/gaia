@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet" />
+    <title>Game Arts International Assembly</title>
+
+    <meta name="author" content="Marie Claire LeBlanc Flanagan" />
+    <meta name="description" content="A gathering of games curators, connectors, and intermediaries around the world" />
+
+    <meta property="og:title" content="Game Arts International Assembly" />
+    <meta property="og:description" content="A gathering of games curators, connectors, and intermediaries around the world" />
+
+    <meta property="og:image" content="https://gameartsinternationalassembly.com/img/gaiaColour.png" />
+
+    <meta property="og:url" content="https://gameartsinternationalassembly.com" />
+    <meta property="og:type" content="webpage" />
+
+    <meta name="twitter:title" content="Game Arts International Assembly" />
+    <meta name="twitter:description" content="A gathering of games curators, connectors, and intermediaries around the world" />
+    <meta name="twitter:image" content="img/gaiaColour.png" id="indexImage" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+
+  <style>
+    .calendar-container {
+      position: relative;
+      padding-bottom: 75%; /* Aspect ratio (height/width): 600/800 = 75% */
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      background: #f9f9f9;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .calendar-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 80%;
+      height: 100%;
+      border: none;
+      border-radius: 8px;
+      margin: 2% 10%;
+    }
+
+    /* .join-calendar {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .join-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #4285f4;
+      text-decoration: none;
+      border-radius: 5px;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+
+    .join-btn:hover {
+      background-color: #357ae8;
+    } */
+  </style>
+
+  <body>
+    <header>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+
+      <div>
+        <a href=""><img alt="" /></a>
+      </div>
+      <nav>
+        <ul class="navigationMenu">
+          <li>
+            <a href="index.html">ABOUT</a>
+          </li>
+          <li>
+            <a href="index.html#upcoming">UPCOMING</a>
+          </li>
+          <li>
+            <a href="index.html#previous">PREVIOUS</a>
+          </li>
+          <!-- <li>
+              <a href="index.html#resources">RESOURCES</a>
+            </li> -->
+          <li>
+            <a href="index.html#programmers">PROGRAMMERS</a>
+          </li>
+          <li>
+            <a href="index.html#partners">PARTNERS</a>
+          </li>
+          <li>
+            <a href="index.html#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <img class="landingImg" src="img/gaiaColour.png" alt="GAIA Logo" />
+        <h1 id="about">Calendar</h1>
+
+        <!-- <section class="contentContainer"> -->
+          <div class="calendar-container">
+            <iframe
+              src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FToronto&bgcolor=%23ffffff&src=MzY1NDlhNDNiMzRmZjRkNGFmZjQ3ODk0OTljNjljMzg3MTZkM2NhMDg4NWM0MDk5YjU4Y2YyM2RkYTQ1YjY0MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23C0CA33"
+              frameborder="0"
+              scrolling="no"></iframe>
+          </div>
+          <!-- <div class="join-calendar">
+            <a href="https://calendar.google.com/calendar/u/0/r?cid=your_calendar_id_here" target="_blank" class="join-btn">Join Our Calendar</a>
+          </div> -->
+        <!-- </section> -->
+      </div>
+      <br />
+      <br />
+    </main>
+  </body>
+</html>
