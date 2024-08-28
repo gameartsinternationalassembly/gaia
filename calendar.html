@@ -71,6 +71,8 @@
       border-radius: 5px;
       padding: 0.5rem 0;
       color: var(--accentDark);
+      margin-bottom: 1rem;
+
     }
 
     .calendar-day {
@@ -153,60 +155,67 @@
           return data.items || [];
       }
 
-      function createCalendar(year, month, events) {
-          const calendar = document.getElementById('calendar');
-          calendar.innerHTML = ''; // Clear previous content
+    
+        function createCalendar(year, month, events) {
+            const calendar = document.getElementById('calendar');
+            calendar.innerHTML = ''; // Clear previous content
 
-          const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-          const firstDay = new Date(year, month).getDay();
-          const lastDate = new Date(year, month + 1, 0).getDate();
+            const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+            const firstDay = new Date(year, month).getDay();
+            const lastDate = new Date(year, month + 1, 0).getDate();
 
-          // Create header with days of the week
-          const header = document.createElement('div');
-          header.classList.add('calendar-header');
-          daysOfWeek.forEach(day => {
-              const dayElement = document.createElement('div');
-              dayElement.classList.add('calendar-day');
-              dayElement.textContent = day;
-              header.appendChild(dayElement);
-          });
-          calendar.appendChild(header);
+            // Create header with days of the week
+            const header = document.createElement('div');
+            header.classList.add('calendar-header');
+            daysOfWeek.forEach(day => {
+                const dayElement = document.createElement('div');
+                dayElement.classList.add('calendar-day');
+                dayElement.textContent = day;
+                header.appendChild(dayElement);
+            });
+            calendar.appendChild(header);
 
-          // Create days
-          const daysContainer = document.createElement('div');
-          daysContainer.classList.add('calendar-days');
+            // Create days
+            const daysContainer = document.createElement('div');
+            daysContainer.classList.add('calendar-days');
 
-          // Fill in the days
-          for (let i = 0; i < firstDay; i++) {
-              const emptyDay = document.createElement('div');
-              emptyDay.classList.add('calendar-empty-day');
-              daysContainer.appendChild(emptyDay);
-          }
+            // Fill in the days
+            for (let i = 0; i < firstDay; i++) {
+                const emptyDay = document.createElement('div');
+                emptyDay.classList.add('calendar-empty-day');
+                daysContainer.appendChild(emptyDay);
+            }
 
-          for (let day = 1; day <= lastDate; day++) {
-              const dayElement = document.createElement('div');
-              dayElement.classList.add('calendar-day');
-              dayElement.textContent = day;
+            for (let day = 1; day <= lastDate; day++) {
+                const dayElement = document.createElement('div');
+                dayElement.classList.add('calendar-day');
+                dayElement.textContent = day;
 
-              // Check if this day has an event
-              const eventDate = new Date(year, month, day).toISOString().split('T')[0];
-              const event = events.find(e => e.start.date === eventDate || e.start.dateTime?.split('T')[0] === eventDate);
-              if (event) {
-                  dayElement.classList.add('calendar-event');
-                  dayElement.title = event.summary; // Tooltip with event title
-              }
+                // Check if this day has an event
+                const eventDate = new Date(year, month, day).toISOString().split('T')[0];
+                const event = events.find(e => {
+                    const startDate = e.start.date || e.start.dateTime.split('T')[0]; // Get the date part from dateTime if it exists
+                    return startDate === eventDate;
+                });
 
-              daysContainer.appendChild(dayElement);
-          }
+                if (event) {
+                    const eventElement = document.createElement('div');
+                    eventElement.classList.add('calendar-event');
+                    eventElement.textContent = event.summary; // Display event title
+                    dayElement.appendChild(eventElement);
+                }
 
-          calendar.appendChild(daysContainer);
-      }
+                daysContainer.appendChild(dayElement);
+            }
 
-      // Initialize the calendar for the current month with events
-      const today = new Date();
-      fetchCalendarEvents().then(events => {
-          createCalendar(today.getFullYear(), today.getMonth(), events);
-      });
+            calendar.appendChild(daysContainer);
+        }
+
+        // Initialize the calendar for the current month with events
+        const today = new Date();
+        fetchCalendarEvents().then(events => {
+            createCalendar(today.getFullYear(), today.getMonth(), events);
+        });
     </script>
   </body>
 </html>
