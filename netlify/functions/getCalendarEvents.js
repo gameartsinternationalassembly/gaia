@@ -11,13 +11,19 @@ exports.handler = async function (event, context) {
 
         return {
             statusCode: 200,
+            headers: {
+                'Access-Control-Allow-Origin': '*', // Allows any origin to access this function
+                'Content-Type': 'application/json'
+            },
             body: JSON.stringify(data),
         };
     } catch (error) {
         return {
             statusCode: 500,
+            headers: {
+                'Access-Control-Allow-Origin': '*', // Allows any origin to access this function
+            },
             body: JSON.stringify({ error: 'Failed to fetch calendar events' }),
         };
     }
 };
-
