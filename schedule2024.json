@@ -135,7 +135,7 @@
             "details": "We’ll close the event in the most fitting way—by playing. Emily Koonce will lead us through an interactive online playful session, followed by an open mic where the audience can share their thoughts, ideas, and suggestions for the next edition of GAIA, giving everyone a chance to contribute to the future of the event.",
             "participants": [
               {"id": "emily"},
-              {"id": "LuO"}
+              {"id": "LuO", "role": "host"}
             ]
           }
         ]
