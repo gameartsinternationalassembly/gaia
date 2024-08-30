@@ -9,6 +9,15 @@
         "link": "https://www.twitch.tv/fierceaxolotl",
         "years": [2024]
     },
+      {
+        "id": "MarieLB",
+        "image": "img/participants/MarieLB.png",
+        "alt": "Jonathan profile photo",
+        "title": "Marie LeBlanc Flanagan",
+        "country": "🇨🇦 Canada",
+        "details": "is an artist working in the playful spaces between people, especially related to connection and community. Marie builds experimental video games, playful installations, and cooperative experiences. Marie has an enduring fondness for the infinite possibilities of trash. Marie founded Wyrd Arts Initiatives (a nationwide nonprofit dedicated to encouraging, documenting, and connecting creative expression across Canada), A Kind of Play (workshops on making experimental games), Drone Day (an annual international celebration of drone music communities) and co-founded Imaginary Residency (an artist-run online residency).",
+        "years": [2024]
+    },
        {
         "id": "LanRoed",
         "image": "img/participants/LanRoed.png",
