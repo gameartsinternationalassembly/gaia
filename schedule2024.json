@@ -53,7 +53,7 @@
               {"id": "IsabelleA"},
               {"id": "NicoV"},
               {"id": "SamuelB"}, 
-              {"id": "InesLl", "role": "host"}
+              {"id": "PFQ", "role": "host"}
             ]
           },
              {
@@ -85,7 +85,7 @@
             "details": "A conversation highlighting two approaches to transforming physical gallery experiences into immersive virtual worlds. Drawing from the creators' work with The ZIUM MUSEUM and the Mackenzie Gallery's digital kit, this session will focus on how best to adapt and translate the physical into the digital realm andexplore practical strategies for future digital curation.",
             "participants": [
               {"id": "Cat&Jonathan"},
-              {"id": "MichaelB"},
+              {"id": "Louis"},
               {"id": "Agnes", "role": "host"}
             ]
           },
@@ -121,7 +121,7 @@
           },
           {
             "title": "Return of the GACK",
-            "time": "20:15 - 21:00",
+            "time": "20:30 - 21:15",
             "details": "This session is an invitation to revisit the original Game Arts Curatorial Kit, featuring the official presentation of its physical edition, released earlier this year. We will then explore the next steps: updating the content to tackle new challenges in video game curation and fostering sustainable communities. Join us in shaping the future of the GACK and contributing to its ongoing evolution.",
             "participants": [
               {"id": "Chaz"},
@@ -131,7 +131,7 @@
           },
           {
             "title": "Playful session + Open mic",
-            "time": "21:00 - 21:10",
+            "time": "21:30 - 22:15",
             "details": "We’ll close the event in the most fitting way—by playing. Emily Koonce will lead us through an interactive online playful session, followed by an open mic where the audience can share their thoughts, ideas, and suggestions for the next edition of GAIA, giving everyone a chance to contribute to the future of the event.",
             "participants": [
               {"id": "emily"},
