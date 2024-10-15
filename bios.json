@@ -10,6 +10,16 @@
         "years": [2024]
     },
        {
+        "id": "Hippolyte Caubet",
+        "image": "img/participants/HippolyteCaubet-small.png",
+        "alt": "Hippolyte photo",
+        "title": "Hippolyte Caubet",
+        "country": "🇫🇷 France",
+        "details": "(he/him) is a game designer and programmer at Nerial | Devolver Digital, a teacher in psychology of games and game design in France and an involved individual in building a brighter, more inclusive and more respectful future for the industry. Along with the non-profit organization he's part of, Game Impact, he works on a daily basis in various local actions in schools or online to raise awareness on the many social impacts of games.",
+        "link": "https://fr.linkedin.com/in/hippolyte-caubet-a18a94174",
+        "years": [2024]
+    },
+       {
         "id": "LuO",
         "image": "img/participants/LuO.png",
         "alt": "Lujan Oulton photo",
@@ -214,7 +224,7 @@
         "alt": "Pablo profile photo",
         "title": "Pablo F. Quarta",
         "country": "🇦🇷 Argentina",
-        "details": "Narrative designer and producer. Pablo was co-founder of Matajuegos an Argentine game worker’s co-op dedicated to creating independent videogames with strong social, political, and artistic perspectives that draw from contemporary Latin American culture and identity (2020-2023) Pablo was the producer of the award-winning surrealist documentary game ATUEL.",
+        "details": "is a narrative designer and game producer who specializes in the development of videogames with strong social, political, and cultural perspectives that draw from Latin American culture and identity. They are part of the development team of the award-winning surrealist documentary game Atuel, and were one of the co-founders of Matajuegos, Argentina’s very first indie game workers’ co-op. Pablo has given talks on their work at international events such as the GDC, IndieCade, and DIGRA. They also teach game and narrative design at the National University Scalabrini Ortiz and the University Torcuato Di Tella in Buenos Aires.",
         "link": "https://www.linkedin.com/in/pablo-f-quarta/?originalSubdomain=ar",
         "years": [2024]
     },
@@ -244,7 +254,7 @@
         "alt": "Laura profile photo",
         "title": "Laura Gonzalez",
         "country": "🇪🇸 Spain",
-        "details": "~~~~~~~~~~~ ~~~~~~~~~~~ BIO coming soon! ~~~~~~~~~~~ ~~~~~~~~~~~ ",
+        "details": "is the Co-founder  of IndieDevDay and the Director of PowerUp+ a pre incubator with gender perspective.She is a Full Stack Programmer but helping the Indie Video game industry in spain become her full time Job. She is part of FEMDEVS, and loves to collaborate with initiatives like Girls Make Games or WomenGameJam International to improve the access of women and minorities in the videogame industry.",
         "link": "http://lauragonzafer.com/",
         "years": [2024]
     },
@@ -262,7 +272,7 @@
         "id": "NicoV",
         "image": "img/participants/NicoV.png",
         "alt": "Nico Valdivia profile photo",
-        "title": "Nicolas Valdivia Henning",
+        "title": "Nico Valdivia Hennig",
         "country": "🇨🇱 Chile",
         "details": "is a Chilean game designer, psychologist, and cultural studies researcher with a decade of experience in game design. Currently, as a PhD student in Hispanic Studies at the University of California, Riverside, their focus is on ludic activism, game design, and production in the Global South, particularly in Latin America. Nico co-founded Niebla Games, launching games for PC and mobile platforms, and will soon be an artist-in-residence of the Speculative Play and Just Futurities program at Indiana University. At the University of California, Riverside, they have been organizing events around 'Impactful Games & Ludic Activism,' showcasing games like 'Liyla & the Shadows of War' with Rasheed Abueideh, and 'Atuel' with Pablo Quarta from Matajuegos. The upcoming event will focus on ludic activism from Ukraine. Additionally, Nico was recently nominated with their team for the AMaze/Berlin Festival of Experimental Game Art 2024.",
         "link": "https://www.linkedin.com/in/nico-valdivia-hennig/?originalSubdomain=cl",

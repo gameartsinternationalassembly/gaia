@@ -37,7 +37,7 @@
           {
             "title": "Fostering local art games through press",
             "time": "19:00 - 19:50",
-            "details": "A panel discussion about creating unique editorial projects that elevate the visibility of independent and artistic game productions and explore their crossover with other media. We’ll be hearing from Mer Grazzini, from PressOver (a website, podcast series and exhibit focused on Argentine and Latin American indie games), and from Angelo Careri, editor of the French magazine Immersion that blends film and video games.",
+            "details": "A panel discussion about creating unique editorial projects that elevate the visibility of independent and artistic game productions and explore their crossover with other media. We’ll be hearing from Mer Grazzini, from PressOver (a website, podcast series and exhibit focused on Argentine and Latin American indie games), and from Angelo Careri, editor of the French magazine Immersion.",
             "participants": [
               {"id": "MerGrazzini"},
               {"id": "Angelo"},
@@ -62,7 +62,7 @@
             "details": "This session will present a new initiative begun in response to the current war in Palestine to support Palestinian creators in making games that could not be made otherwise. Several of the network's organizers will present its current state, goals, needs, and what it offers, and invite listeners to join, take action, and grow the network.",
             "participants": [
               {"id": "MarieJ"},
-              {"id": "TBC"},
+              {"id": "Hippolyte Caubet"},
               {"id": "TBC"},
               {"id": "ShalevM", "role": "host"}
             ]
@@ -82,7 +82,7 @@
           {
             "title": "From Physical to Virtual: Curating Digital Art Experiences",
             "time": "17:00 - 17:45",
-            "details": "A conversation highlighting two approaches to transforming physical gallery experiences into immersive virtual worlds. Drawing from the creators' work with The ZIUM MUSEUM and the Mackenzie Gallery's digital kit, this session will focus on how best to adapt and translate the physical into the digital realm andexplore practical strategies for future digital curation.",
+            "details": "A conversation highlighting two approaches to transforming physical gallery experiences into immersive virtual worlds. Drawing from the artist' work with Monuments to Guilt and the Mackenzie Gallery's digital kit, this session will focus on how best to adapt and translate the physical into the digital realm andexplore practical strategies for future digital curation.",
             "participants": [
               {"id": "Cat&Jonathan"},
               {"id": "Louis"},
