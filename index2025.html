@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet" />
+    <title>Game Arts International Assembly</title>
+
+    <meta name="author" content="Marie Claire LeBlanc Flanagan" />
+    <meta name="description" content="A gathering of games curators, connectors, and intermediaries around the world" />
+
+    <meta property="og:title" content="Game Arts International Assembly" />
+    <meta property="og:description" content="A gathering of games curators, connectors, and intermediaries around the world" />
+
+    <meta property="og:image" content="https://gameartsinternationalassembly.com/img/gaiaColour.png" />
+
+    <meta property="og:url" content="https://gameartsinternationalassembly.com" />
+    <meta property="og:type" content="webpage" />
+
+    <meta name="twitter:title" content="Game Arts International Assembly" />
+    <meta name="twitter:description" content="A gathering of games curators, connectors, and intermediaries around the world" />
+    <meta name="twitter:image" content="img/gaiaColour.png" id="indexImage" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+
+  <body>
+    <header>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+
+      <div>
+        <a href=""><img alt="" /></a>
+      </div>
+      <nav>
+        <ul class="navigationMenu">
+          <li>
+            <a href="index.html">ABOUT</a>
+          </li>
+          <li>
+            <a href="index.html#upcoming">UPCOMING</a>
+          </li>
+          <li>
+            <a href="index.html#previous">PREVIOUS</a>
+          </li>
+          <!-- <li>
+              <a href="index.html#resources">RESOURCES</a>
+            </li> -->
+          <li>
+            <a href="index.html#programmers">PROGRAMMERS</a>
+          </li>
+          <li>
+            <a href="index.html#partners">PARTNERS</a>
+          </li>
+          <li>
+            <a href="index.html#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <img class="landingImg" src="img/gaiaColour.png" alt="GAIA Logo" />
+        <h1 id="about">GAME ARTS INTERNATIONAL ASSEMBLY</h1>
+
+        <section class="contentContainer">
+          <p>The Game Arts International Assembly will happen ONLINE on Tuesday Sept. 10th and Thursday Sept. 19th.</p>
+
+          <p>
+            This time GAIA will host 12 sessions distributed in 2 days with over 20 curators, community organizers and cultural producers from 16
+            countries from around the world. We will cover a wide range of topics such as online curation and community caring to innovative editorial
+            approaches. In addition to talks sharing personal experiences, playful workshops, and practical sessions, GAIA will include an online
+            artgames showcase. Sessions will take place via private Zoom meetings. Those interested in attending are required to sign up by filling
+            out <a href="https://forms.gle/jBbHAh9zuDzytrei9"><span style="font-weight: bold">this form</span></a
+            >.
+          </p>
+        </section>
+
+        <h2>GAIA 2024 Participants</h2>
+
+        <section id="bios" class="contentContainer">
+          <div class="heroBanner">
+            <button class="prev" onclick="changeBio(-1)">&#10094;</button>
+
+            <div class="bioCards">
+              <div id="bioContainer" class="bioCards"></div>
+            </div>
+
+            <button class="next" onclick="changeBio(1)">&#10095;</button>
+          </div>
+          <br />
+          <br />
+          <br />
+
+          <p>
+            <span id="participantsList">2024 Participants: </span>
+          </p>
+        </section>
+
+        <!-- <section class="contentContainer" id="">
+          <a role="button" href="bios.html" class="btn-bios">All Speaker Bios</a>
+        </section> -->
+
+        <h2>GAIA 2025 Program</h2>
+
+        <section class="contentContainer" id="">
+          <section class="textBox-btn" id="daySelector">
+            <a role="button" href="#day1" class="btn-d3 yearbtn" data-day="Day 1"> Day 1</a>
+            <a role="button" href="#day2" class="btn-d2 yearbtn" data-day="Day 2">Day 2</a>
+          </section>
+
+          <div class="grid"></div>
+        </section>
+      </div>
+      <!-- program content section ~ end -->
+
+      <br />
+      <br />
+      <script src="scheduleGenerator.js" defer></script>
+      <script src="bioGenerator.js" defer></script>
+    </main>
+  </body>
+</html>
