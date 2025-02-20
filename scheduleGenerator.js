@@ -1,8 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
+  const scriptTag = document.currentScript || document.querySelector('script[src*="scheduleGenerator.js"]');
+  const year = scriptTag.getAttribute('data-year');
+  
+  if (!year) {
+    console.error('No year specified for schedule generator');
+    return;
+  }
+
   let biosData = {};
   let isFirstDay = true;
 
-  // Fetch bios data
+  // Fetch bios data and then schedule
   fetch('bios.json')
     .then(response => response.json())
     .then(bios => {
@@ -13,10 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return acc;
       }, {});
     })
-    .then(() => {
-      // Fetch schedule data after bios data is loaded
-      return fetch('schedule2024.json');
-    })
+    .then(() => fetch(`schedule${year}.json`)) // Use dynamic year
     .then(response => response.json())
     .then(schedule => {
       const gridContainer = document.querySelector('.grid');
@@ -25,10 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
       }
 
-      if (!Array.isArray(schedule.days)) {
-        console.error('Invalid schedule format');
-        return;
-      }
+      const isOnlineYear = schedule.isOnlineYear || false; // Get the year-level flag
 
       schedule.days.forEach(day => {
         if (!day.id) {
@@ -36,6 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
           return;
         }
 
+        // Create day container first
         const dayContainer = document.createElement('div');
         dayContainer.className = 'grid-item';
         dayContainer.id = day.id;
@@ -49,14 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
         dayHeader.className = 'date';
         dayHeader.textContent = `Day ${day.id.slice(-1)}: ${day.date || 'Date TBA'}`;
         dayContainer.appendChild(dayHeader);
-
-        // Add registration info
-        const registration = document.createElement('h4');
-        registration.className = 'location-program';
-        // registration.innerHTML = '<span aria-hidden="true">&#x1f4cd;</span><a href="https://forms.gle/29P25sAUAEZ9MAti8">Registration Form</a>';
-        dayContainer.appendChild(registration);
-
-        // Handle sessions
+        
         if (Array.isArray(day.sessions)) {
           day.sessions.forEach(session => {
             // Session title
@@ -64,19 +60,26 @@ document.addEventListener('DOMContentLoaded', function() {
             sessionTitle.className = 'title';
             sessionTitle.textContent = session.title || 'Session Title TBA';
             dayContainer.appendChild(sessionTitle);
-
-            // Session details
+        
+            // Create session details element
             const sessionDetails = document.createElement('p');
             sessionDetails.className = 'details';
-
-            // Handle time and duration
+        
+            // Time handling with year-level online check
             if (session.time) {
               const timeParts = session.time.split(' - ');
               const startTime = timeParts[0];
               const endTime = timeParts[1];
               const duration = calculateDuration(startTime, endTime);
-              const localTime = convertToLocalTime(session.time);
-              sessionDetails.innerHTML = `<span>${session.time} CEST // ${localTime} (${duration})</span><br />`;
+              
+              if (isOnlineYear) {
+                // Online year: show timezone conversion
+                const localTime = convertToLocalTime(session.time);
+                sessionDetails.innerHTML = `<span>${session.time} CEST // ${localTime} (${duration})</span><br />`;
+              } else {
+                // In-person year: only show original time and duration
+                sessionDetails.innerHTML = `<span>${session.time} (${duration})</span><br />`;
+              }
             } else {
               sessionDetails.innerHTML = '<span>Time to be announced</span><br />';
             }
@@ -233,13 +236,13 @@ function calculateDuration(startTime, endTime) {
 function convertToLocalTime(ceTime) {
   try {
     const timeParts = ceTime.split(' - ');
-    console.log("CEST Time Parts:", timeParts);
+    // console.log("CEST Time Parts:", timeParts);
 
     const startTime = new Date(`1970-01-01T${timeParts[0]}:00+02:00`); // CEST offset is UTC+2
     const endTime = new Date(`1970-01-01T${timeParts[1]}:00+02:00`);
     
-    console.log("Start Time:", startTime);
-    console.log("End Time:", endTime);
+    // console.log("Start Time:", startTime);
+    // console.log("End Time:", endTime);
 
     const timeOptions = { hour: '2-digit', minute: '2-digit', hour12: false };
     const timezoneOptions = { timeZoneName: 'short' };
@@ -248,9 +251,9 @@ function convertToLocalTime(ceTime) {
     const localEndTime = endTime.toLocaleTimeString([], timeOptions);
     const timezone = startTime.toLocaleTimeString([], timezoneOptions).split(' ').pop() || 'local time';
     
-    console.log("Local Start Time:", localStartTime);
-    console.log("Local End Time:", localEndTime);
-    console.log("Detected Timezone:", timezone);
+    // console.log("Local Start Time:", localStartTime);
+    // console.log("Local End Time:", localEndTime);
+    // console.log("Detected Timezone:", timezone);
 
     // Handle the case where the second time is the same as the first time
     if (localStartTime === localEndTime) {
@@ -265,7 +268,7 @@ function convertToLocalTime(ceTime) {
     }
 
     // Return the formatted time range with the timezone
-    console.log("Returning converted time range:", `${localStartTime} - ${localEndTime} ${timezone}`);
+    // console.log("Returning converted time range:", `${localStartTime} - ${localEndTime} ${timezone}`);
     return `${localStartTime} - ${localEndTime} ${timezone}`;
   } catch (error) {
     console.error('Error converting time:', error);

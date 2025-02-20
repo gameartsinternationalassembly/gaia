@@ -1,11 +1,9 @@
-let currentBio = 0;
-
 document.addEventListener("DOMContentLoaded", function () {
   fetch("bios.json")
     .then((response) => response.json())
     .then((bios) => {
       const bioContainer = document.getElementById("bioContainer");
-      const participantsList = document.getElementById("participantsList"); // Ensure you have an element with this ID in your HTML
+      const participantsList = document.getElementById("participantsList");
       const currentYear = 2024;
 
       const filteredBios = bios.filter((bio) => bio.years.includes(currentYear));
@@ -29,31 +27,15 @@ document.addEventListener("DOMContentLoaded", function () {
         bioCard.id = bio.id;
         bioCard.style.display = "none";
 
+        // Create and setup image with error handling
         const img = document.createElement("img");
-        const baseImagePath = `img/participants/${bio.id}`;
-        const imageExtensions = ["png", "jpg", "jpeg"];
+        img.src = bio.image || "img/participants/defaultProfilePic.png";
         img.alt = bio.alt || "Default profile photo";
         img.className = "profilePic";
-
-        // Check which image file exists and set the img src
-        let imageFound = false;
-        for (const ext of imageExtensions) {
-          const imagePath = `${baseImagePath}.${ext}`;
-          const xhr = new XMLHttpRequest();
-          xhr.open("HEAD", imagePath, false);
-          xhr.send();
-
-          if (xhr.status !== 404) {
-            img.src = imagePath;
-            imageFound = true;
-            break;
-          }
-        }
-
-        // If no image is found, set a default image or handle it accordingly
-        if (!imageFound) {
-          img.src = "img/participants/defaultProfilePic.png"; // Set your default image path here
-        }
+        img.onerror = () => {
+          img.src = "img/participants/defaultProfilePic.png";
+          console.warn(`Failed to load image for ${bio.id}, using default`);
+        };
 
         const title = document.createElement("p");
         title.className = "bioName";
@@ -91,7 +73,6 @@ document.addEventListener("DOMContentLoaded", function () {
             details.innerHTML = link.outerHTML + fullDetailsText;
           });
 
-          // Append a plain space and then the read more link
           details.appendChild(document.createTextNode(" "));
           details.appendChild(readMoreLink);
         } else {
@@ -112,35 +93,31 @@ document.addEventListener("DOMContentLoaded", function () {
         bioContainer.appendChild(bioCard);
 
         // Create participant list entry
-        // Replace the participant list creation part with:
         const participantSpan = document.createElement("span");
         participantSpan.className = `participant color-${index % 4}`;
 
         const participantLink = document.createElement("a");
-  participantLink.href = "#";
-  participantLink.setAttribute("data-bio-id", bio.id);
-  participantLink.textContent = bio.title;
+        participantLink.href = "#";
+        participantLink.setAttribute("data-bio-id", bio.id);
+        participantLink.textContent = bio.title;
 
-  const countrySpan = document.createElement("span");
-  countrySpan.className = "country";
-  countrySpan.textContent = ` (${bio.country})`;
+        const countrySpan = document.createElement("span");
+        countrySpan.className = "country";
+        countrySpan.textContent = ` (${bio.country})`;
 
+        participantSpan.appendChild(participantLink);
+        participantSpan.appendChild(countrySpan);
+        participantsList.appendChild(participantSpan);
 
-  participantSpan.appendChild(participantLink);
-  participantSpan.appendChild(countrySpan);
-  participantsList.appendChild(participantSpan);
+        // Add comma and space if not last item
+        if (index < filteredBios.length - 1) {
+          const separator = document.createElement("span");
+          separator.className = "separator";
+          separator.textContent = ", ";
+          participantsList.appendChild(separator);
+        }
+      });
 
-
-       // Add comma and space if not last item
-  if (index < filteredBios.length - 1) {
-    const separator = document.createElement("span");
-    separator.className = "separator";
-    separator.textContent = ", ";
-    participantsList.appendChild(separator);
-  }
-});
-
-    
       // Initialize the first bio display
       let currentBio = 0;
       showBio(currentBio);
@@ -173,12 +150,10 @@ document.addEventListener("DOMContentLoaded", function () {
             break;
           }
         }
-        // Scroll to the #bios section
         const biosSection = document.getElementById("bios");
         if (biosSection) {
           biosSection.scrollIntoView({ behavior: "smooth" });
         }
-        // Update the URL hash without jumping
         history.pushState(null, null, `#bios`);
       }
 

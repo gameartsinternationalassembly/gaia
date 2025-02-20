@@ -11,7 +11,7 @@
     },
        {
         "id": "Hippolyte Caubet",
-        "image": "img/participants/HippolyteCaubet-small.png",
+        "image": "img/participants/HippolyteCaubet.png",
         "alt": "Hippolyte photo",
         "title": "Hippolyte Caubet",
         "country": "🇫🇷 France",
@@ -26,7 +26,7 @@
         "title": "Luján Oulton",
         "country": "🇪🇸 Spain",
         "details": "is a games curator, cultural producer and lecturer with a Master Degree in Communication and Cultural Creation by Walter Benjamin Foundation. Currently Luján is Artistic Director of Now Play This Festival (London), producer of GAIA and co-editor of Cuadernos de Game Studies at Universidad de Palermo. Among diverse exhibitions and new media art projects she created and produced Game on! El arte en juego an artgames and playful media exhibit that ran in Argentina for over a decade. In 2019 she co-founded GAIA (Game Arts International Assembly) with Jim Munroe (Canada) Lujan is also member of the GameStudies group at IIEAC (Instituto de Investigación y Experimentación en Arte y Crítica) and cofounder of Women in Games Argentina.",
-        "years": [2024]
+        "years": [2019,2021,2023,2025]
     },
       {
         "id": "MarieLB",
@@ -35,7 +35,7 @@
         "title": "Marie LeBlanc Flanagan",
         "country": "🇨🇦 Canada",
         "details": "is an artist working in the playful spaces between people, especially related to connection and community. Marie builds experimental video games, playful installations, and cooperative experiences. Marie has an enduring fondness for the infinite possibilities of trash. Marie founded Wyrd Arts Initiatives (a nationwide nonprofit dedicated to encouraging, documenting, and connecting creative expression across Canada), A Kind of Play (workshops on making experimental games), Drone Day (an annual international celebration of drone music communities) and co-founded Imaginary Residency (an artist-run online residency).",
-        "years": [2024]
+        "years": [2021,2023,2025]
     },
        {
         "id": "LanRoed",
