@@ -1,23 +1,22 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // Get the target year from the script tag's data attribute
+  const scriptTag = document.querySelector('script[src="bioGenerator.js"]');
+  const targetYear = parseInt(scriptTag.getAttribute('data-year'));
+
   fetch("bios.json")
     .then((response) => response.json())
     .then((bios) => {
       const bioContainer = document.getElementById("bioContainer");
       const participantsList = document.getElementById("participantsList");
-      const currentYear = 2024;
 
-      const filteredBios = bios.filter((bio) => bio.years.includes(currentYear));
+      // Filter bios for the specified year only
+      const filteredBios = bios.filter((bio) => bio.years.includes(targetYear));
 
+      // Sort bios alphabetically by title
       filteredBios.sort((a, b) => {
         const nameA = a.title.toUpperCase();
         const nameB = b.title.toUpperCase();
-        if (nameA < nameB) {
-          return -1;
-        }
-        if (nameA > nameB) {
-          return 1;
-        }
-        return 0;
+        return nameA.localeCompare(nameB);
       });
 
       filteredBios.forEach((bio, index) => {
@@ -51,10 +50,13 @@ document.addEventListener("DOMContentLoaded", function () {
         const details = document.createElement("p");
         details.className = "bioText";
 
-        const link = document.createElement("a");
-        link.href = bio.link;
-        link.textContent = bio.title;
-        details.appendChild(link);
+        // Only create link if bio.link exists
+        if (bio.link) {
+          const link = document.createElement("a");
+          link.href = bio.link;
+          link.textContent = bio.title;
+          details.appendChild(link);
+        }
 
         let fullDetailsText = ` ${bio.details || "Bio coming soon for this wonderful human"}`;
         if (fullDetailsText.length > 500) {
@@ -70,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
           readMoreLink.style.cursor = "pointer";
           readMoreLink.addEventListener("click", function (event) {
             event.preventDefault();
-            details.innerHTML = link.outerHTML + fullDetailsText;
+            details.innerHTML = (bio.link ? `<a href="${bio.link}">${bio.title}</a>` : "") + fullDetailsText;
           });
 
           details.appendChild(document.createTextNode(" "));
@@ -118,69 +120,71 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       });
 
-      // Initialize the first bio display
-      let currentBio = 0;
-      showBio(currentBio);
-
-      function showBio(index) {
-        const bios = document.getElementsByClassName("bioCard");
-        if (index >= bios.length) {
-          currentBio = 0;
-        }
-        if (index < 0) {
-          currentBio = bios.length - 1;
-        }
-        for (let i = 0; i < bios.length; i++) {
-          bios[i].style.display = "none";
-        }
-        bios[currentBio].style.display = "flex";
-      }
-
-      function changeBio(n) {
-        currentBio += n;
+      // Initialize the first bio display if there are any bios
+      if (filteredBios.length > 0) {
+        let currentBio = 0;
         showBio(currentBio);
-      }
 
-      function showBioById(bioId) {
-        const bios = document.getElementsByClassName("bioCard");
-        for (let i = 0; i < bios.length; i++) {
-          if (bios[i].id === bioId) {
-            currentBio = i;
-            showBio(i);
-            break;
+        function showBio(index) {
+          const bios = document.getElementsByClassName("bioCard");
+          if (index >= bios.length) {
+            currentBio = 0;
           }
+          if (index < 0) {
+            currentBio = bios.length - 1;
+          }
+          for (let i = 0; i < bios.length; i++) {
+            bios[i].style.display = "none";
+          }
+          bios[currentBio].style.display = "flex";
         }
-        const biosSection = document.getElementById("bios");
-        if (biosSection) {
-          biosSection.scrollIntoView({ behavior: "smooth" });
+
+        function changeBio(n) {
+          currentBio += n;
+          showBio(currentBio);
         }
-        history.pushState(null, null, `#bios`);
-      }
 
-      // Add event listeners for the bio links
-      const links = document.querySelectorAll("a[data-bio-id]");
-      links.forEach((link) => {
-        link.addEventListener("click", function (event) {
-          event.preventDefault();
-          const bioId = this.getAttribute("data-bio-id");
-          showBioById(bioId);
+        function showBioById(bioId) {
+          const bios = document.getElementsByClassName("bioCard");
+          for (let i = 0; i < bios.length; i++) {
+            if (bios[i].id === bioId) {
+              currentBio = i;
+              showBio(i);
+              break;
+            }
+          }
+          const biosSection = document.getElementById("bios");
+          if (biosSection) {
+            biosSection.scrollIntoView({ behavior: "smooth" });
+          }
+          history.pushState(null, null, `#bios`);
+        }
+
+        // Add event listeners for the bio links
+        const links = document.querySelectorAll("a[data-bio-id]");
+        links.forEach((link) => {
+          link.addEventListener("click", function (event) {
+            event.preventDefault();
+            const bioId = this.getAttribute("data-bio-id");
+            showBioById(bioId);
+          });
         });
-      });
 
-      // Add event listeners for next and previous bio buttons
-      const prevButton = document.querySelector(".prev");
-      const nextButton = document.querySelector(".next");
+        // Add event listeners for next and previous bio buttons
+        const prevButton = document.querySelector(".prev");
+        const nextButton = document.querySelector(".next");
 
-      if (prevButton) {
-        prevButton.addEventListener("click", function () {
-          changeBio(-1);
-        });
-      }
+        if (prevButton) {
+          prevButton.addEventListener("click", function () {
+            changeBio(-1);
+          });
+        }
 
-      if (nextButton) {
-        nextButton.addEventListener("click", function () {
-          changeBio(1);
-        });
+        if (nextButton) {
+          nextButton.addEventListener("click", function () {
+            changeBio(1);
+          });
+        }
       }
     })
     .catch((error) => console.error("Error fetching bios:", error));

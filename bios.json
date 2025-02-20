@@ -85,7 +85,7 @@
         "country": "🇩🇰 Denmark",
         "details": "is a designer and artist based in Copenhagen. He currently works as a game designer and director at Bird Island, and co-runs the political-sci-fi project Speculative Tourism.Previously he was the games curator at Print Screen Festival, a lecturer at Shenkar College’s Game Center, and a game designer at various companies. He received his B.A. from TAU's Honors Program in the Humanities and Arts, and his M.A. in Game Design from The Royal Danish Academy of Fine Arts.",
         "link": "https://www.shalevmoran.com/",
-        "years": [2024]
+        "years": [2024,2025]
     },
     {
         "id": "MarrioB",
@@ -125,7 +125,7 @@
         "country": "🇫🇷 France",
         "details": "is the chief editor of Immersion magazine and a researcher in the digital lab of École des Beaux Arts de Lyon (Unité de Recherche Numérique). His artistic practice mainly involves writing and performing, with a focus on political themes and utopias. He currently teaches video game theory at Ecole de Communication Visuelle and ITECOM Art & Design (Paris).",
         "link": "",
-        "years": [2024]
+        "years": [2024,2025]
     },
     {
         "id": "Cat&Jonathan",
@@ -136,6 +136,16 @@
         "details": "specialize in game design, expanded reality, and performance. Working together as SpekWork Studio they’ve created games, performances, and immersive experiences that explore technology’s ability to obscure the line between work and play. They’ve exhibited internationally with prominent institutions including Rhizome and the New Museum (2020) and the Venice Architecture Biennale (2018) as part of the American Pavillion’s corollary exhibits, and featured recently with the Fotomuseum Winterthur (2024), the Milan Machinima Festival (2024), the Singapore Art Museum (2023), Art Gallery of Regina (2023), and the Art Gallery of Grande Prairie (2022).Since 2019, they’ve spearheaded digital programs at the MacKenzie Art Gallery (Regina, Saskatchewan, Treaty 4 Territory, Canada), overseeing digital exhibitions and residency programs. They are currently developing the Gallery’s Digital Exhibition Toolkit and Art Installation Launcher (DETAIL) for public release in late 2024.",
         "link": "http://www.catbluemke.com/",
         "years": [2024]
+    },
+    {
+        "id": "CatB",
+        "image": "img/participants/Cat&Jonathan.png",
+        "alt": "Cat&Jonathanprofile photo",
+        "title": "Cat Bluemke",
+        "country": "🇨🇦 Canadá",
+        "details": "specialize in game design, expanded reality, and performance. Working as SpekWork Studio they’ve created games, performances, and immersive experiences that explore technology’s ability to obscure the line between work and play. They’ve exhibited internationally with prominent institutions including Rhizome and the New Museum (2020) and the Venice Architecture Biennale (2018) as part of the American Pavillion’s corollary exhibits, and featured recently with the Fotomuseum Winterthur (2024), the Milan Machinima Festival (2024), the Singapore Art Museum (2023), Art Gallery of Regina (2023), and the Art Gallery of Grande Prairie (2022).Since 2019, they’ve spearheaded digital programs at the MacKenzie Art Gallery (Regina, Saskatchewan, Treaty 4 Territory, Canada), overseeing digital exhibitions and residency programs. They are currently developing the Gallery’s Digital Exhibition Toolkit and Art Installation Launcher (DETAIL) for public release in late 2024.",
+        "link": "http://www.catbluemke.com/",
+        "years": [2024,2025]
     },
     {
         "id": "Chaz",
@@ -176,7 +186,7 @@
         "country": "🇺🇸 United States",
         "details": "(she/her) is a multi-media artist, writer, and community organizer interested in the intersection of folk games, philosophy, and education. She has worked as an adjunct professor at the NYU Game Center, as the program director of the National Student Leadership Conference's game design high school program, and as a Meow at Babycastles in NYC. She is currently based in Chicago where she can be found turning movies into drinking games and giving riddles to strangers at parties. Her videogame crockpot about being bored in the suburbs released earlier this year.",
         "link": "https://https://www.emilykoonce.com/",
-        "years": [2022, 2024]
+        "years": [2022, 2024,2025]
     },
     {
         "id": "GonzaloB",
@@ -226,7 +236,7 @@
         "country": "🇦🇷 Argentina",
         "details": "is a narrative designer and game producer who specializes in the development of videogames with strong social, political, and cultural perspectives that draw from Latin American culture and identity. They are part of the development team of the award-winning surrealist documentary game Atuel, and were one of the co-founders of Matajuegos, Argentina’s very first indie game workers’ co-op. Pablo has given talks on their work at international events such as the GDC, IndieCade, and DIGRA. They also teach game and narrative design at the National University Scalabrini Ortiz and the University Torcuato Di Tella in Buenos Aires.",
         "link": "https://www.linkedin.com/in/pablo-f-quarta/?originalSubdomain=ar",
-        "years": [2024]
+        "years": [2024,2025]
     },
     {
         "id": "KjellH",
