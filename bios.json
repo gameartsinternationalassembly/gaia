@@ -430,13 +430,13 @@
         "alt": "SimonB profile photo",
         "title": "Simon Bachelier",
         "country": "🇫🇷 France",
-        "details": "Simon is an independent curator exploring the variety of practices in digital games. One of his main focus in his exhibition work has been to experiment about the spaces between the players and the watchers (among visitors). He has also been experimenting around the link between Theater, Perfomance Arts and Digital Games since 2016 with a format he called "Playformance". He has cofounded the French collective "Sous les néons" in 2021 gathering people from Theater and Indie Games, where they explore the connection between stage play and performing games in front of a live (and on-site) audience. ",
+        "details": "Simon is an independent curator exploring the variety of practices in digital games. One of his main focus in his exhibition work has been to experiment about the spaces between the players and the watchers (among visitors). He has also been experimenting around the link between Theater, Perfomance Arts and Digital Games since 2016 with a format he called Playformance. He has cofounded the French collective Sous les néons in 2021 gathering people from Theater and Indie Games, where they explore the connection between stage play and performing games in front of a live (and on-site) audience. ",
         "link": "http//www.simonbachelier.com",
         "years": [2025]
     },
        {
         "id": "Zuraida",
-        "image": "img/participants/Zuraida.png",
+        "image": "img/participants/ZuraidaB.png",
         "alt": "Zuraida profile photo",
         "title": "Zuraida Buter",
         "country": "🇳🇱 Netherlands",
@@ -450,7 +450,7 @@
         "alt": "LorenzoP profile photo",
         "title": "Lorenzo Pilia",
         "country": "🇩🇪/🇮🇹 Germany/Italy",
-        "details": "Lorenzo Pilia is a curator, host and event producer. He's primarily known as the founder and main organiser of Talk & Play, "an event about games for everyone" taking place since 2013 that contributed to the growth of the independent game scene in Berlin. Lorenzo also helps run Saftladen, Berlin’s first indie game collective and co-working space. Previously he worked as a producer for the indie game studio Maschinen-Mensch and as programme manager for A MAZE. / Berlin festival.",
+        "details": "Lorenzo Pilia is a curator, host and event producer. He's primarily known as the founder and main organiser of Talk & Play, <an event about games for everyone> taking place since 2013 that contributed to the growth of the independent game scene in Berlin. Lorenzo also helps run Saftladen, Berlin’s first indie game collective and co-working space. Previously he worked as a producer for the indie game studio Maschinen-Mensch and as programme manager for A MAZE. / Berlin festival.",
         "link": "https://lorenzo.pilia.it/",
         "years": [2019,2025]
     },
