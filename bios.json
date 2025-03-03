@@ -454,4 +454,14 @@
         "link": "https://lorenzo.pilia.it/",
         "years": [2019,2025]
     },
+      {
+        "id": "Marijam Didžgalvytė",
+        "image": "img/participants/MarijamD.png",
+        "alt": "Marijam Didžgalvytė profile photo",
+        "title": "Marijam Didžgalvytė",
+        "country": "🇩🇰 Denmark",
+        "details": "LI'm a writer and passionate advocate for the intersection of gaming and social change. My work often explores how games can foster egalitarian agendas and challenge capitalist norms. I've published a book with Verso Books this year, which has been well-received and is being translated into multiple languages. In the past, I was active in the games industry trade union movement and wrote for many games and culture publications.",
+        "link": "https://www.marijamdid.com/",
+        "years": [2025]
+    },
 ]
