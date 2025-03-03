@@ -3,64 +3,36 @@
   "days": [
     {
       "id": "day1",
-      "date": "Tuesday September 10th",
+      "date": "Tuesday October 7th",
       "sessions": [
         
         
         {
           "title": "Opening words",
-          "time": "16:45 - 17:00",
+          "time": "09:00 - 09:15",
           "details": "GAIA Team intro + program.",
           "participants": []
         },
         
         
         {
-          "title": "The Scene Report",
-          "time": "17:00 - 17:45",
+          "title": "TBC",
+          "time": "09:30 - 11:00",
           "details": "A staple of the event, The Scene Report is a panel that consistently blends new voices with well-established events, celebrating both the evolution and the roots of the artistic, experimental, and indie video game scene. This time time we’ll be hearing from Playtopia (Capetown), OneTwoSix (Los Angeles) the local indie scene in Gothenburg (Sweden), Accion Devs (Argentina) & Indie Dev Day (Spain)",
           "participants": [
-            {
-              "id": "DominiqueG"
-            },
-            {
-              "id": "KjellH"
-            },
-            {
-              "id": "JaminW"
-            },
-            {
-              "id": "LauraG"
-            },
-            {
-              "id": "GonzaloB"
-            },
-            {
-              "id": "ApieOddy",
-              "role": "host"
-            }
           ]
         },
         
         
         {
-          "title": "Supporting local game scenes as community organizers",
+          "title": "TBC",
           "time": "18:00 - 18:45",
-          "details": "As organizers, we seek to cultivate and support our local game scenes but sometimes they are overshadowed by international work. This conversation will give participants an opportunity to enumerate the needs of their local game scenes, the challenges they face, and the resources they thrive on. What strategies might help us connect these resources to our game scenes? We seek to provide a venue for potential and current organizers to share their experience and actionable steps that have worked for them.",
+          "details": "TBC",
           "participants": [
             {
-              "id": "DavidA"
-            },
-            {
               "id": "emily"
-            },
-            {
-              "id": "SebGalvez"
-            },
-            {
-              "id": "SolS",
-              "role": "host"
-            }
+        }
+            
           ]
         },
         
