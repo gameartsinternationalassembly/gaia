@@ -165,7 +165,7 @@
         "country": "🇺🇸 United States",
         "details": "(he/him) is the Director at Night City, a Chicago studio focused on community-based game development, exhibitions, and educational resources. In addition, he is an Assistant Professor of Game Design in Columbia College Chicago where his creative and scholarly agenda emphasizes game experiences in community contexts. A game industry veteran with experience in both programming and design roles, David has worked on projects with companies like Microsoft, Sega, 2K Games, and Nickelodeon. Now he finds creative refuge in independent game development and helping others build, share, and experience amazing games.",
         "link": "https://www.davidantognoli.com/",
-        "years": [2024]
+        "years": [2024,2025]
     },
     {
         "id": "DominiqueG",
@@ -296,7 +296,7 @@
         "country": "🇪🇹 Ethiopia",
         "details": "is an Ethiopian game-thinking expert and ecosystem builder with a background in architectural design, known for her innovative use of games to design environments and frameworks that enhance human experience and problem-solving. As the founder and co-founder of several initiatives, including PlayLab, Digital Learning Hub, and Games For Change Africa, she has been instrumental in advancing the games industry across Africa and Europe. Her work spans over 25 countries, where she has managed projects, curated communities, and led workshops and hackathons. Notably, she was the Game-Thinking Lead for the 'EnterAfrica-Gamify Your City Future!' project with the Goethe-Institut and currently curates Addis Abeba's annual gaming festival, ChewataCon. Bethlehem is also a thought leader in learning experience design, a founding member of the Ethiopian Games Association, and actively involved in global gaming and impact networks.",
         "link": "https://www.linkedin.com/in/beth-ant/",
-        "years": [2024]
+        "years": [2024,2025]
     },
     {
         "id": "PeterD",
@@ -347,7 +347,7 @@
         "projects": "Game Kitchen",
         "details": "is a producer and storyteller currently based in Hong Kong. You can usually find her designing a game or game experience, curating a game-related exhibition, writing research and media pieces on game and gaming (particularly in the sinophone context), teaching game courses in universities.",
         "link": "https://yangjing.one/",
-        "years": [2022,2024]
+        "years": [2022,2024,2025]
     },
     {
         "id": "ArturasR",
@@ -422,6 +422,16 @@
         "country": "🇳🇱 Netherlands",
         "details": "(she/her) is the co-director of The Overkill together with Aike Lütkemöller, a gaming, art and film festival and co- director of Sickhouse, a playful art space in Enschede. As a curator she focuses on digital culture and its impact on our society.",
         "link": "https://www.linkedin.com/in/marie-janin-04219494/",
-        "years": [2022,2024]
-    }
+        "years": [2022,2024,2025]
+    },
+        {
+        "id": "SimonB",
+        "image": "img/participants/SimonB.png",
+        "alt": "SimonB profile photo",
+        "title": "Simon Bachelier",
+        "country": "🇫🇷 France",
+        "details": "Simon is an independent curator exploring the variety of practices in digital games. One of his main focus in his exhibition work has been to experiment about the spaces between the players and the watchers (among visitors). He has also been experimenting around the link between Theater, Perfomance Arts and Digital Games since 2016 with a format he called "Playformance". He has cofounded the French collective "Sous les néons" in 2021 gathering people from Theater and Indie Games, where they explore the connection between stage play and performing games in front of a live (and on-site) audience. ",
+        "link": "http//www.simonbachelier.com",
+        "years": [2025]
+    },
 ]
