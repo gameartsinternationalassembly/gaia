@@ -19,8 +19,7 @@
           "title": "TBC",
           "time": "09:30 - 11:00",
           "details": "A staple of the event, The Scene Report is a panel that consistently blends new voices with well-established events, celebrating both the evolution and the roots of the artistic, experimental, and indie video game scene. This time time we’ll be hearing from Playtopia (Capetown), OneTwoSix (Los Angeles) the local indie scene in Gothenburg (Sweden), Accion Devs (Argentina) & Indie Dev Day (Spain)",
-          "participants": [
-          ]
+          "participants": []
         },
         
         
@@ -28,201 +27,89 @@
           "title": "TBC",
           "time": "18:00 - 18:45",
           "details": "TBC",
-          "participants": [
-            {
-              "id": "emily"
-        }
-            
-          ]
+          "participants": []
         },
         
         
         {
-          "title": "Fostering local art games through press",
+          "title": "TBC",
           "time": "19:00 - 19:50",
-          "details": "A panel discussion about creating unique editorial projects that elevate the visibility of independent and artistic game productions and explore their crossover with other media. We’ll be hearing from Mer Grazzini, from PressOver (a website, podcast series and exhibit focused on Argentine and Latin American indie games), and from Angelo Careri, editor of the French magazine Immersion.",
-          "participants": [
-            {
-              "id": "MerGrazzini"
-            },
-            {
-              "id": "Angelo"
-            },
-            {
-              "id": "Fierce",
-              "role": "host"
-            }
-          ]
+          "details": "",
+          "participants": []
         },
         
         
         {
-          "title": "Artgames Showcase",
+          "title": "TBC",
           "time": "20:00 - 20:45",
-          "details": "A series of micro-presentations where four artists and developers from different countries will share the exploratory projects they are currently working on. This session offers a global perspective on how video games intersect with other fields and the diverse ways artists are pushing the boundaries and reimagining the medium.",
-          "participants": [
-            {
-              "id": "MarrioB"
-            },
-            {
-              "id": "IsabelleA"
-            },
-            {
-              "id": "NicoV"
-            },
-            {
-              "id": "SamuelB"
-            },
-            {
-              "id": "PFQ",
-              "role": "host"
-            }
-          ]
+          "details": "",
+          "participants": []
         },
         
         
         {
-          "title": "The Palestinian Voices in Games Network",
+          "title": "Tbc",
           "time": "21:00 - 21:30",
-          "details": "This session will present a new initiative begun in response to the current war in Palestine to support Palestinian creators in making games that could not be made otherwise. Several of the network's organizers will present its current state, goals, needs, and what it offers, and invite listeners to join, take action, and grow the network.",
-          "participants": [
-            {
-              "id": "MarieJ"
-            },
-            {
-              "id": "HippolyteC"
-            },
-            {
-              "id": "TBC"
-            },
-            {
-              "id": "ShalevM",
-              "role": "host"
-            }
-          ]
-        }
-      ]
+          "details": "TBC",
+          "participants": []
     },
     
     
     {
       "id": "day2",
-      "date": "Thursday September 19th",
+      "date": "Wednesday October 8th",
       "sessions": [
         
         
         {
           "title": "Opening words",
-          "time": "16:45 - 17:00",
+          "time": "09:00 - 09:15",
           "details": "GAIA team intro + Program presentation",
           "participants": []
         },
         {
-          "title": "From Physical to Virtual: Curating Digital Art Experiences",
+          "title": "TBC",
           "time": "17:00 - 17:45",
-          "details": "A conversation highlighting two approaches to transforming physical gallery experiences into immersive virtual worlds. Drawing from the artist' work with Monuments to Guilt and the Mackenzie Gallery's digital kit, this session will focus on how best to adapt and translate the physical into the digital realm andexplore practical strategies for future digital curation.",
-          "participants": [
-            {
-              "id": "Cat&Jonathan"
-            },
-            {
-              "id": "Louis"
-            },
-            {
-              "id": "Agnes",
-              "role": "host"
-            }
-          ]
+          "details": "TBC",
+          "participants": []
         },
         
         
         {
-          "title": "Sensory Curations: Beyond Traditional Game Exhibits",
+          "title": "TBC",
           "time": "18:00 - 18:45",
-          "details": "This panel invites the audience to rethink the exhibition of video games as a performative space, where the relationship between bodies and games is central. Heather Kelley and Peter Devish will draw from their experiences to explore how cultural spaces can engage all the senses, going beyond visual displays. Together, we’ll delve into case studies and collaboratively develop ideas for a best practices kit that reimagines the physical interaction with games in exhibition settings.",
-          "participants": [
-            {
-              "id": "HeatherK"
-            },
-            {
-              "id": "PeterD"
-            },
-            {
-              "id": "MerlinaraniR",
-              "role": "host"
-            }
-          ]
+          "details": "TBC",
+          "participants": []
         },
         {
-          "title": "Caring and Community - Curating Indigenous Games",
+          "title": "TBC",
           "time": "19:00 - 19:25",
-          "details": "Hexe Fey will lead us in a hybrid talk-workshop, drawing from their personal experience and work within the indigenous game creators community. They will share best practices for supporting the growth of this community and increasing the visibility of their productions. This session offers an opportunity to learn and engage with the unique challenges and opportunities in curating indigenous games.",
-          "participants": [
-            {
-              "id": "HexeF"
-            },
-            {
-              "id": "MarieLB",
-              "role": "host"
-            }
-          ]
+          "details": "",
+          "participants": []
         },
         
         
         {
-          "title": "Caring and Community - Nurturing Healthy Communities: Sustainable Practices in Game Culture",
+          "title": "TBC",
           "time": "19:30 - 20:15",
-          "details": "This session explores strategies for maintaining a vibrant and inclusive game community over time. Allison will discuss the importance of mentorship and supporting new voices. Lan will address how to create accommodating environments for neurodivergent members without requiring disclosure. Tobias will share his insights from over 15 years of experience with building long-term support structures for artistic and community practices. Together, they will offer practical advice on fostering sustainable and healthy communities in game culture.",
-          "participants": [
-            {
-              "id": "LanRoed"
-            },
-            {
-              "id": "allison"
-            },
-            {
-              "id": "TobiasK"
-            },
-            {
-              "id": "BethlehemAnteneh",
-              "role": "host"
-            }
-          ]
+          "details": "TBC.",
+          "participants": []
         },
         
         
         {
-          "title": "Return of the GACK",
+          "title": "TBC",
           "time": "20:30 - 21:15",
-          "details": "This session is an invitation to revisit the original Game Arts Curatorial Kit, featuring the official presentation of its physical edition, released earlier this year. We will then explore the next steps: updating the content to tackle new challenges in video game curation and fostering sustainable communities. Join us in shaping the future of the GACK and contributing to its ongoing evolution.",
-          "participants": [
-            {
-              "id": "Chaz"
-            },
-            {
-              "id": "Angelo"
-            },
-            {
-              "id": "TBC",
-              "role": "host"
-            }
-          ]
+          "details": "TBC",
+          "participants": []
         },
         
         
         {
-          "title": "Playful session + Open mic",
+          "title": "TBC",
           "time": "21:30 - 22:15",
-          "details": "We’ll close the event in the most fitting way—by playing. Emily Koonce will lead us through an interactive online playful session, followed by an open mic where the audience can share their thoughts, ideas, and suggestions for the next edition of GAIA, giving everyone a chance to contribute to the future of the event.",
-          "participants": [
-            {
-              "id": "emily"
-            },
-            {
-              "id": "LuO",
-              "role": "host"
-            }
-          ]
+          "details": "",
+          "participants": []
         }
       ]
     },
@@ -230,60 +117,38 @@
     
     {
       "id": "day3",
-      "date": "Friday September 20th",
+      "date": "Thursday October 9th",
       "sessions": [
         
         
         {
           "title": "Opening words",
-          "time": "16:45 - 17:00",
+          "time": "09:00 - 09:15",
           "details": "GAIA team intro + Program presentation",
           "participants": []
         },
         
         
         {
-          "title": "From Physical to Virtual: Curating Digital Art Experiences",
+          "title": "tbc",
           "time": "17:00 - 17:45",
-          "details": "A conversation highlighting two approaches to transforming physical gallery experiences into immersive virtual worlds. Drawing from the artist' work with Monuments to Guilt and the Mackenzie Gallery's digital kit, this session will focus on how best to adapt and translate the physical into the digital realm andexplore practical strategies for future digital curation.",
-          "participants": [
-            {
-              "id": "Cat&Jonathan"
-            },
-            {
-              "id": "Louis"
-            },
-            {
-              "id": "Agnes",
-              "role": "host"
-            }
-          ]
+          "details": "TBC",
+          "participants": []
         },
         
         
         {
-          "title": "Sensory Curations: Beyond Traditional Game Exhibits",
+          "title": "TBC",
           "time": "18:00 - 18:45",
-          "details": "This panel invites the audience to rethink the exhibition of video games as a performative space, where the relationship between bodies and games is central. Heather Kelley and Peter Devish will draw from their experiences to explore how cultural spaces can engage all the senses, going beyond visual displays. Together, we’ll delve into case studies and collaboratively develop ideas for a best practices kit that reimagines the physical interaction with games in exhibition settings.",
-          "participants": [
-            {
-              "id": "HeatherK"
-            },
-            {
-              "id": "PeterD"
-            },
-            {
-              "id": "MerlinaraniR",
-              "role": "host"
-            }
-          ]
+          "details": ".",
+          "participants": [ ]
         },
         
         
         {
-          "title": "Caring and Community - Curating Indigenous Games",
+          "title": "TBC",
           "time": "19:00 - 19:25",
-          "details": "Hexe Fey will lead us in a hybrid talk-workshop, drawing from their personal experience and work within the indigenous game creators community. They will share best practices for supporting the growth of this community and increasing the visibility of their productions. This session offers an opportunity to learn and engage with the unique challenges and opportunities in curating indigenous games.",
+          "details": "TBC",
           "participants": [
             {
               "id": "HexeF"
@@ -297,43 +162,18 @@
         
         
         {
-          "title": "Caring and Community - Nurturing Healthy Communities: Sustainable Practices in Game Culture",
+          "title": "TBC",
           "time": "19:30 - 20:15",
-          "details": "This session explores strategies for maintaining a vibrant and inclusive game community over time. Allison will discuss the importance of mentorship and supporting new voices. Lan will address how to create accommodating environments for neurodivergent members without requiring disclosure. Tobias will share his insights from over 15 years of experience with building long-term support structures for artistic and community practices. Together, they will offer practical advice on fostering sustainable and healthy communities in game culture.",
-          "participants": [
-            {
-              "id": "LanRoed"
-            },
-            {
-              "id": "allison"
-            },
-            {
-              "id": "TobiasK"
-            },
-            {
-              "id": "BethlehemAnteneh",
-              "role": "host"
-            }
-          ]
+          "details": "",
+          "participants": []
         },
         
         
         {
-          "title": "Return of the GACK",
+          "title": "TBC",
           "time": "20:30 - 21:15",
-          "details": "This session is an invitation to revisit the original Game Arts Curatorial Kit, featuring the official presentation of its physical edition, released earlier this year. We will then explore the next steps: updating the content to tackle new challenges in video game curation and fostering sustainable communities. Join us in shaping the future of the GACK and contributing to its ongoing evolution.",
-          "participants": [
-            {
-              "id": "Chaz"
-            },
-            {
-              "id": "Angelo"
-            },
-            {
-              "id": "TBC",
-              "role": "host"
-            }
-          ]
+          "details": "TBC",
+          "participants": [ ]
         },
         
         
