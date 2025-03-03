@@ -434,4 +434,24 @@
         "link": "http//www.simonbachelier.com",
         "years": [2025]
     },
+       {
+        "id": "Zuraida",
+        "image": "img/participants/Zuraida.png",
+        "alt": "Zuraida profile photo",
+        "title": "Zuraida Buter",
+        "country": "🇳🇱 Netherlands",
+        "details": "(she/her) Zuraida Buter is an award-winning curator of playful culture and arts based in the Netherlands. She specializes in curating, initiating, and documenting events centered on playful culture and games, fostering international collaboration and creative experiences. She is the founder of the playful culture organization zo-ii and co-founder of the Playful Arts Festival, which highlights the intersection of art, play, technology, and design. Zuraida has curated talks and exhibitions at festivals and events worldwide, including IndieCade Europe, A MAZE. / Berlin, and Screenshake. She is also a strong advocate for diversity in the gaming industry through her work with Women in Games NL (WiGNL). Previously, she initiated the Dutch indie game showcase INDIGO and served as Executive Director of the Global Game Jam (2010-2014). She has also lectured on game design theory at the Utrecht School of Arts (HKU) and received accolades such as the IndieCade Game Changer Award (2020) and the EA Award for Achievement and Innovation (2013).",
+        "link": "https://www.zo-ii.com/",
+        "years": [2025]
+    },
+      {
+        "id": "LorenzoP",
+        "image": "img/participants/LorenzoP.png",
+        "alt": "LorenzoP profile photo",
+        "title": "Lorenzo Pilia",
+        "country": "🇩🇪/🇮🇹 Germany/Italy",
+        "details": "Lorenzo Pilia is a curator, host and event producer. He's primarily known as the founder and main organiser of Talk & Play, "an event about games for everyone" taking place since 2013 that contributed to the growth of the independent game scene in Berlin. Lorenzo also helps run Saftladen, Berlin’s first indie game collective and co-working space. Previously he worked as a producer for the indie game studio Maschinen-Mensch and as programme manager for A MAZE. / Berlin festival.",
+        "link": "https://lorenzo.pilia.it/",
+        "years": [2019,2025]
+    },
 ]
