@@ -52,8 +52,9 @@
           "time": "21:00 - 21:30",
           "details": "TBC",
           "participants": []
-    },
-    
+    }
+  ]
+},
     
     {
       "id": "day2",
@@ -141,7 +142,7 @@
           "title": "TBC",
           "time": "18:00 - 18:45",
           "details": ".",
-          "participants": [ ]
+          "participants": []
         },
         
         
@@ -173,7 +174,7 @@
           "title": "TBC",
           "time": "20:30 - 21:15",
           "details": "TBC",
-          "participants": [ ]
+          "participants": [] 
         },
         
         
