@@ -463,5 +463,95 @@
         "details": "LI'm a writer and passionate advocate for the intersection of gaming and social change. My work often explores how games can foster egalitarian agendas and challenge capitalist norms. I've published a book with Verso Books this year, which has been well-received and is being translated into multiple languages. In the past, I was active in the games industry trade union movement and wrote for many games and culture publications.",
         "link": "https://www.marijamdid.com/",
         "years": [2025]
+    },
+      {
+        "id": "Farfama Hargaaya",
+        "image": "img/participants/FarfamaH.png",
+        "alt": "Farfama Hargaaya profile photo",
+        "title": "Farfama Hargaaya",
+        "country": "🇯🇵 Japan",
+        "details": "Farfama is a media artist currently based in Japan, specializing in experimental digital games. His work explores themes of awe, wonder, and playful joy, drawing inspiration from nature, ritual, and everyday observation.",
+        "link": "",
+        "years": [2025]
+    },
+      {
+        "id": "Cindy Poremba",
+        "image": "img/participants/CindyP.png",
+        "alt": "Cindy Poremba profile photo",
+        "title": "Cindy Poremba",
+        "country": "🇨🇦 Canada",
+        "details": "Cindy Poremba has maintained an experimental gamemaking and curatorial practice for almost two decades with a particular interest in captured media practices, and emerging technologies. They are an Associate Professor in Digital Futures at OCAD University (Tkaranto), and Co-Director of OCAD’s game:play Lab. Their award-winning game, curation, and -New Arcade- work (independently and as a member of the kokoromi collective), has been featured in both game and digital art exhibitions internationally.",
+        "link": "https://shinyspinning.com/",
+        "years": [2025]
+    },
+       {
+        "id": "Marina Diez",
+        "image": "img/participants/MarinaD.png",
+        "alt": "Marina Diez profile photo",
+        "title": "Marina Diez",
+        "country": "🇪🇸/🇩🇪 Spain/Germany",
+        "details": "Marina Díez (she/they) is a Spanish award-winning game designer, business expert and filmmaker based in Berlin and London, UK. She's the CEO at Three of Cups Games, an ethical and diverse games studio based in London. Marina is also a Principal Game Designer at BTF Games for The Berlin Apartment. Previously, she was the Lead Game Designer for the game Dordogne by Un Je Ne Sais Quoi Studios & Umanimation. Marina is also a consultant on emotional game design for indie and AAA companies. She is involved in many community initiatives and activism. Marina is also a regular speaker at games events such as GDC, EGX, PAX, A MAZE,... In 2023 she also hosted Independent Games Festival at GDC in San Francisco. Marina is also a film director and her work has been screened and awarded all over the world. Marina is a lister of 100 Most Influential Women in Games 2022, a Forbes 30 Under 30 2021 honoree, a Game Dev Heroes 2020 winner, a former BAFTA Crew member, an IGDA Velocity GDC 2019 recipient.",
+        "link": "https://marinadiez.carrd.co/",
+        "years": [2025]
+    },
+      {
+        "id": "Ferran Bertomeu Castells",
+        "image": "img/participants/FerranB.png",
+        "alt": "Ferran Bertomeu Castells profile photo",
+        "title": "Ferran Bertomeu Castells",
+        "country": "🇪🇸/🇨🇳 Spain/China",
+        "details": "I'm a freelance game designer & developer who has been involved in game development associations and events in Barcelona (VGAFIB & GGJ), and has been involved supporting events like the GAEMZ meetup in Tokyo & online. I've been making music-related video games and games for songs for some time, collaborating with musicians and bands, as well as studying and sharing about music games beyond rhythm games in a couple of events including IndieDevDay.es and Gamedev.world",
+        "link": "https://ferran.games/",
+        "years": [2025]
+    },
+      {
+        "id": "Simona Maioriano",
+        "image": "img/participants/SimonaM.png",
+        "alt": "Simona Maioriano profile photo",
+        "title": "Simona Maioriano",
+        "country": " 🇮🇹 Italy",
+        "details": "Simona Maiorano is a game developer living in Italy. She co-created and curated Antifa Arts and Games, co-founded the local game dev community in Bari and she got a nomination as best talent at Amaze 2019. Simona is currently working on her contemplative narrative game: Sea of Leaves, showcased at Game happens,2019, and contemporary art showcase -Tresette- 2021. Simona also co-created -March Together!- a feminist game showcased at the Overkill Festival, 2024",
+        "link": "https://simonamaiorano.itch.io/",
+        "years": [2025]
+    },
+{
+        "id": "Malath Abbas",
+        "image": "img/participants/MalathA.png",
+        "alt": "Malath Abbas profile photo",
+        "title": "Malath Abbas",
+        "country": " 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland ",
+        "details": "Malath Abbas is a freelance game designer, artist, and producer based in Scotland, specialising in experimental and meaningful games. As a founding member of Biome Collective, Malath has helped establish a creative studio and vibrant community of freelancers—a space where people collaborate to push boundaries in games, digital art, and technology. Malath’s portfolio includes producing and creating impactful projects such as Killbox and Shpeel, as well as founding and producing the Arcadia game festival, which champions marginalised voices in the games industry. With a focus on innovation and inclusion, Malath continues to shape the future of games and interactive experiences.",
+        "link": "https://www.malathabbas.com/",
+        "years": [2025]
+    },
+      {
+        "id": "Roque Piñeiro Vieira",
+        "image": "img/participants/RoqueP.png",
+        "alt": "Roque Piñeiro Vieira profile photo",
+        "title": "Roque Piñeiro Vieira",
+        "country": " 🇪🇸 Spain ",
+        "details": "Jugar Jueguitos was created to foster cultural activity around experimental video games, interactive art, and various artistic expressions influenced and inspired by video games. The project operates both locally in Galicia and digitally on a national and international level. Its goal is to promote, disseminate, and support these forms of expression through exhibitions, workshops, talks, game jams, and online content. Additionally, it aims to establish a community and network of artists.",
+        "link": "https://linktr.ee/jugarjueguitos",
+        "years": [2025]
+    },
+          {
+        "id": "Violeta Moldes Rivas",
+        "image": "img/participants/VioletaM.png",
+        "alt": "Violeta Moldes Rivas profile photo",
+        "title": "Violeta Moldes Rivas",
+        "country": " 🇪🇸 Spain ",
+        "details": "PhD student investigating about imaginaries in coming-of-age narratives in indie games and how they talk about identity, precarity and ecoanxiety",
+        "link": "",
+        "years": [2025]
+    },
+         {
+        "id": "Luis Diaz Peralta",
+        "image": "img/participants/LuisD.png",
+        "alt": "Luis Diaz Peralta profile photo",
+        "title": "Luis Diaz Peralta",
+        "country": " 🇪🇸 Spain ",
+        "details": "I'm a freelance game designer who also makes lots of tiny free games and some commercial ones. I've created and managed many game events of all sorts.",
+        "link": "https://www.linkedin.com/in/ludipe/?originalSubdomain=es",
+        "years": [2025]
     }
 ]
