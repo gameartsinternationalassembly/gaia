@@ -8,8 +8,8 @@
         
         
         {
-          "title": "Opening words",
-          "time": "09:00 - 09:15",
+          "title": "Opening Session",
+          "time": "09:00 - 10:30",
           "details": "GAIA Team + GAMEPLAY Team.",
           "participants": []
         },
@@ -17,7 +17,7 @@
         
         {
           "title": "TBC",
-          "time": "09:30 - 11:00",
+          "time": "11:00 - 12:30",
           "details": "A staple of the event, The Scene Report is a panel that consistently blends new voices with well-established events, celebrating both the evolution and the roots of the artistic, experimental, and indie video game scene. This time time we’ll be hearing from Playtopia (Capetown), OneTwoSix (Los Angeles) the local indie scene in Gothenburg (Sweden), Accion Devs (Argentina) & Indie Dev Day (Spain)",
           "participants": []
         },
@@ -25,7 +25,7 @@
         
         {
           "title": "TBC",
-          "time": "18:00 - 18:45",
+          "time": "15:00 - 16:30",
           "details": "TBC",
           "participants": []
         },
@@ -33,7 +33,7 @@
         
         {
           "title": "TBC",
-          "time": "19:00 - 19:50",
+          "time": "17:00 - 18:00",
           "details": "",
           "participants": []
         },
@@ -41,8 +41,8 @@
         
         {
           "title": "TBC",
-          "time": "20:00 - 20:45",
-          "details": "",
+          "time": "19:00 - 21:00",
+          "details": "Open cocktail",
           "participants": []
         },
         
@@ -179,9 +179,9 @@
         
         
         {
-          "title": "Playful session + Open mic",
-          "time": "21:30 - 22:15",
-          "details": "We’ll close the event in the most fitting way—by playing. Emily Koonce will lead us through an interactive online playful session, followed by an open mic where the audience can share their thoughts, ideas, and suggestions for the next edition of GAIA, giving everyone a chance to contribute to the future of the event.",
+          "title": "GameBCN Demoday 2025",
+          "time": "18:00 - 21:00",
+          "details": " TBC",
           "participants": [
             {
               "id": "emily"
