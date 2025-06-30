@@ -124,7 +124,7 @@
         "title": "Angelo Careri",
         "country": "🇫🇷 France",
         "details": "is the chief editor of Immersion magazine and a researcher in the digital lab of École des Beaux Arts de Lyon (Unité de Recherche Numérique). His artistic practice mainly involves writing and performing, with a focus on political themes and utopias. He currently teaches video game theory at Ecole de Communication Visuelle and ITECOM Art & Design (Paris).",
-        "link": "",
+        "link": "https://immersion-revue.fr/",
         "years": [2024,2025]
     },
     {
@@ -553,5 +553,46 @@
         "details": "I'm a freelance game designer who also makes lots of tiny free games and some commercial ones. I've created and managed many game events of all sorts.",
         "link": "https://www.linkedin.com/in/ludipe/?originalSubdomain=es",
         "years": [2025]
+    },
+               {
+        "id": "Pietro Righi Riva",
+        "image": "img/participants/PietroR.png",
+        "alt": "Pietro Righi Riva profile photo",
+        "title": "Pietro Righi Riva ",
+        "country": " 🇮🇹 Italy ",
+        "details": "Is a game director, producer, and curator specializing in narrative-driven, innovative games for a broad audience. Experienced in leading successful multidisciplinary, diverse, and international teams of various sizes, ensuring excellence despite budget and scheduling constraints. Notable achievements include bringing multiple award-winning, commercially successful games to market. In 2010, Pietro co-founded the indie game studio Santa Ragione. In 2014, he defended his PhD in Interaction Design. In 2016, Pietro started a manifesto for nontraditional game design called Rejecta. In 2018, won the IndieCade Innovation in Experience Design Award, and in 2023, the DStars Award for Best Italian Producer. Since 2024, Pietro has been offering Consultancy Services aimed at independent game creators and small-to-medium sized studios..",
+        "link": "https://www.actofplay.com/",
+        "years": [2025]
+    },
+      {
+        "id": "Luca Carrubba",
+        "image": "img/participants/LucaC.png",
+        "alt": "Luca Carrubba profile photo",
+        "title": "Luca Carrubba",
+        "country": " 🇪🇸 Spain ",
+        "details": "holds a PhD in Fine Arts, is a sociologist of communication and a specialist in interactive technology. Throughout his career he has collaborated with different institutions in Spain and the Americas, such as Centro de Cultura Internacional Tabakalera, Centro de Cultura Digital de México or Idartes Bogotá, among others. As a researcher and academic he has published numerous articles and essays on technology, art, video games and digital culture teaching in different national and international universities. His theoretical production is accompanied by a long history of artistic creation with the project Estereotips.net addressing the computer code as a creative artifact. He is currently curator of the exhibition Homo Ludens: video games to understand the present, by La Caixa Foundation. Before and after all this, Carrubba is co-director of Arsgames, an international organization that works at the crossroads between art, science, technology and citizen participation with video games, a brand under which he currently develops all his projects.",
+        "link": "https://www.linkedin.com/in/luca-carrubba-arsgames?originalSubdomain=es",
+        "years": [2025]
+    },
+           {
+        "id": "Rashel Li",
+        "image": "img/participants/Rashel Li.png",
+        "alt": "Rashel Li profile photo",
+        "title": "Rashel Li",
+        "country": " 🇺🇸 USA ",
+        "details": "TBC.",
+        "link": "https://www.linkedin.com/in/ruixuanli/",
+        "years": [2025]
+    },
+          {
+        "id": "Agustin Crisostomo",
+        "image": "img/participants/Agustin Crisostomo.png",
+        "alt": "Agustin Crisostomo profile photo",
+        "title": "Agustin Crisostomo",
+        "country": "  ",
+        "details": "TBC.",
+        "link": "",
+        "years": [2025]
     }
+      
 ]
