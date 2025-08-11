@@ -52,13 +52,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Only create link if bio.link exists
         if (bio.link) {
-          const link = document.createElement("a");
-          link.href = bio.link;
-          link.textContent = bio.title;
-          details.appendChild(link);
-        }
+  const link = document.createElement("a");
+  link.href = bio.link;
+  link.textContent = bio.title;
+  details.appendChild(link);
+} else {
+  // Add name as plain text if no link exists
+  const nameText = document.createTextNode(bio.title);
+  details.appendChild(nameText);
+}
 
-        let fullDetailsText = ` ${bio.details || "Bio coming soon for this wonderful human"}`;
+let fullDetailsText = ` ${bio.details || "Bio coming soon for this wonderful human"}`;
         if (fullDetailsText.length > 500) {
           const truncatedText = fullDetailsText.slice(0, 500);
           const lastPeriodIndex = truncatedText.lastIndexOf(".");
