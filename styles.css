@@ -937,7 +937,7 @@ img {
 }
 
 .logo {
-  max-width: 20vw;
+  max-width: 5rem;
   margin: 1rem;
   flex-grow: 1;
   flex-basis: 0; /* This ensures that the basis for growth starts from 0 */
@@ -957,7 +957,7 @@ img {
 
 @media screen and (min-width: 900px) {
   .logo {
-    max-width: 20vw;
+    max-width: 250px;
     /* max-height: auto; */
     /* margin: 4rem; */
     flex-grow: 1;
@@ -1810,6 +1810,7 @@ footer {
 
 .prev,
 .next {
+  z-index: 10;
   position: absolute;
   top: 5rem;
   background: rgba(124, 58, 237, 0.1);  /* var(--color-primary) with opacity */

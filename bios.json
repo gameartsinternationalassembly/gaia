@@ -1,7 +1,7 @@
 [
       {
         "id": "Fierce",
-        "image": "img/participants/Fierce.png",
+        "image": "img/participants/FierceA.png",
         "alt": "Fierce photo",
         "title": "Fierce Axolotl",
         "country": "🇲🇽 Mexico",
@@ -11,7 +11,7 @@
     },
        {
         "id": "Hippolyte Caubet",
-        "image": "img/participants/HippolyteCaubet.png",
+        "image": "img/participants/HippolyteC.png",
         "alt": "Hippolyte photo",
         "title": "Hippolyte Caubet",
         "country": "🇫🇷 France",
@@ -30,7 +30,7 @@
     },
       {
         "id": "MarieLB",
-        "image": "img/participants/MarieLB.png",
+        "image": "img/participants/MarieF.png",
         "alt": "Jonathan profile photo",
         "title": "Marie LeBlanc Flanagan",
         "country": "🇨🇦 Canada",
@@ -39,7 +39,7 @@
     },
        {
         "id": "LanRoed",
-        "image": "img/participants/LanRoed.png",
+        "image": "img/participants/LanR.png",
         "alt": "Lan Roed photo",
         "title": "Lan Roed",
         "country": "🇨🇦 Canada",
@@ -59,7 +59,7 @@
     },
       {
         "id": "MerGrazzini",
-        "image": "img/participants/MerGrazzini.png",
+        "image": "img/participants/MerG.png",
         "alt": "mer grazzini photo",
         "title": "Mer Grazzini",
         "country": "🇦🇷 Argentina",
@@ -99,7 +99,7 @@
     },
     {
         "id": "Agnes",
-        "image": "img/participants/Agnes.jpeg",
+        "image": "img/participants/AgnesK.png",
         "alt": "Agnes profile photo",
         "title": "Ágnes Karolina Bakk",
         "country": "🇭🇺 Hungary",
@@ -119,7 +119,7 @@
     },
     {
         "id": "Angelo",
-        "image": "img/participants/Angelo.png",
+        "image": "img/participants/AngeloC.png",
         "alt": "Angelo profile photo",
         "title": "Angelo Careri",
         "country": "🇫🇷 France",
@@ -139,7 +139,7 @@
     },
     {
         "id": "CatB",
-        "image": "img/participants/Cat&Jonathan.png",
+        "image": "img/participants/CatB.png",
         "alt": "Cat&Jonathanprofile photo",
         "title": "Cat Bluemke",
         "country": "🇨🇦 Canadá",
@@ -149,7 +149,7 @@
     },
     {
         "id": "Chaz",
-        "image": "img/participants/Chaz.png",
+        "image": "img/participants/ChazE.png",
         "alt": "Chaz profile photo",
         "title": "Chaz Evans",
         "country": "🇺🇸 United States",
@@ -180,7 +180,7 @@
     },
     {
         "id": "emily",
-        "image": "img/participants/emily.png",
+        "image": "img/participants/EmilyP.png",
         "alt": "Emily profile photo",
         "title": "Emily Koonce",
         "country": "🇺🇸 United States",
@@ -199,8 +199,8 @@
         "years": [2024]
     },
     {
-        "id": "MerlinaraniR",
-        "image": "img/participants/MerlinaraniR.png",
+        "id": "MerlinaR",
+        "image": "img/participants/MerlinaR.png",
         "alt": "Merlina Rañi profile photo",
         "title": "Merlina Rañi",
         "country": "🇪🇸 Spain",
@@ -230,7 +230,7 @@
     },
     {
         "id": "PFQ",
-        "image": "img/participants/PFQ.png",
+        "image": "img/participants/PabloQ.png",
         "alt": "Pablo profile photo",
         "title": "Pablo F. Quarta",
         "country": "🇦🇷 Argentina",
@@ -250,7 +250,7 @@
     },
     {
         "id": "ApieOddy",
-        "image": "img/participants/ApieOddy.png",
+        "image": "img/participants/ApieO.png",
         "alt": "Ophelie profile photo",
         "title": "Ophélie Apie Oddy",
         "country": "🇫🇷 France",
@@ -270,7 +270,7 @@
     },
     {
         "id": "Louis",
-        "image": "img/participants/Louis.png",
+        "image": "img/participants/LouisB.png",
         "alt": "Lous profile photo",
         "title": "Louis Brooks",
         "country": "🇬🇧 UK",
@@ -290,7 +290,7 @@
     },
     {
         "id": "BethlehemAnteneh",
-        "image": "img/participants/BethlehemAnteneh.png",
+        "image": "img/participants/BethlehemA.png",
         "alt": "Bethlehem profile photo",
         "title": "Bethlehem Anteneh",
         "country": "🇪🇹 Ethiopia",
@@ -340,7 +340,7 @@
     },
     {
         "id": "allison",
-        "image": "img/participants/allison.png",
+        "image": "img/participants/AllisonY.png",
         "alt": "Allison profile photo",
         "title": "Allison JingYang",
         "country": "🇨🇳 Hong Kong, China",
@@ -586,7 +586,7 @@
     },
           {
         "id": "Agustin Crisostomo",
-        "image": "img/participants/Agustin Crisostomo.png",
+        "image": "img/participants/AgustinC.png",
         "alt": "Agustin Crisostomo profile photo",
         "title": "Agustin Crisostomo",
         "country": "  ",
