@@ -101,20 +101,40 @@ document.addEventListener('DOMContentLoaded', function() {
               });
 
               // Add hosts
-              hosts.forEach((host, index) => {
-                if (host.id in biosData) {
-                  const bio = biosData[host.id];
-                  const hostLink = document.createElement('a');
-                  hostLink.href = '#bios';
-                  hostLink.setAttribute('data-bio-id', host.id);
-                  hostLink.textContent = `Host: ${bio.title}`;
-                  sessionDetails.appendChild(hostLink);
+              // hosts.forEach((host, index) => {
+              //   if (host.id in biosData) {
+              //     const bio = biosData[host.id];
+              //     const hostLink = document.createElement('a');
+              //     hostLink.href = '#bios';
+              //     hostLink.setAttribute('data-bio-id', host.id);
+              //     hostLink.textContent = `Host: ${bio.title}`;
+              //     sessionDetails.appendChild(hostLink);
 
-                  if (index < hosts.length - 1) {
-                    sessionDetails.innerHTML += ' + ';
-                  }
-                }
-              });
+              //     if (index < hosts.length - 1) {
+              //       sessionDetails.innerHTML += ' + ';
+              //     }
+              //   }
+              // });
+
+              if (hosts.length > 0) {
+  const hostLabel = hosts.length === 1 ? 'Host: ' : 'Hosts: ';
+  sessionDetails.innerHTML += hostLabel;
+  
+  hosts.forEach((host, index) => {
+    if (host.id in biosData) {
+      const bio = biosData[host.id];
+      const hostLink = document.createElement('a');
+      hostLink.href = '#bios';
+      hostLink.setAttribute('data-bio-id', host.id);
+      hostLink.textContent = bio.title;
+      sessionDetails.appendChild(hostLink);
+
+      if (index < hosts.length - 1) {
+        sessionDetails.innerHTML += ' + ';
+      }
+    }
+  });
+}
 
               // Add line break if there are hosts
               if (hosts.length > 0) {

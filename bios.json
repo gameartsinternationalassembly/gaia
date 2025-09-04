@@ -39,6 +39,21 @@
         ]
     },
     {
+        "id": "JimM",
+        "image": "img/participants/JimM.png",
+        "alt": "Jim photo",
+        "title": "Jim Munroe",
+        "country": "Canada",
+        "details": "'s graphic novels and prose novels have gotten him dubbed a “pop culture provocateur” by the Austin Chronicle. His lo-fi sci-fi feature films were praised by Wired and the Guardian, and his political videogames have appeared at Sundance and Cannes. He co-founded the world’s first videogame arts organization and now co-organizes Toronto Games Week. He was an Art Gallery of Ontario Artist-in-Residence in 2014 and he lives in the Junction neighbourhood in Toronto.",
+        "link": "https://jimmunroe.net/about",
+        "years": [
+            2019,
+            2021,
+            2023,
+            2025
+        ]
+    },
+    {
         "id": "MarieF",
         "image": "img/participants/MarieF.png",
         "alt": "Jonathan profile photo",
@@ -314,6 +329,19 @@
         ]
     },
     {
+        "id": "SitheN",
+        "image": "img/participants/SitheN.png",
+        "alt": "SitheN profile photo",
+        "title": "Sithe Ncube",
+        "country": "Zambia",
+        "details": "is Co-Founder and Director of Ubongo Game Lab, an organization that seeks to encourage the growth of the game development community within Zambia. She works to increase the participation of African women in game development within the continent and on the global stage by serving as the Sub-Saharan Africa Regional Organizer for Global Game Jam, the world's largest game development event.",
+        "link": "https://www.linkedin.com/in/sithencube",
+        "years": [
+            2024,
+            2025
+        ]
+    },
+    {
         "id": "KjellH",
         "image": "img/participants/KjellH.png",
         "alt": "Kjell profile photo",
@@ -382,7 +410,8 @@
         "details": "is an Ethiopian game-thinking expert and ecosystem builder with a background in architectural design, known for her innovative use of games to design environments and frameworks that enhance human experience and problem-solving. As the founder and co-founder of several initiatives, including PlayLab, Digital Learning Hub, and Games For Change Africa, she has been instrumental in advancing the games industry across Africa and Europe. Her work spans over 25 countries, where she has managed projects, curated communities, and led workshops and hackathons. Notably, she was the Game-Thinking Lead for the 'EnterAfrica-Gamify Your City Future!' project with the Goethe-Institut and currently curates Addis Abeba's annual gaming festival, ChewataCon. Bethlehem is also a thought leader in learning experience design, a founding member of the Ethiopian Games Association, and actively involved in global gaming and impact networks.",
         "link": "https://www.linkedin.com/in/beth-ant/",
         "years": [
-            2024        ]
+            2024
+        ]
     },
     {
         "id": "PeterD",

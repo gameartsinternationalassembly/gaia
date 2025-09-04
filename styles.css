@@ -1575,7 +1575,8 @@ footer {
 
 /* Host styling */
 .details a[href^="#bios"]:first-of-type {
-  color: var(--color-highlight);
+  /* color: var(--color-highlight); */
+  color: var(--color-tertiary);
   text-decoration: none;
   position: relative;
   transition: all 0.3s ease;

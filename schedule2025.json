@@ -5,186 +5,268 @@
       "id": "day1",
       "date": "Tuesday October 7th",
       "sessions": [
-        
-        
         {
-          "title": "Opening Session",
-          "time": "09:00 - 10:30",
-          "details": "GAIA Team + GAMEPLAY Team.",
-          "participants": []
-        },
-        
-        
-        {
-          "title": "TBC",
-          "time": "11:00 - 12:30",
-          "details": "A staple of the event, The Scene Report is a panel that consistently blends new voices with well-established events, celebrating both the evolution and the roots of the artistic, experimental, and indie video game scene. This time time we’ll be hearing from Playtopia (Capetown), OneTwoSix (Los Angeles) the local indie scene in Gothenburg (Sweden), Accion Devs (Argentina) & Indie Dev Day (Spain)",
-          "participants": []
-        },
-        
-        
-        {
-          "title": "TBC",
-          "time": "15:00 - 16:30",
-          "details": "TBC",
-          "participants": []
-        },
-        
-        
-        {
-          "title": "TBC",
-          "time": "17:00 - 18:00",
-          "details": "",
-          "participants": []
-        },
-        
-        
-        {
-          "title": "TBC",
-          "time": "19:00 - 21:00",
-          "details": "Open cocktail",
-          "participants": []
-        },
-        
-        
-        {
-          "title": "Tbc",
-          "time": "21:00 - 21:30",
-          "details": "TBC",
-          "participants": []
-    }
-  ]
-},
-    
-    {
-      "id": "day2",
-      "date": "Wednesday October 8th",
-      "sessions": [
-        
-        
-        {
-          "title": "Opening words",
-          "time": "09:00 - 09:15",
-          "details": "GAIA team intro + Program presentation",
-          "participants": []
-        },
-        {
-          "title": "TBC",
-          "time": "17:00 - 17:45",
-          "details": "TBC",
-          "participants": []
-        },
-        
-        
-        {
-          "title": "TBC",
-          "time": "18:00 - 18:45",
-          "details": "TBC",
-          "participants": []
-        },
-        {
-          "title": "TBC",
-          "time": "19:00 - 19:25",
-          "details": "",
-          "participants": []
-        },
-        
-        
-        {
-          "title": "TBC",
-          "time": "19:30 - 20:15",
-          "details": "TBC.",
-          "participants": []
-        },
-        
-        
-        {
-          "title": "TBC",
-          "time": "20:30 - 21:15",
-          "details": "TBC",
-          "participants": []
-        },
-        
-        
-        {
-          "title": "TBC",
-          "time": "21:30 - 22:15",
-          "details": "",
-          "participants": []
-        }
-      ]
-    },
-    
-    
-    {
-      "id": "day3",
-      "date": "Thursday October 9th",
-      "sessions": [
-        
-        
-        {
-          "title": "Opening words",
-          "time": "09:00 - 09:15",
-          "details": "GAIA team intro + Program presentation",
-          "participants": []
-        },
-        
-        
-        {
-          "title": "tbc",
-          "time": "17:00 - 17:45",
-          "details": "TBC",
-          "participants": []
-        },
-        
-        
-        {
-          "title": "TBC",
-          "time": "18:00 - 18:45",
-          "details": ".",
-          "participants": []
-        },
-        
-        
-        {
-          "title": "TBC",
-          "time": "19:00 - 19:25",
-          "details": "TBC",
+          "title": "Opening Session (This session is open to the public)",
+          "time": "09:45 - 12:30",
+          "details": "Welcoming words + Pompeu Performance + Scene Report Microtalks",
           "participants": [
             {
-              "id": "HexeF"
+              "id": "MarieF",
+              "role": "host"
             },
             {
-              "id": "MarieLB",
+              "id": "LuO",
+              "role": "host"
+            },
+            {
+              "id": "ShalevM",
+              "role": "host"
+            },
+            {
+              "id": "JimM",
               "role": "host"
             }
           ]
         },
-        
-        
         {
-          "title": "TBC",
-          "time": "19:30 - 20:15",
-          "details": "",
-          "participants": []
-        },
-        
-        
-        {
-          "title": "TBC",
-          "time": "20:30 - 21:15",
-          "details": "TBC",
-          "participants": [] 
-        },
-        
-        
-        {
-          "title": "GameBCN Demoday 2025",
-          "time": "18:00 - 21:00",
-          "details": " TBC",
+          "title": "Fun session!",
+          "time": "13:00 - 15:00",
+          "details": "Lunch, followed by playful introductions at the Pompeu. Exploring the translations of play, fun, and games in different cultures.",
           "participants": [
             {
-              "id": "emily"
+              "id": "EmilyK",
+              "role": "host"
+            }
+          ]
+        },
+        {
+          "title": "Scene Report",
+          "time": "15:00 - 16:45",
+          "details": "GAIA participants share a snapshot update on their current projects.",
+          "participants": [
+            {
+              "id": "MarieF",
+              "role": "host"
+            },
+            {
+              "id": "LuO",
+              "role": "host"
+            },
+            {
+              "id": "ShalevM",
+              "role": "host"
+            },
+            {
+              "id": "JimM",
+              "role": "host"
+            }
+          ]
+        },
+        {
+          "title": "Coffee Break",
+          "time": "16:45 - 17:00",
+          "details": "BREAK",
+          "participants": [
+            "All"
+          ]
+        },
+        {
+          "title": "Public Sector Hustle",
+          "time": "17:00 - 18:30",
+          "details": "Making it work! How we hustle, from public sector organizations, NGOs, and foundations.",
+          "participants": [
+            {
+              "id": "AllisonJ",
+              "role": "host"
+            }
+          ]
+        },
+        {
+          "title": "Gamelab showcase + cocktail (this session is open to the public)",
+          "time": "18:30 - 20:00",
+          "details": "Demo and social",
+          "participants": ["All"]
+        }
+      ]
+    },
+    {
+      "id": "day2",
+      "date": "Wednesday October 8th",
+      "location": "Pompeu Fabra University or Outdoors",
+      "sessions": [
+        {
+          "title": "Non-interactive Exhibits",
+          "time": "10:00 - 11:30",
+          "details": "Exploring exhibition strategies for displaying videogames in art contexts, the place of spectatorship, and making invisible game content visible to audiences.",
+          "participants": [
+            {
+              "id": "LucaC",
+              "role": "host"
+            },
+            {
+              "id": "RuixuanL",
+              "role": "host"
+            },
+            {
+              "id": "SimonB",
+              "role": "host"
+            }
+          ]
+        },
+        {
+          "title": "Coffee Break",
+          "time": "11:30 - 11:45",
+          "details": "BREAK",
+          "participants": [
+            "All"
+          ]
+        },
+        {
+          "title": "Browser Museums",
+          "time": "11:45 - 13:00",
+          "details": "Building new online platforms for curating and accessing games, including 3D multi-user browser exhibitions and alternatives to algorithmic recommendations.",
+          "participants": [
+            {
+              "id": "CatB",
+              "role": "host"
+            },
+            {
+              "id": "FarfamaH",
+              "role": "host"
+            },
+            {
+              "id": "PietroR",
+              "role": "host"
+            }
+          ]
+        },
+        {
+          "title": "Lunch break",
+          "time": "13:00 - 15:00",
+          "details": "Lunch break",
+          "participants": ["All"]
+        },
+        {
+          "title": "GACK2",
+          "time": "15:15 - 16:15",
+          "details": "Collective workshop on the Game Arts Curatorial Kit volume 2, focusing on case studies of game events, festivals, and exhibitions worldwide.",
+          "participants": [
+            {
+              "id": "PFQ",
+              "role": "host"
+            },
+            {
+              "id": "AngeloC",
+              "role": "host"
+            }
+          ]
+        },
+        {
+          "title": "Coffee Break",
+          "time": "16:15 - 16:30",
+          "details": "BREAK",
+          "participants": [
+            "All"
+          ]
+        },
+        {
+          "title": "Sustainability Roundtable",
+          "time": "16:30 - 18:00",
+          "details": "Discussion on running long-term initiatives, maintaining motivation, avoiding burnout, and keeping communities fresh and exciting over 5+ years.",
+          "participants": [
+            {
+              "id": "LorenzoP",
+              "role": "host"
+            },
+            {
+              "id": "ZuraidaB",
+              "role": "host"
+            }
+          ]
+        },
+        {
+          "title": "Playformance!",
+          "time": "18:30 - 19:30",
+          "details": "Open to public",
+          "participants": ["All"]
+        }
+      ]
+    },
+    {
+      "id": "day3",
+      "date": "Thursday October 9th",
+      "location": "Pompeu Fabra University",
+      "sessions": [
+        {
+          "title": "Global South Curators",
+          "time": "10:00 - 12:00",
+          "details": "Two perspectives on game development advocacy: self-producing game jams in the Philippines and 11 years of supporting the African game development ecosystem.",
+          "participants": [
+            {
+              "id": "SitheN",
+              "role": "host"
+            },
+            {
+              "id": "AgustinC",
+              "role": "host"
+            }
+          ]
+        },
+        {
+          "title": "Coffee Break",
+          "time": "12:00 - 12:15",
+          "details": "BREAK",
+          "participants": [
+            "All"
+          ]
+        },
+        {
+          "title": "Fighting back",
+          "time": "12:15 - 13:45",
+          "details": "Videogame co-ops, collective organizations, and game arts initiatives as alternatives.",
+          "participants": [
+            {
+              "id": "MarijamD",
+              "role": "host"
+            },
+            {
+              "id": "PFQ",
+              "role": "host"
+            },
+            {
+              "id": "VioletaM",
+              "role": "host"
+            }
+          ]
+        },
+        {
+          "title": "Lunch break",
+          "time": "14:00 - 16:00",
+          "details": "Lunch break",
+          "participants": ["All"]
+        },
+        {
+          "title": "Unconference",
+          "time": "16:15 - 18:00",
+          "details": "Open session led by all participants to discuss emerging topics and collaborative ideas.",
+          "participants": [
+            "All"
+          ]
+        },
+        {
+          "title": "**Travel to DemoDay**",
+          "time": "18:00 - 18:30",
+          "details": "",
+          "participants": ["All"]
+        },
+        {
+          "title": "DemoDay",
+          "time": "18:30 - 22:00",
+          "details": "Palo Alto, Sala XYZ",
+          "participants": [
+            {
+              "id": "EmilyK",
+              "role": "host"
             },
             {
               "id": "LuO",
