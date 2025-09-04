@@ -1,6 +1,6 @@
 [
     {
-        "id": "Fierce",
+        "id": "FierceA",
         "image": "img/participants/FierceA.png",
         "alt": "Fierce photo",
         "title": "Fierce Axolotl",
@@ -12,7 +12,7 @@
         ]
     },
     {
-        "id": "Hippolyte Caubet",
+        "id": "HippolyteC",
         "image": "img/participants/HippolyteC.png",
         "alt": "Hippolyte photo",
         "title": "Hippolyte Caubet",
@@ -53,7 +53,7 @@
         ]
     },
     {
-        "id": "LanRoed",
+        "id": "LanR",
         "image": "img/participants/LanR.png",
         "alt": "Lan Roed photo",
         "title": "Lan Roed",
@@ -77,7 +77,7 @@
         ]
     },
     {
-        "id": "MerGrazzini",
+        "id": "MerG",
         "image": "img/participants/MerG.png",
         "alt": "mer grazzini photo",
         "title": "Mer Grazzini",
@@ -139,7 +139,7 @@
         ]
     },
     {
-        "id": "Agnes",
+        "id": "AgnesK",
         "image": "img/participants/AgnesK.png",
         "alt": "Agnes profile photo",
         "title": "Ágnes Karolina Bakk",
@@ -163,7 +163,7 @@
         ]
     },
     {
-        "id": "Angelo",
+        "id": "AngeloC",
         "image": "img/participants/AngeloC.png",
         "alt": "Angelo profile photo",
         "title": "Angelo Careri",
@@ -239,8 +239,8 @@
         ]
     },
     {
-        "id": "emily",
-        "image": "img/participants/EmilyP.png",
+        "id": "EmilyK",
+        "image": "img/participants/EmilyK.png",
         "alt": "Emily profile photo",
         "title": "Emily Koonce",
         "country": "United States",
@@ -326,7 +326,7 @@
         ]
     },
     {
-        "id": "ApieOddy",
+        "id": "ApieO",
         "image": "img/participants/ApieO.png",
         "alt": "Ophelie profile photo",
         "title": "Ophélie Apie Oddy",
@@ -350,7 +350,7 @@
         ]
     },
     {
-        "id": "Louis",
+        "id": "LouisB",
         "image": "img/participants/LouisB.png",
         "alt": "Lous profile photo",
         "title": "Louis Brooks",
@@ -374,7 +374,7 @@
         ]
     },
     {
-        "id": "BethlehemAnteneh",
+        "id": "BethlehemA",
         "image": "img/participants/BethlehemA.png",
         "alt": "Bethlehem profile photo",
         "title": "Bethlehem Anteneh",
@@ -382,9 +382,7 @@
         "details": "is an Ethiopian game-thinking expert and ecosystem builder with a background in architectural design, known for her innovative use of games to design environments and frameworks that enhance human experience and problem-solving. As the founder and co-founder of several initiatives, including PlayLab, Digital Learning Hub, and Games For Change Africa, she has been instrumental in advancing the games industry across Africa and Europe. Her work spans over 25 countries, where she has managed projects, curated communities, and led workshops and hackathons. Notably, she was the Game-Thinking Lead for the 'EnterAfrica-Gamify Your City Future!' project with the Goethe-Institut and currently curates Addis Abeba's annual gaming festival, ChewataCon. Bethlehem is also a thought leader in learning experience design, a founding member of the Ethiopian Games Association, and actively involved in global gaming and impact networks.",
         "link": "https://www.linkedin.com/in/beth-ant/",
         "years": [
-            2024,
-            2025
-        ]
+            2024        ]
     },
     {
         "id": "PeterD",
@@ -399,7 +397,7 @@
         ]
     },
     {
-        "id": "SebGalvez",
+        "id": "SebG",
         "image": "img/participants/SebGalvez.png",
         "alt": "Seb profile photo",
         "title": "Seb Galvez",
@@ -435,7 +433,7 @@
         ]
     },
     {
-        "id": "allison",
+        "id": "AllisonJ",
         "image": "img/participants/AllisonY.png",
         "alt": "Allison profile photo",
         "title": "Allison JingYang",
@@ -546,19 +544,19 @@
         "alt": "SimonB profile photo",
         "title": "Simon Bachelier",
         "country": "France",
-        "details": "Simon is an independent curator exploring the variety of practices in digital games. One of his main focus in his exhibition work has been to experiment about the spaces between the players and the watchers (among visitors). He has also been experimenting around the link between Theater, Perfomance Arts and Digital Games since 2016 with a format he called Playformance. He has cofounded the French collective Sous les néons in 2021 gathering people from Theater and Indie Games, where they explore the connection between stage play and performing games in front of a live (and on-site) audience. ",
+        "details": "is an independent curator exploring the variety of practices in digital games. One of his main focus in his exhibition work has been to experiment about the spaces between the players and the watchers (among visitors). He has also been experimenting around the link between Theater, Perfomance Arts and Digital Games since 2016 with a format he called Playformance. He has cofounded the French collective Sous les néons in 2021 gathering people from Theater and Indie Games, where they explore the connection between stage play and performing games in front of a live (and on-site) audience. ",
         "link": "http//www.simonbachelier.com",
         "years": [
             2025
         ]
     },
     {
-        "id": "Zuraida",
+        "id": "ZuraidaB",
         "image": "img/participants/ZuraidaB.png",
         "alt": "Zuraida profile photo",
         "title": "Zuraida Buter",
         "country": "Netherlands",
-        "details": "(she/her) Zuraida Buter is an award-winning curator of playful culture and arts based in the Netherlands. She specializes in curating, initiating, and documenting events centered on playful culture and games, fostering international collaboration and creative experiences. She is the founder of the playful culture organization zo-ii and co-founder of the Playful Arts Festival, which highlights the intersection of art, play, technology, and design. Zuraida has curated talks and exhibitions at festivals and events worldwide, including IndieCade Europe, A MAZE. / Berlin, and Screenshake. She is also a strong advocate for diversity in the gaming industry through her work with Women in Games NL (WiGNL). Previously, she initiated the Dutch indie game showcase INDIGO and served as Executive Director of the Global Game Jam (2010-2014). She has also lectured on game design theory at the Utrecht School of Arts (HKU) and received accolades such as the IndieCade Game Changer Award (2020) and the EA Award for Achievement and Innovation (2013).",
+        "details": "(she/her) is an award-winning curator of playful culture and arts based in the Netherlands. She specializes in curating, initiating, and documenting events centered on playful culture and games, fostering international collaboration and creative experiences. She is the founder of the playful culture organization zo-ii and co-founder of the Playful Arts Festival, which highlights the intersection of art, play, technology, and design. Zuraida has curated talks and exhibitions at festivals and events worldwide, including IndieCade Europe, A MAZE. / Berlin, and Screenshake. She is also a strong advocate for diversity in the gaming industry through her work with Women in Games NL (WiGNL). Previously, she initiated the Dutch indie game showcase INDIGO and served as Executive Director of the Global Game Jam (2010-2014). She has also lectured on game design theory at the Utrecht School of Arts (HKU) and received accolades such as the IndieCade Game Changer Award (2020) and the EA Award for Achievement and Innovation (2013).",
         "link": "https://www.zo-ii.com/",
         "years": [
             2025
@@ -578,7 +576,7 @@
         ]
     },
     {
-        "id": "Marijam Didžgalvytė",
+        "id": "MarijamD",
         "image": "img/participants/MarijamD.png",
         "alt": "Marijam Didžgalvytė profile photo",
         "title": "Marijam Didžgalvytė",
@@ -590,79 +588,79 @@
         ]
     },
     {
-        "id": "Farfama Hargaaya",
+        "id": "FarfamaH",
         "image": "img/participants/FarfamaH.png",
         "alt": "Farfama Hargaaya profile photo",
         "title": "Farfama Hargaaya",
         "country": "Japan",
-        "details": "Farfama is a media artist currently based in Japan, specializing in experimental digital games. His work explores themes of awe, wonder, and playful joy, drawing inspiration from nature, ritual, and everyday observation.",
+        "details": "is a media artist currently based in Japan, specializing in experimental digital games. His work explores themes of awe, wonder, and playful joy, drawing inspiration from nature, ritual, and everyday observation.",
         "link": "https://soundcloud.com/farfama-hargaaya-412074563",
         "years": [
             2025
         ]
     },
     {
-        "id": "Cindy Poremba",
+        "id": "CindyP",
         "image": "img/participants/CindyP.png",
         "alt": "Cindy Poremba profile photo",
         "title": "Cindy Poremba",
         "country": "Canada",
-        "details": "Cindy Poremba has maintained an experimental gamemaking and curatorial practice for almost two decades with a particular interest in captured media practices, and emerging technologies. They are an Associate Professor in Digital Futures at OCAD University (Tkaranto), and Co-Director of OCAD’s game:play Lab. Their award-winning game, curation, and -New Arcade- work (independently and as a member of the kokoromi collective), has been featured in both game and digital art exhibitions internationally.",
+        "details": "has maintained an experimental gamemaking and curatorial practice for almost two decades with a particular interest in captured media practices, and emerging technologies. They are an Associate Professor in Digital Futures at OCAD University (Tkaranto), and Co-Director of OCAD’s game:play Lab. Their award-winning game, curation, and -New Arcade- work (independently and as a member of the kokoromi collective), has been featured in both game and digital art exhibitions internationally.",
         "link": "https://shinyspinning.com/",
         "years": [
             2025
         ]
     },
     {
-        "id": "Marina Diez",
+        "id": "MarinaD",
         "image": "img/participants/MarinaD.png",
         "alt": "Marina Diez profile photo",
         "title": "Marina Diez",
         "country": "Spain/Germany",
-        "details": "Marina Díez (she/they) is a Spanish award-winning game designer, game director, business expert, filmmaker and Forbes Under 30 lister based in Europe living a semi nomadic life. Marina is also a Game Director for an unannounced game at BTF Games and Principal Game Designer at BTF Games for The Berlin Apartment. Previously, she was the Lead Game Designer for the game Dordogne by Un Je Ne Sais Quoi Studios & Umanimation. Marina is also a consultant on emotional game design for indie and AAA companies and a filmmaker, having showcased her work all around the world.",
+        "details": "is a Spanish award-winning game designer, game director, business expert, filmmaker and Forbes Under 30 lister based in Europe living a semi nomadic life. Marina is also a Game Director for an unannounced game at BTF Games and Principal Game Designer at BTF Games for The Berlin Apartment. Previously, she was the Lead Game Designer for the game Dordogne by Un Je Ne Sais Quoi Studios & Umanimation. Marina is also a consultant on emotional game design for indie and AAA companies and a filmmaker, having showcased her work all around the world.",
         "link": "https://marinadiez.carrd.co/",
         "years": [
             2025
         ]
     },
     {
-        "id": "Ferran Bertomeu Castells",
+        "id": "FerranB",
         "image": "img/participants/FerranB.png",
         "alt": "Ferran Bertomeu Castells profile photo",
         "title": "Ferran Bertomeu Castells",
         "country": "Spain/China",
-        "details": "I'm a freelance game designer & developer who has been involved in game development associations and events in Barcelona (VGAFIB & GGJ), and has been involved supporting events like the GAEMZ meetup in Tokyo & online. I've been making music-related video games and games for songs for some time, collaborating with musicians and bands, as well as studying and sharing about music games beyond rhythm games in a couple of events including IndieDevDay.es and Gamedev.world",
+        "details": "is a freelance game designer & developer who has been involved in game development associations and events in Barcelona (VGAFIB & GGJ), and has been involved supporting events like the GAEMZ meetup in Tokyo & online. Ferran has been making music-related video games and games for songs for some time, collaborating with musicians and bands, as well as studying and sharing about music games beyond rhythm games in a couple of events including IndieDevDay.es and Gamedev.world",
         "link": "https://ferran.games/",
         "years": [
             2025
         ]
     },
     {
-        "id": "Simona Maioriano",
+        "id": "SimonaM",
         "image": "img/participants/SimonaM.png",
         "alt": "Simona Maioriano profile photo",
         "title": "Simona Maioriano",
         "country": "Italy",
-        "details": "Simona Maiorano is a game developer living in Italy. She co-created and curated Antifa Arts and Games, co-founded the local game dev community in Bari and she got a nomination as best talent at Amaze 2019. Simona is currently working on her contemplative narrative game: Sea of Leaves, showcased at Game happens,2019, and contemporary art showcase -Tresette- 2021. Simona also co-created -March Together!- a feminist game showcased at the Overkill Festival, 2024",
+        "details": "is a game developer living in Italy. She co-created and curated Antifa Arts and Games, co-founded the local game dev community in Bari and she got a nomination as best talent at Amaze 2019. Simona is currently working on her contemplative narrative game: Sea of Leaves, showcased at Game happens,2019, and contemporary art showcase -Tresette- 2021. Simona also co-created -March Together!- a feminist game showcased at the Overkill Festival, 2024",
         "link": "https://simonamaiorano.itch.io/",
         "years": [
             2025
         ]
     },
     {
-        "id": "Malath Abbas",
+        "id": "MalathA",
         "image": "img/participants/MalathA.png",
         "alt": "Malath Abbas profile photo",
         "title": "Malath Abbas",
         "country": "Scotland ",
-        "details": "Malath Abbas is a game designer and creative producer based in Scotland. Malath works across games, digital art, and interactive media, often leading experimental and socially engaged projects. Malath is the co-founder of Biome Collective, a creative studio and community exploring the boundaries of play, technology, and storytelling. Malath also runs Arcadia, a festival that celebrates diverse voices in game design and culture.",
+        "details": "is a game designer and creative producer based in Scotland. Malath works across games, digital art, and interactive media, often leading experimental and socially engaged projects. Malath is the co-founder of Biome Collective, a creative studio and community exploring the boundaries of play, technology, and storytelling. Malath also runs Arcadia, a festival that celebrates diverse voices in game design and culture.",
         "link": "https://www.malathabbas.com/",
         "years": [
             2025
         ]
     },
     {
-        "id": "Roque Piñeiro Vieira",
+        "id": "RoqueV",
         "image": "img/participants/RoqueP.png",
         "alt": "Roque Piñeiro Vieira profile photo",
         "title": "Roque Piñeiro Vieira",
@@ -674,31 +672,31 @@
         ]
     },
     {
-        "id": "Violeta Moldes Rivas",
+        "id": "VioletaM",
         "image": "img/participants/VioletaM.png",
         "alt": "Violeta Moldes Rivas profile photo",
         "title": "Violeta Moldes Rivas",
         "country": "Spain ",
-        "details": "PhD student investigating about imaginaries in coming-of-age narratives in indie games and how they talk about identity, precarity and ecoanxiety",
+        "details": "is a PhD student investigating about imaginaries in coming-of-age narratives in indie games and how they talk about identity, precarity and ecoanxiety",
         "link": "https://www.upf.edu/es/web/medium/equip/-/asset_publisher/RL1WQ1Wum14C/content/moldes-rivas-violeta/maximized",
         "years": [
             2025
         ]
     },
     {
-        "id": "Luis Diaz Peralta",
+        "id": "LuisD",
         "image": "img/participants/LuisD.png",
         "alt": "Luis Diaz Peralta profile photo",
         "title": "Luis Diaz Peralta",
         "country": "Spain ",
-        "details": "I'm a freelance game designer who also makes lots of tiny free games and some commercial ones. I've created and managed many game events of all sorts.",
+        "details": "is a freelance game designer who also makes lots of tiny free games and some commercial ones. Luis has created and managed many game events of all sorts.",
         "link": "https://www.linkedin.com/in/ludipe/?originalSubdomain=es",
         "years": [
             2025
         ]
     },
     {
-        "id": "Pietro Righi Riva",
+        "id": "PietroR",
         "image": "img/participants/PietroR.png",
         "alt": "Pietro Righi Riva profile photo",
         "title": "Pietro Righi Riva ",
@@ -710,7 +708,7 @@
         ]
     },
     {
-        "id": "Luca Carrubba",
+        "id": "LucaC",
         "image": "img/participants/LucaC.png",
         "alt": "Luca Carrubba profile photo",
         "title": "Luca Carrubba",
@@ -722,10 +720,10 @@
         ]
     },
     {
-        "id": "Ruixuan Li",
+        "id": "RuixuanL",
         "image": "img/participants/RuixuanL.png",
         "alt": "RuixuanL",
-        "title": "RuixuanLi",
+        "title": "Ruixuan Li",
         "country": "USA ",
         "details": "(Rashel) is an independent curator, game designer, media artist, and writer based between Madison, WI and Shenzhen. She currently leads her studio, Curaxuan, in producing a 'Super Maria' puzzle game Go Groundshel!. Li has curated In Search of the Godmama (Toronto), Games-in-Residence (Shenzhen), YouXi DimSum (Pittsburgh), and Game Site (Shanghai), and served as Executive Editor of Curating the Digital Expanded for OnCurating (Zurich). Her writing has appeared in The Initium Media, The Art Newspaper China, and Artco China, among others. She is currently an editor at the indie game media platform indienova and a committee member of Mirage Sci-fi Magazine.",
         "link": "https://www.linkedin.com/in/ruixuanli/",
@@ -734,7 +732,7 @@
         ]
     },
     {
-        "id": "Agustin Crisostomo",
+        "id": "AgustinC",
         "image": "img/participants/AgustinC.png",
         "alt": "Agustin Crisostomo profile photo",
         "title": "Agustin Crisostomo",
