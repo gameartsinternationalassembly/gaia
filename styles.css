@@ -937,13 +937,13 @@ img {
 }
 
 .logo {
-  max-width: 5rem;
+  max-width: 300px;
   margin: 1rem;
   flex-grow: 1;
-  flex-basis: 0; /* This ensures that the basis for growth starts from 0 */
-  object-fit: contain; /* This will ensure the logo scales within the max-width and max-height constraints */
-  height: auto; /* Ensure the height adjusts to maintain the aspect ratio */
-  max-height: 10vh; /* Optional: you can set a maximum height relative to the viewport height */
+  flex-basis: 0; 
+  object-fit: contain; 
+  height: auto; 
+  max-height: 10vh; 
 }
 
 .sponsorbox {
@@ -957,7 +957,7 @@ img {
 
 @media screen and (min-width: 900px) {
   .logo {
-    max-width: 250px;
+    /* max-width: 800px; */
     /* max-height: auto; */
     /* margin: 4rem; */
     flex-grow: 1;
