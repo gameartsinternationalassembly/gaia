@@ -6,12 +6,17 @@
       "date": "Tuesday October 7th",
       "sessions": [
         {
-          "title": "Opening Session (This session is open to the public)",
-          "time": "09:45 - 12:30",
-          "details": "Welcoming words + Pompeu Performance + Scene Report Microtalks",
+          "title": "Opening Session (This session is open to the public Signing Up required)",
+          "time": "09:30 - 12:30",
+          "details": "Welcoming words + Roc Parés i Burguès Performance + Scene Report Microtalks. 09:00 – Accreditations
+09:30 – Opening session
+10:00 – Keynote lecture In becoming: Art practice as research, by Roc Parés i Burguès, professor at the Department of Communication, UPF.
+10:45 – Roundtable The scene report
+Moderator: Luján Oulton
+Participants: Cindy Poremba (Canada), Pablo Quarta (Argentina), Marie Janin (Netherlands).",
           "participants": [
             {
-              "id": "MarieF",
+              "id": "MarieJ",
               "role": "host"
             },
             {
@@ -19,11 +24,15 @@
               "role": "host"
             },
             {
-              "id": "ShalevM",
+              "id": "PFQ",
               "role": "host"
             },
             {
               "id": "JimM",
+              "role": "host"
+            },
+             {
+              "id": "CindyP",
               "role": "host"
             }
           ]
