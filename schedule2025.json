@@ -86,7 +86,7 @@
           ]
         },
         {
-          "title": "Gamelab showcase + cocktail (this session is open to the public)",
+          "title": "Gameplay showcase + cocktail (this session is open to the public, needs signing up)",
           "time": "18:30 - 20:00",
           "details": "Demo and social",
           "participants": ["All"]
@@ -190,8 +190,8 @@
         },
         {
           "title": "Playformance!",
-          "time": "18:30 - 19:30",
-          "details": "Open to public",
+          "time": "19:00 - 20:00",
+          "details": "Open to public. Needs signing up",
           "participants": ["All"]
         }
       ]
@@ -251,7 +251,7 @@
         },
         {
           "title": "Unconference",
-          "time": "16:15 - 18:00",
+          "time": "16:15 - 17:30",
           "details": "Open session led by all participants to discuss emerging topics and collaborative ideas.",
           "participants": [
             "All"
@@ -259,14 +259,14 @@
         },
         {
           "title": "Travel to DemoDay",
-          "time": "18:00 - 18:30",
+          "time": "17:45 - 18:15",
           "details": "We travel together!",
           "participants": ["All"]
         },
         {
           "title": "DemoDay",
-          "time": "18:30 - 22:00",
-          "details": "Palo Alto, Sala XYZ",
+          "time": "18:30 - 21:30",
+          "details": "Palo Alto, Sala XYZ. The Demo Day marks the culmination of months of work by the teams of our 10th incubation program. It is also a unique opportunity to connect with leading professionals and the local games industry, gathered together to celebrate the 10th anniversary of GameBCN.GameBCN 10 is Promoted by Ajuntament de Barcelona, Generalitat de Catalunya, and Peninsula Corporate Innovation.We are proud to count on Supporting Partners like Socialpoint, and the guidance of our Mentoring Partners: Gameloft Barcelona, FunPlus, Ubisoft Barcelona, Tilting Point, IO Interactive, Anchor Point Studios, and Marvelous.In addition, this year Catalan Arts – ICEC sponsors the networking area with a cocktail, and Asus sponsors the playtesting area. Concluding the symposium with this activity highlights the importance of engaging with the emerging voices of the Catalan ecosystem, fostering networking, the visibility of new projects, and the strengthening of the local videogame community.",
           "participants": [
             {
               "id": "EmilyK",
