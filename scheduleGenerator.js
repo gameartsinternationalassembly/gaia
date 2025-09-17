@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   let biosData = {};
+  let locationsData = {};
   let isFirstDay = true;
 
   // Fetch bios data and then schedule
@@ -31,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       const isOnlineYear = schedule.isOnlineYear || false; // Get the year-level flag
+      locationsData = schedule.locations || {}; // Store locations data
 
       schedule.days.forEach((day) => {
         if (!day.id) {
@@ -61,6 +63,22 @@ document.addEventListener("DOMContentLoaded", function () {
             sessionTitle.textContent = session.title || "Session Title TBA";
             dayContainer.appendChild(sessionTitle);
 
+            // Add location right after title if available (subtle styling)
+            if (session.locationId && locationsData[session.locationId]) {
+              const location = locationsData[session.locationId];
+              const locationElement = document.createElement("p");
+              locationElement.className = "session-location";
+              
+              if (location.url && location.address) {
+                // Location with clickable link
+                locationElement.innerHTML = `<a href="${location.url}" target="_blank" rel="noopener noreferrer" class="location-link">${location.name}</a>`;
+              } else {
+                // Location without link
+                locationElement.textContent = location.name;
+              }
+              dayContainer.appendChild(locationElement);
+            }
+
             // Create session details element
             const sessionDetails = document.createElement("p");
             sessionDetails.className = "details";
@@ -84,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
               sessionDetails.innerHTML = "<span>Time to be announced</span><br />";
             }
 
-            // Handle participants
+            // Handle participants - only show if there are actual participants
             if (Array.isArray(session.participants) && session.participants.length > 0) {
               // Separate hosts and other participants
               const hosts = [];
@@ -101,21 +119,6 @@ document.addEventListener("DOMContentLoaded", function () {
               });
 
               // Add hosts
-              // hosts.forEach((host, index) => {
-              //   if (host.id in biosData) {
-              //     const bio = biosData[host.id];
-              //     const hostLink = document.createElement('a');
-              //     hostLink.href = '#bios';
-              //     hostLink.setAttribute('data-bio-id', host.id);
-              //     hostLink.textContent = `Host: ${bio.title}`;
-              //     sessionDetails.appendChild(hostLink);
-
-              //     if (index < hosts.length - 1) {
-              //       sessionDetails.innerHTML += ' + ';
-              //     }
-              //   }
-              // });
-
               if (hosts.length > 0) {
                 const hostLabel = hosts.length === 1 ? "Host: " : "Hosts: ";
                 sessionDetails.innerHTML += hostLabel;
@@ -134,44 +137,54 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
                   }
                 });
-              }
 
-              // Add line break if there are hosts
-              if (hosts.length > 0) {
+                // Add line break if there are hosts
                 sessionDetails.innerHTML += "<br />";
               }
 
               // Add other participants
-              participants.forEach((participant, index) => {
-                if (participant.id in biosData) {
-                  const bio = biosData[participant.id];
-                  const participantLink = document.createElement("a");
-                  participantLink.href = "#bios";
-                  participantLink.setAttribute("data-bio-id", participant.id);
-                  participantLink.textContent = bio.title;
-                  sessionDetails.appendChild(participantLink);
+              if (participants.length > 0) {
+                participants.forEach((participant, index) => {
+                  if (participant.id in biosData) {
+                    const bio = biosData[participant.id];
+                    const participantLink = document.createElement("a");
+                    participantLink.href = "#bios";
+                    participantLink.setAttribute("data-bio-id", participant.id);
+                    participantLink.textContent = bio.title;
+                    sessionDetails.appendChild(participantLink);
 
-                  if (index < participants.length - 1) {
-                    sessionDetails.innerHTML += " + ";
+                    if (index < participants.length - 1) {
+                      sessionDetails.innerHTML += " + ";
+                    }
                   }
-                }
-              });
+                });
+
+                sessionDetails.innerHTML += "<br />";
+              }
 
               // Remove trailing plus sign if exists
               if (sessionDetails.innerHTML.endsWith(" + ")) {
                 sessionDetails.innerHTML = sessionDetails.innerHTML.slice(0, -3);
               }
-            } else {
-              sessionDetails.innerHTML += "Participants to be announced<br />";
             }
 
             // Add session description
             sessionDetails.innerHTML += `<br />${session.details || "Session details to be announced"}`;
-            // Add signup link if it exists
-            if (session.signup && session.signup.url) {
-              const signupText = session.signup.text || "Sign up";
-              sessionDetails.innerHTML += `<br /><a href="${session.signup.url}" target="_blank" rel="noopener noreferrer" class="signup-link">${signupText}</a>`;
+            
+            // Add public access info naturally at the end if relevant
+            if (session.publicAccess && session.publicAccess !== "private") {
+              const publicAccessText = getPublicAccessText(session.publicAccess);
+              if (publicAccessText) {
+                if (session.signup && session.signup.url) {
+                  // Make it a clickable link
+                  sessionDetails.innerHTML += ` <a href="${session.signup.url}" target="_blank" rel="noopener noreferrer" class="signup-link">${publicAccessText}</a>`;
+                } else {
+                  // Just add the text
+                  sessionDetails.innerHTML += ` ${publicAccessText}`;
+                }
+              }
             }
+            
             dayContainer.appendChild(sessionDetails);
 
             // Add legend placeholder
@@ -236,6 +249,20 @@ document.addEventListener("DOMContentLoaded", function () {
     .catch((error) => console.error("Error loading schedule:", error));
 });
 
+// Get simple text for public access (no badges)
+function getPublicAccessText(publicAccess) {
+  switch (publicAccess) {
+    case "public":
+      return "(Registration required for the public. GAIA memmbers are already pre-registered)";
+    case "public-registration":
+      return "(Registration required for the public. GAIA memmbers are already pre-registered)";
+    case "public-registration-required":
+      return "(Registration required for both the public and GAIA members)";
+    default:
+      return null;
+  }
+}
+
 // Time conversion functions
 function calculateDuration(startTime, endTime) {
   try {
@@ -261,13 +288,8 @@ function calculateDuration(startTime, endTime) {
 function convertToLocalTime(ceTime) {
   try {
     const timeParts = ceTime.split(" - ");
-    // console.log("CEST Time Parts:", timeParts);
-
     const startTime = new Date(`1970-01-01T${timeParts[0]}:00+02:00`); // CEST offset is UTC+2
     const endTime = new Date(`1970-01-01T${timeParts[1]}:00+02:00`);
-
-    // console.log("Start Time:", startTime);
-    // console.log("End Time:", endTime);
 
     const timeOptions = { hour: "2-digit", minute: "2-digit", hour12: false };
     const timezoneOptions = { timeZoneName: "short" };
@@ -276,24 +298,17 @@ function convertToLocalTime(ceTime) {
     const localEndTime = endTime.toLocaleTimeString([], timeOptions);
     const timezone = startTime.toLocaleTimeString([], timezoneOptions).split(" ").pop() || "local time";
 
-    // console.log("Local Start Time:", localStartTime);
-    // console.log("Local End Time:", localEndTime);
-    // console.log("Detected Timezone:", timezone);
-
     // Handle the case where the second time is the same as the first time
     if (localStartTime === localEndTime) {
-      console.log("Same start and end time detected. Returning:", `${localStartTime} ${timezone}`);
       return `${localStartTime} ${timezone}`;
     }
 
     // Handle the case where the user is in the same timezone as CEST
     if (timezone === "CEST") {
-      console.log("User is in CEST timezone. Returning original CEST time.");
       return `${ceTime} CEST`;
     }
 
     // Return the formatted time range with the timezone
-    // console.log("Returning converted time range:", `${localStartTime} - ${localEndTime} ${timezone}`);
     return `${localStartTime} - ${localEndTime} ${timezone}`;
   } catch (error) {
     console.error("Error converting time:", error);

@@ -1,29 +1,45 @@
 {
   "isOnlineYear": false,
+  "locations": {
+    "POMPEU": {
+      "name": "POMPEU",
+      "address": "Carrer de Roc Boronat, 138, 08018 Barcelona, Spain",
+      "url": "https://maps.google.com/?q=Pompeu+Fabra+University+Barcelona"
+    },
+    "MOUNTAINS": {
+      "name": "Mountains/Outdoor Location",
+      "address": null,
+      "url": null
+    },
+    "BEACH": {
+      "name": "Beach (25' walk to Bogatell)",
+      "address": "Platja del Bogatell, Barcelona, Spain",
+      "url": "https://maps.google.com/?q=Platja+del+Bogatell+Barcelona"
+    },
+    "DEMODAY": {
+      "name": "Palo Alto, Sala XYZ",
+      "address": "Barcelona, Spain",
+      "url": null
+    }
+  },
   "days": [
     {
       "id": "day1",
       "date": "Tuesday October 7th",
       "sessions": [
         {
-          "title": "Opening Session (This session is open to the public Signing Up required)",
-          "time": "09:30 - 12:30",
-          "details": "Welcoming words by Pompeu Fabra University and GAIA team + Inaugural conference by Roc Parés i Burguès - In becoming: Art practice as research, followed by the iconic GAIA panel The Scene Report.",
+          "title": "Welcome",
+          "time": "09:00 - 09:30",
+          "locationId": "POMPEU",
+          "details": "Coffee & pastries",
+          "publicAccess": "public",
           "signup": {
             "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
-            "text": "Sign up here"
+            "text": "Members of the public must register. GAIA attendees are already pre-registered."
           },
           "participants": [
             {
-              "id": "MarieJ",
-              "role": "host"
-            },
-            {
-              "id": "LuO",
-              "role": "host"
-            },
-            {
-              "id": "PFQ",
+              "id": "ShalevM",
               "role": "host"
             },
             {
@@ -31,15 +47,90 @@
               "role": "host"
             },
             {
-              "id": "CindyP",
+              "id": "MarieF",
+              "role": "host"
+            },
+            {
+              "id": "LuO",
               "role": "host"
             }
           ]
         },
         {
-          "title": "Fun session!",
-          "time": "13:00 - 15:00",
-          "details": "Lunch, followed by playful introductions at the Pompeu. Exploring the translations of play, fun, and games in different cultures.",
+          "title": "Host introductions",
+          "time": "09:45 - 10:00",
+          "locationId": "POMPEU",
+          "details": "Welcoming words by Pompeu Fabra University and GAIA team.",
+          "publicAccess": "public-registration",
+          "signup": {
+            "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
+            "text": "Members of the public must register. GAIA attendees are already pre-registered."
+          },
+          "participants": []
+        },
+        {
+          "title": "Talk / Performance",
+          "time": "10:00 - 10:45",
+          "locationId": "POMPEU",
+          "details": "Inaugural conference by Roc Parés i Burguès - In becoming: Art practice as research",
+          "publicAccess": "public-registration",
+            "signup": {
+            "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
+            "text": "Members of the public must register. GAIA attendees are already pre-registered."
+          },
+          "participants": []
+        },
+        {
+          "title": "The Scene Report + Roundtable",
+          "time": "10:45 - 11:30",
+          "locationId": "POMPEU",
+          "details": "The iconic GAIA panel",
+          "publicAccess": "public-registration",
+            "signup": {
+            "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
+            "text": "Members of the public must register. GAIA attendees are already pre-registered."
+          },
+          "participants": [
+            {
+              "id": "LuO",
+              "role": "host"
+            },
+            {
+              "id": "MarieJ",
+              "role": "participant"
+            },
+            {
+              "id": "PFQ",
+              "role": "participant"
+            },
+            {
+              "id": "CindyP",
+              "role": "participant"
+            }
+          ]
+        },
+        {
+          "title": "Break / Move rooms",
+          "time": "11:30 - 11:45",
+          "locationId": "POMPEU",
+          "details": "Break",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
+          "title": "Lunch",
+          "time": "12:00 - 12:40",
+          "locationId": "POMPEU",
+          "details": "Lunch break",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
+          "title": "GAIA Participant Introductions",
+          "time": "12:40 - 13:00",
+          "locationId": "POMPEU",
+          "details": "GAIA Participant Introductions",
+          "publicAccess": "private",
           "participants": [
             {
               "id": "EmilyK",
@@ -48,9 +139,32 @@
           ]
         },
         {
-          "title": "Scene Report",
-          "time": "15:00 - 16:45",
+          "title": "Games + Play",
+          "time": "13:00 - 14:30",
+          "locationId": "POMPEU",
+          "details": "Exploring the translations of play, fun, and games in different cultures.",
+          "publicAccess": "private",
+          "participants": [
+            {
+              "id": "EmilyK",
+              "role": "host"
+            }
+          ]
+        },
+        {
+          "title": "Break",
+          "time": "14:30 - 14:45",
+          "locationId": "POMPEU",
+          "details": "Break",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
+          "title": "Scene Report - Private",
+          "time": "14:45 - 16:30",
+          "locationId": "POMPEU",
           "details": "GAIA participants share a snapshot update on their current projects.",
+          "publicAccess": "private",
           "participants": [
             {
               "id": "MarieF",
@@ -71,17 +185,95 @@
           ]
         },
         {
-          "title": "Coffee Break",
-          "time": "16:45 - 17:00",
-          "details": "BREAK",
+          "title": "Break",
+          "time": "16:30 - 16:45",
+          "locationId": "POMPEU",
+          "details": "Break",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
+          "title": "GACK2",
+          "time": "16:45 - 18:15",
+          "locationId": "POMPEU",
+          "details": "Collective workshop on the Game Arts Curatorial Kit volume 2, focusing on case studies of game events, festivals, and exhibitions worldwide.",
+          "publicAccess": "private",
           "participants": [
-            "All"
+            {
+              "id": "PFQ",
+              "role": "host"
+            },
+            {
+              "id": "AngeloC",
+              "role": "host"
+            }
           ]
         },
         {
+          "title": "Break",
+          "time": "18:15 - 18:30",
+          "locationId": "POMPEU",
+          "details": "Break",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
+          "title": "Gamelab showcase + cocktail",
+          "time": "18:30 - 20:00",
+          "locationId": null,
+          "details": "Demo and social",
+          "publicAccess": "public-registration",
+            "signup": {
+            "url": "https://eventum.upf.edu",
+            "text": "Members of the public must register. GAIA attendees are already pre-registered."
+          },
+          "participants": []
+        }
+      ]
+    },
+    {
+      "id": "day2",
+      "date": "Wednesday October 8th",
+      "sessions": [
+        {
+          "title": "Travel",
+          "time": "09:45 - 10:30",
+          "locationId": null,
+          "details": "Travel to outdoor location",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
+          "title": "Sustainability Roundtable",
+          "time": "10:30 - 11:30",
+          "locationId": "MOUNTAINS",
+          "details": "Discussion on running long-term initiatives, maintaining motivation, avoiding burnout, and keeping communities fresh and exciting over 5+ years.",
+          "publicAccess": "private",
+          "participants": [
+            {
+              "id": "LorenzoP",
+              "role": "host"
+            },
+            {
+              "id": "ZuraidaB",
+              "role": "host"
+            }
+          ]
+        },
+        {
+          "title": "Break",
+          "time": "11:30 - 11:45",
+          "locationId": "MOUNTAINS",
+          "details": "Break",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
           "title": "Public Sector Hustle",
-          "time": "17:00 - 18:30",
+          "time": "11:45 - 12:45",
+          "locationId": "MOUNTAINS",
           "details": "Making it work! How we hustle, from public sector organizations, NGOs, and foundations.",
+          "publicAccess": "private",
           "participants": [
             {
               "id": "AllisonJ",
@@ -90,29 +282,28 @@
           ]
         },
         {
-          "title": "Gameplay showcase + cocktail (this session is open to the public, needs signing up)",
-          "time": "18:30 - 20:00",
-          "details": "Demo and social",
-          "participants": [
-            "All"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "day2",
-      "date": "Wednesday October 8th",
-      "location": "Pompeu Fabra University or Outdoors",
-      "sessions": [
+          "title": "Lunch break",
+          "time": "13:00 - 14:30",
+          "locationId": null,
+          "details": "Lunch break",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
+          "title": "Travel back",
+          "time": "14:30 - 15:15",
+          "locationId": null,
+          "details": "Travel back to POMPEU",
+          "publicAccess": "private",
+          "participants": []
+        },
         {
           "title": "Non-interactive Exhibits",
-          "time": "10:00 - 11:30",
+          "time": "15:15 - 16:15",
+          "locationId": "POMPEU",
           "details": "Exploring exhibition strategies for displaying videogames in art contexts, the place of spectatorship, and making invisible game content visible to audiences.",
+          "publicAccess": "private",
           "participants": [
-            {
-              "id": "LucaC",
-              "role": "host"
-            },
             {
               "id": "RuixuanL",
               "role": "host"
@@ -125,16 +316,18 @@
         },
         {
           "title": "Coffee Break",
-          "time": "11:30 - 11:45",
-          "details": "BREAK",
-          "participants": [
-            "All"
-          ]
+          "time": "16:15 - 16:30",
+          "locationId": "POMPEU",
+          "details": "15 minute coffee break",
+          "publicAccess": "private",
+          "participants": []
         },
         {
           "title": "Browser Museums",
-          "time": "11:45 - 13:00",
+          "time": "16:30 - 18:00",
+          "locationId": "POMPEU",
           "details": "Building new online platforms for curating and accessing games, including 3D multi-user browser exhibitions and alternatives to algorithmic recommendations.",
+          "publicAccess": "private",
           "participants": [
             {
               "id": "CatB",
@@ -151,74 +344,29 @@
           ]
         },
         {
-          "title": "Lunch break",
-          "time": "13:00 - 15:00",
-          "details": "Lunch break",
-          "participants": [
-            "All"
-          ]
-        },
-        {
-          "title": "GACK2",
-          "time": "15:15 - 16:15",
-          "details": "Collective workshop on the Game Arts Curatorial Kit volume 2, focusing on case studies of game events, festivals, and exhibitions worldwide.",
-          "participants": [
-            {
-              "id": "PFQ",
-              "role": "host"
-            },
-            {
-              "id": "AngeloC",
-              "role": "host"
-            }
-          ]
-        },
-        {
-          "title": "Coffee Break",
-          "time": "16:15 - 16:30",
-          "details": "BREAK",
-          "participants": [
-            "All"
-          ]
-        },
-        {
-          "title": "Sustainability Roundtable",
-          "time": "16:30 - 18:00",
-          "details": "Discussion on running long-term initiatives, maintaining motivation, avoiding burnout, and keeping communities fresh and exciting over 5+ years.",
-          "participants": [
-            {
-              "id": "LorenzoP",
-              "role": "host"
-            },
-            {
-              "id": "ZuraidaB",
-              "role": "host"
-            }
-          ]
-        },
-        {
           "title": "Playformance!",
-          "time": "19:00 - 20:30",
-          "details": "Open to public. Limited seats.</span> Playformance is an artistic and performative practice of a video game in which the act of play is used for storytelling. At the crossroads of video games, live performances and critical reflection, the term Playformance has been coined by the French collective Sous les néons to describe a form of performative art, on stage, using the act of playing to create meaning and to explore the narratives, ideologies and systems embedded in digital games. It is a situated performance that uses the game’s mechanics, its worlds, and its relationship to the player as expressive materials. questions “what does it mean to play with intentions?” To be affected, to resist, to perform — together? For this ocassion we will be hosting: Celeste  by Diane Landais and Ghost Recon: Wildlands by Hugo Sastre-Fournès.",
+          "time": "19:00 - 19:45",
+          "locationId": null,
+          "details": "Playformance is an artistic and performative practice of a video game in which the act of play is used for storytelling. At the crossroads of video games, live performances and critical reflection, the term Playformance has been coined by the French collective Sous les néons to describe a form of performative art, on stage, using the act of playing to create meaning and to explore the narratives, ideologies and systems embedded in digital games. It is a situated performance that uses the game's mechanics, its worlds, and its relationship to the player as expressive materials. questions \"what does it mean to play with intentions?\" To be affected, to resist, to perform — together? For this ocassion we will be hosting: Celeste by Diane Landais and Ghost Recon: Wildlands by Hugo Sastre-Fournès.",
+          "publicAccess": "public-registration-required",
           "signup": {
-            "url": "https://eventum.upf.edu/139810/detail/inscripcio-playformances.html",
-            "text": "Sign up here"
+            "url": "https://eventum.upf.edu/139810/detail/inscripcio-playformances.html?private=d5cb078d946f96c265e0",
+            "text": "Registration required - limited seats"
           },
-          "participants": [
-            "All"
-          ]
+          "participants": []
         }
       ]
     },
     {
       "id": "day3",
       "date": "Thursday October 9th",
-      "location": "Pompeu Fabra University",
       "sessions": [
         {
           "title": "Global South Curators",
-          "time": "10:00 - 12:00",
+          "time": "10:00 - 11:00",
+          "locationId": "POMPEU",
           "details": "Two perspectives on game development advocacy: self-producing game jams in the Philippines and 11 years of supporting the African game development ecosystem.",
+          "publicAccess": "private",
           "participants": [
             {
               "id": "SitheN",
@@ -231,17 +379,19 @@
           ]
         },
         {
-          "title": "Coffee Break",
-          "time": "12:00 - 12:15",
-          "details": "BREAK",
-          "participants": [
-            "All"
-          ]
+          "title": "Break",
+          "time": "11:00 - 11:15",
+          "locationId": "POMPEU",
+          "details": "Break",
+          "publicAccess": "private",
+          "participants": []
         },
         {
           "title": "Fighting back",
-          "time": "12:15 - 13:45",
-          "details": "Videogame co-ops, collective organizations, and game arts initiatives as alternatives.",
+          "time": "12:00 - 13:00",
+          "locationId": "POMPEU",
+          "details": "Videogame co-ops, collective organizations, and game arts initiatives as alternatives",
+          "publicAccess": "private",
           "participants": [
             {
               "id": "MarijamD",
@@ -249,52 +399,74 @@
             },
             {
               "id": "PFQ",
-              "role": "host"
+              "role": "participant"
             },
             {
               "id": "VioletaM",
-              "role": "host"
+              "role": "participant"
             }
           ]
         },
         {
           "title": "Lunch break",
-          "time": "14:00 - 16:00",
+          "time": "13:00 - 14:00",
+          "locationId": "POMPEU",
           "details": "Lunch break",
-          "participants": [
-            "All"
-          ]
+          "publicAccess": "private",
+          "participants": []
         },
         {
-          "title": "Unconference",
-          "time": "16:15 - 17:30",
-          "details": "Open session led by all participants to discuss emerging topics and collaborative ideas.",
-          "participants": [
-            "All"
-          ]
+          "title": "Travel to beach",
+          "time": "14:00 - 15:00",
+          "locationId": null,
+          "details": "Travel to beach location",
+          "publicAccess": "private",
+          "participants": []
         },
         {
-          "title": "Travel to DemoDay",
-          "time": "17:45 - 18:15",
-          "details": "We travel together!",
-          "participants": [
-            "All"
-          ]
-        },
-        {
-          "title": "DemoDay",
-          "time": "18:30 - 21:30",
-          "details": "Palo Alto, Sala XYZ. The Demo Day marks the culmination of months of work by the teams of our 10th incubation program. It is also a unique opportunity to connect with leading professionals and the local games industry, gathered together to celebrate the 10th anniversary of GameBCN.GameBCN 10 is Promoted by Ajuntament de Barcelona, Generalitat de Catalunya, and Peninsula Corporate Innovation.We are proud to count on Supporting Partners like Socialpoint, and the guidance of our Mentoring Partners: Gameloft Barcelona, FunPlus, Ubisoft Barcelona, Tilting Point, IO Interactive, Anchor Point Studios, and Marvelous.In addition, this year Catalan Arts – ICEC sponsors the networking area with a cocktail, and Asus sponsors the playtesting area. Concluding the symposium with this activity highlights the importance of engaging with the emerging voices of the Catalan ecosystem, fostering networking, the visibility of new projects, and the strengthening of the local videogame community.",
+          "title": "Outdoors! Unconference",
+          "time": "15:00 - 18:00",
+          "locationId": "BEACH",
+          "details": "Open session led by all participants to discuss emerging topics and collaborative ideas",
+          "publicAccess": "private",
           "participants": [
             {
-              "id": "EmilyK",
+              "id": "MarieF",
               "role": "host"
             },
             {
               "id": "LuO",
               "role": "host"
+            },
+            {
+              "id": "ShalevM",
+              "role": "host"
+            },
+            {
+              "id": "JimM",
+              "role": "host"
             }
           ]
+        },
+        {
+          "title": "Travel to DemoDay",
+          "time": "18:00 - 18:30",
+          "locationId": null,
+          "details": "Travel to DemoDay venue",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
+          "title": "DemoDay",
+          "time": "18:30 - 22:00",
+          "locationId": "DEMODAY",
+          "details": "The Demo Day marks the culmination of months of work by the teams of our 10th incubation program. It is also a unique opportunity to connect with leading professionals and the local games industry, gathered together to celebrate the 10th anniversary of GameBCN.GameBCN 10 is Promoted by Ajuntament de Barcelona, Generalitat de Catalunya, and Peninsula Corporate Innovation.We are proud to count on Supporting Partners like Socialpoint, and the guidance of our Mentoring Partners: Gameloft Barcelona, FunPlus, Ubisoft Barcelona, Tilting Point, IO Interactive, Anchor Point Studios, and Marvelous.In addition, this year Catalan Arts – ICEC sponsors the networking area with a cocktail, and Asus sponsors the playtesting area. Concluding the symposium with this activity highlights the importance of engaging with the emerging voices of the Catalan ecosystem, fostering networking, the visibility of new projects, and the strengthening of the local videogame community.",
+          "publicAccess": "public-registration",
+            "signup": {
+            "url": "https://eventum.upf.edu/139748",
+            "text": "Members of the public must register. GAIA attendees are already pre-registered."
+          },
+          "participants": []
         }
       ]
     }
