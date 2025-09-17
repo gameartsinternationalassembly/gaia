@@ -17,7 +17,7 @@
       "url": "https://maps.google.com/?q=Platja+del+Bogatell+Barcelona"
     },
     "DEMODAY": {
-      "name": "Palo Alto, Sala XYZ",
+      "name": "Palo Alto Barcelona, Sala XYZ",
       "address": "Barcelona, Spain",
       "url": null
     }
@@ -29,7 +29,7 @@
       "sessions": [
         {
           "title": "Welcome",
-          "time": "09:00 - 09:30",
+          "time": "09:00 - 09:15",
           "locationId": "POMPEU",
           "details": "Coffee & pastries",
           "publicAccess": "publicMustRegister",
@@ -57,8 +57,20 @@
           ]
         },
         {
+          "title": "Registration",
+          "time": "09:15 - 09:30",
+          "locationId": "POMPEU",
+          "details": "Registration",
+          "publicAccess": "publicMustRegister",
+          "signup": {
+            "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
+            "text": "Members of the public must register. GAIA attendees are already pre-registered."
+          },
+          "participants": []
+        },
+        {
           "title": "Host introductions",
-          "time": "09:45 - 10:00",
+          "time": "09:30 - 10:00",
           "locationId": "POMPEU",
           "details": "Welcoming words by Pompeu Fabra University and GAIA team.",
           "publicAccess": "publicMustRegister",
@@ -70,11 +82,11 @@
         },
         {
           "title": "Talk / Performance",
-          "time": "10:00 - 10:45",
+          "time": "10:00 - 11:00",
           "locationId": "POMPEU",
           "details": "Inaugural conference by Roc Parés i Burguès - In becoming: Art practice as research",
           "publicAccess": "publicMustRegister",
-            "signup": {
+          "signup": {
             "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
             "text": "Members of the public must register. GAIA attendees are already pre-registered."
           },
@@ -82,11 +94,11 @@
         },
         {
           "title": "The Scene Report + Roundtable",
-          "time": "10:45 - 11:30",
+          "time": "11:00 - 12:00",
           "locationId": "POMPEU",
           "details": "The iconic GAIA panel",
           "publicAccess": "publicMustRegister",
-            "signup": {
+          "signup": {
             "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
             "text": "Members of the public must register. GAIA attendees are already pre-registered."
           },
@@ -111,7 +123,7 @@
         },
         {
           "title": "Break / Move rooms",
-          "time": "11:30 - 11:45",
+          "time": "12:00 - 12:30",
           "locationId": "POMPEU",
           "details": "Break",
           "publicAccess": "private",
@@ -119,7 +131,7 @@
         },
         {
           "title": "Lunch",
-          "time": "12:00 - 12:40",
+          "time": "12:30 - 13:00",
           "locationId": "POMPEU",
           "details": "Lunch break",
           "publicAccess": "private",
@@ -127,7 +139,7 @@
         },
         {
           "title": "GAIA Participant Introductions",
-          "time": "12:40 - 13:00",
+          "time": "13:00 - 13:30",
           "locationId": "POMPEU",
           "details": "GAIA Participant Introductions",
           "publicAccess": "private",
@@ -140,7 +152,7 @@
         },
         {
           "title": "Games + Play",
-          "time": "13:00 - 14:30",
+          "time": "13:30 - 14:15",
           "locationId": "POMPEU",
           "details": "Exploring the translations of play, fun, and games in different cultures.",
           "publicAccess": "private",
@@ -153,7 +165,7 @@
         },
         {
           "title": "Break",
-          "time": "14:30 - 14:45",
+          "time": "14:15 - 14:30",
           "locationId": "POMPEU",
           "details": "Break",
           "publicAccess": "private",
@@ -161,7 +173,7 @@
         },
         {
           "title": "Scene Report - Private",
-          "time": "14:45 - 16:30",
+          "time": "15:00 - 16:30",
           "locationId": "POMPEU",
           "details": "GAIA participants share a snapshot update on their current projects.",
           "publicAccess": "private",
@@ -218,12 +230,12 @@
           "participants": []
         },
         {
-          "title": "Gamelab showcase + cocktail",
-          "time": "18:30 - 20:00",
-          "locationId": null,
-          "details": "Demo and social",
+          "title": "Gamelab showcase",
+          "time": "18:30 - 19:30",
+          "locationId": "POMPEU",
+          "details": "Showcase of the videogame projects that are been incubated at the Pompeu Gamelab + pica pica",
           "publicAccess": "publicMustRegister",
-            "signup": {
+          "signup": {
             "url": "https://eventum.upf.edu",
             "text": "Members of the public must register. GAIA attendees are already pre-registered."
           },
@@ -235,6 +247,14 @@
       "id": "day2",
       "date": "Wednesday October 8th",
       "sessions": [
+        {
+          "title": "GAIA Organizer Meeting",
+          "time": "09:30 - 09:45",
+          "locationId": "POMPEU",
+          "details": "GAIA organizer meeting time",
+          "publicAccess": "private",
+          "participants": []
+        },
         {
           "title": "Travel",
           "time": "09:45 - 10:30",
@@ -362,6 +382,14 @@
       "date": "Thursday October 9th",
       "sessions": [
         {
+          "title": "GAIA Organizer Meeting",
+          "time": "09:30 - 10:00",
+          "locationId": "POMPEU",
+          "details": "GAIA organizer meeting time",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
           "title": "Global South Curators",
           "time": "10:00 - 11:00",
           "locationId": "POMPEU",
@@ -458,11 +486,11 @@
         },
         {
           "title": "DemoDay",
-          "time": "18:30 - 22:00",
+          "time": "18:30 - 21:30",
           "locationId": "DEMODAY",
-          "details": "The Demo Day marks the culmination of months of work by the teams of our 10th incubation program. It is also a unique opportunity to connect with leading professionals and the local games industry, gathered together to celebrate the 10th anniversary of GameBCN.GameBCN 10 is Promoted by Ajuntament de Barcelona, Generalitat de Catalunya, and Peninsula Corporate Innovation.We are proud to count on Supporting Partners like Socialpoint, and the guidance of our Mentoring Partners: Gameloft Barcelona, FunPlus, Ubisoft Barcelona, Tilting Point, IO Interactive, Anchor Point Studios, and Marvelous.In addition, this year Catalan Arts – ICEC sponsors the networking area with a cocktail, and Asus sponsors the playtesting area. Concluding the symposium with this activity highlights the importance of engaging with the emerging voices of the Catalan ecosystem, fostering networking, the visibility of new projects, and the strengthening of the local videogame community.",
+          "details": "Palo Alto, Sala XYZ. The Demo Day marks the culmination of months of work by the teams of our 10th incubation program. It is also a unique opportunity to connect with leading professionals and the local games industry, gathered together to celebrate the 10th anniversary of GameBCN.GameBCN 10 is Promoted by Ajuntament de Barcelona, Generalitat de Catalunya, and Peninsula Corporate Innovation.We are proud to count on Supporting Partners like Socialpoint, and the guidance of our Mentoring Partners: Gameloft Barcelona, FunPlus, Ubisoft Barcelona, Tilting Point, IO Interactive, Anchor Point Studios, and Marvelous.In addition, this year Catalan Arts – ICEC sponsors the networking area with a cocktail, and Asus sponsors the playtesting area. Concluding the symposium with this activity highlights the importance of engaging with the emerging voices of the Catalan ecosystem, fostering networking, the visibility of new projects, and the strengthening of the local videogame community.",
           "publicAccess": "publicMustRegister",
-            "signup": {
+          "signup": {
             "url": "https://eventum.upf.edu/139748",
             "text": "Members of the public must register. GAIA attendees are already pre-registered."
           },
