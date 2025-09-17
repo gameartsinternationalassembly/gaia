@@ -32,7 +32,7 @@
           "time": "09:00 - 09:30",
           "locationId": "POMPEU",
           "details": "Coffee & pastries",
-          "publicAccess": "public",
+          "publicAccess": "publicMustRegister",
           "signup": {
             "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
             "text": "Members of the public must register. GAIA attendees are already pre-registered."
@@ -61,7 +61,7 @@
           "time": "09:45 - 10:00",
           "locationId": "POMPEU",
           "details": "Welcoming words by Pompeu Fabra University and GAIA team.",
-          "publicAccess": "public-registration",
+          "publicAccess": "publicMustRegister",
           "signup": {
             "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
             "text": "Members of the public must register. GAIA attendees are already pre-registered."
@@ -73,7 +73,7 @@
           "time": "10:00 - 10:45",
           "locationId": "POMPEU",
           "details": "Inaugural conference by Roc Parés i Burguès - In becoming: Art practice as research",
-          "publicAccess": "public-registration",
+          "publicAccess": "publicMustRegister",
             "signup": {
             "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
             "text": "Members of the public must register. GAIA attendees are already pre-registered."
@@ -85,7 +85,7 @@
           "time": "10:45 - 11:30",
           "locationId": "POMPEU",
           "details": "The iconic GAIA panel",
-          "publicAccess": "public-registration",
+          "publicAccess": "publicMustRegister",
             "signup": {
             "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
             "text": "Members of the public must register. GAIA attendees are already pre-registered."
@@ -222,7 +222,7 @@
           "time": "18:30 - 20:00",
           "locationId": null,
           "details": "Demo and social",
-          "publicAccess": "public-registration",
+          "publicAccess": "publicMustRegister",
             "signup": {
             "url": "https://eventum.upf.edu",
             "text": "Members of the public must register. GAIA attendees are already pre-registered."
@@ -348,7 +348,7 @@
           "time": "19:00 - 19:45",
           "locationId": null,
           "details": "Playformance is an artistic and performative practice of a video game in which the act of play is used for storytelling. At the crossroads of video games, live performances and critical reflection, the term Playformance has been coined by the French collective Sous les néons to describe a form of performative art, on stage, using the act of playing to create meaning and to explore the narratives, ideologies and systems embedded in digital games. It is a situated performance that uses the game's mechanics, its worlds, and its relationship to the player as expressive materials. questions \"what does it mean to play with intentions?\" To be affected, to resist, to perform — together? For this ocassion we will be hosting: Celeste by Diane Landais and Ghost Recon: Wildlands by Hugo Sastre-Fournès.",
-          "publicAccess": "public-registration-required",
+          "publicAccess": "everyoneMustRegister",
           "signup": {
             "url": "https://eventum.upf.edu/139810/detail/inscripcio-playformances.html?private=d5cb078d946f96c265e0",
             "text": "Registration required - limited seats"
@@ -461,7 +461,7 @@
           "time": "18:30 - 22:00",
           "locationId": "DEMODAY",
           "details": "The Demo Day marks the culmination of months of work by the teams of our 10th incubation program. It is also a unique opportunity to connect with leading professionals and the local games industry, gathered together to celebrate the 10th anniversary of GameBCN.GameBCN 10 is Promoted by Ajuntament de Barcelona, Generalitat de Catalunya, and Peninsula Corporate Innovation.We are proud to count on Supporting Partners like Socialpoint, and the guidance of our Mentoring Partners: Gameloft Barcelona, FunPlus, Ubisoft Barcelona, Tilting Point, IO Interactive, Anchor Point Studios, and Marvelous.In addition, this year Catalan Arts – ICEC sponsors the networking area with a cocktail, and Asus sponsors the playtesting area. Concluding the symposium with this activity highlights the importance of engaging with the emerging voices of the Catalan ecosystem, fostering networking, the visibility of new projects, and the strengthening of the local videogame community.",
-          "publicAccess": "public-registration",
+          "publicAccess": "publicMustRegister",
             "signup": {
             "url": "https://eventum.upf.edu/139748",
             "text": "Members of the public must register. GAIA attendees are already pre-registered."

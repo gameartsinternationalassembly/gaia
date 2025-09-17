@@ -253,11 +253,11 @@ document.addEventListener("DOMContentLoaded", function () {
 function getPublicAccessText(publicAccess) {
   switch (publicAccess) {
     case "public":
-      return "(Registration required for the public. GAIA members are already pre-registered)";
-    case "public-registration":
-      return "(Registration required for the public. GAIA members are already pre-registered)";
-    case "public-registration-required":
-      return "(Registration required for both the public and GAIA members)";
+      return "Registration required for the public. GAIA members are already pre-registered";
+    case "publicMustRegister":
+      return "Registration required for the public. GAIA members are already pre-registered";
+    case "everyoneMustRegister":
+      return "Registration required for both the public and GAIA members";
     default:
       return null;
   }
