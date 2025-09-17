@@ -489,7 +489,7 @@
           "time": "18:30 - 21:30",
           "locationId": "DEMODAY",
           "details": "Palo Alto, Sala XYZ. The Demo Day marks the culmination of months of work by the teams of our 10th incubation program. It is also a unique opportunity to connect with leading professionals and the local games industry, gathered together to celebrate the 10th anniversary of GameBCN.GameBCN 10 is Promoted by Ajuntament de Barcelona, Generalitat de Catalunya, and Peninsula Corporate Innovation.We are proud to count on Supporting Partners like Socialpoint, and the guidance of our Mentoring Partners: Gameloft Barcelona, FunPlus, Ubisoft Barcelona, Tilting Point, IO Interactive, Anchor Point Studios, and Marvelous.In addition, this year Catalan Arts – ICEC sponsors the networking area with a cocktail, and Asus sponsors the playtesting area. Concluding the symposium with this activity highlights the importance of engaging with the emerging voices of the Catalan ecosystem, fostering networking, the visibility of new projects, and the strengthening of the local videogame community.",
-          "publicAccess": "publicMustRegister",
+          "publicAccess": "private",
           "signup": {
             "url": "https://eventum.upf.edu/139748",
             "text": "Members of the public must register. GAIA attendees are already pre-registered."
