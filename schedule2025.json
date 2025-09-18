@@ -28,49 +28,8 @@
       "date": "Tuesday October 7th",
       "sessions": [
         {
-          "title": "Welcome (Open to Public)",
-          "time": "09:00 - 09:15",
-          "locationId": "POMPEU",
-          "details": "Coffee & pastries",
-          "publicAccess": "publicMustRegister",
-          "signup": {
-            "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
-            "text": "Members of the public must register. GAIA attendees are pre-registered."
-          },
-          "participants": [
-            {
-              "id": "ShalevM",
-              "role": "host"
-            },
-            {
-              "id": "JimM",
-              "role": "host"
-            },
-            {
-              "id": "MarieF",
-              "role": "host"
-            },
-            {
-              "id": "LuO",
-              "role": "host"
-            }
-          ]
-        },
-        {
-          "title": "Registration (Open to Public)",
-          "time": "09:15 - 09:30",
-          "locationId": "POMPEU",
-          "details": "Registration",
-          "publicAccess": "publicMustRegister",
-          "signup": {
-            "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
-            "text": "Members of the public must register. GAIA attendees are pre-registered."
-          },
-          "participants": []
-        },
-        {
-          "title": "Host introductions (Open to Public)",
-          "time": "09:30 - 10:00",
+          "title": "Welcome and Introductions (Open to Public)",
+          "time": "09:00 - 10:00",
           "locationId": "POMPEU",
           "details": "Welcoming words by Pompeu Fabra University and GAIA team.",
           "publicAccess": "publicMustRegister",
@@ -78,7 +37,24 @@
             "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
             "text": "Members of the public must register. GAIA attendees are pre-registered."
           },
-          "participants": []
+          "participants": [
+            {
+              "id": "MarieF",
+              "role": "host"
+            },
+            {
+              "id": "LuO",
+              "role": "host"
+            },
+                  {
+              "id": "ShalevM",
+              "role": "host"
+            },
+               {
+              "id": "JimM",
+              "role": "host"
+            }
+          ]
         },
         {
           "title": "Talk / Performance (Open to Public)",
