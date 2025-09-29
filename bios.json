@@ -760,6 +760,18 @@
             2025
         ]
     },
+       {
+        "id": "Saraelena",
+        "image": "img/participants/Saraelena.png",
+        "alt": "Saraelena photo",
+        "title": "Saraelena Cabrera Roldan",
+        "country": "Mexico/Spain",
+        "details": "is a visual artist and cultural manager whose career bridges education, the arts, and technology. A graduate in Fine Arts from Universidad de las Américas Puebla, she has worked at institutions such as the International Museum of the Baroque in Puebla, the Museu Nacional d’Art de Catalunya, and the Design Museum of Barcelona, where she contributed to the exhibition Banksy: The Art of Protest. She also holds a Master’s in Arts and Education from the University of Barcelona and a Postgraduate degree in Museum and Cultural Heritage Management from Universitat Internacional de Catalunya. Since 2024, she has been focusing on training and developing artificial intelligence in Mexico and Spain, promoting ethical, creative, and culturally engaged approaches that connect technological innovation with artistic and educational practice.",
+        "link": "https://www.linkedin.com/in/saraelena-cabrera-rold%C3%A1n-aa2282142/",
+        "years": [
+            2024
+        ]
+    },
     {
         "id": "AgustinC",
         "image": "img/participants/AgustinC.png",
