@@ -98,7 +98,7 @@
           ]
         },
         {
-          "title": "Lunch",
+          "title": "Lunch (Private session)",
           "time": "12:15 - 13:15",
           "locationId": "POMPEU",
           "details": "Lunch for Day 1 is provided by GAIA for GAIA participants. We'll play some games at the end of lunch with Emily",
@@ -119,7 +119,7 @@
           ]
         },
         {
-          "title": "GAIA Housekeeping",
+          "title": "GAIA Housekeeping (Private session)",
           "time": "14:45 - 15:00",
           "locationId": "POMPEU",
           "details": "Welcome to GAIA attendees, agenda, and ouch/oops protocol.",
@@ -214,7 +214,7 @@
           ]
         },
         {
-          "title": "Travel to Montjuïc",
+          "title": "Travel to Montjuïc (Private session)",
           "time": "10:45 - 12:00",
           "locationId": null,
           "details": "Together, GAINs will travel together to Montjuïc Park.",
@@ -222,7 +222,7 @@
           "participants": []
         },
         {
-          "title": "Lunch at Montjuïc",
+          "title": "Lunch at Montjuïc (Private session)",
           "time": "12:00 - 13:15",
           "locationId": "MONTJUIC",
           "details": "Participants buy their own lunch from a variety of outdoor stalls (Salts or Paperines).",
@@ -230,7 +230,7 @@
           "participants": []
         },
                 {
-          "title": "Short walk",
+          "title": "Short walk (Private session)",
           "time": "13:15 - 13:30",
           "locationId": "MONTJUIC",
           "details": "Together, GAINs will walk to session location.",
@@ -383,7 +383,7 @@
           "participants": []
         },
         {
-          "title": "Travel to beach",
+          "title": "Travel to beach (Private session)",
           "time": "13:45 - 14:30",
           "locationId": null,
           "details": "Together, GAINs will walk to Platja del Bogatell.",
