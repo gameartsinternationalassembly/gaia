@@ -31,7 +31,7 @@
           "title": "Welcome and Introductions (Open to Public)",
           "time": "09:00 - 10:00",
           "locationId": "POMPEU",
-          "details": "Welcoming words by Pompeu Fabra University and GAIA team. Coffee & pastries.",
+          "details": "Welcoming from Pompeu Fabra University and GAIA team.",
           "publicAccess": "publicMustRegister",
           "signup": {
             "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
@@ -101,15 +101,28 @@
           "title": "Lunch",
           "time": "12:15 - 13:15",
           "locationId": "POMPEU",
-          "details": "Enjoy the lunch provided by GAIA in the lunch room or on the open patio.",
+          "details": "Lunch for Day 1 is provided by GAIA for GAIA participants. We'll play some games at the end of lunch with Emily",
           "publicAccess": "private",
           "participants": []
         },
         {
           "title": "Games + Play (Private session)",
-          "time": "13:15 - 14:30",
+          "time": "13:30 - 14:30",
           "locationId": "POMPEU",
-          "details": "Exploring the translations of play, fun, and games in different cultures. Emily plays 4 corners and hot takes!",
+          "details": "Exploring the translations of play, fun, and games in different cultures.",
+          "publicAccess": "private",
+          "participants": [
+            {
+              "id": "EmilyK",
+              "role": "host"
+            }
+          ]
+        },
+        {
+          "title": "GAIA Housekeeping",
+          "time": "14:45 - 15:00",
+          "locationId": "POMPEU",
+          "details": "Exploring the translations of play, fun, and games in different cultures.",
           "publicAccess": "private",
           "participants": [
             {
@@ -179,8 +192,17 @@
       "date": "Wednesday October 8th",
       "sessions": [
         {
+          "title": "Arrival (Private session)",
+          "time": "09:45 - 10:00",
+          "locationId": "POMPEU",
+          "details": "Coffee and pastries.",
+          "publicAccess": "private",
+          "participants": [
+          ]
+        },
+        {
           "title": "Sustainability Roundtable (Private session)",
-          "time": "09:45 - 10:45",
+          "time": "10:00 - 10:45",
           "locationId": "POMPEU",
           "details": "Discussion on running long-term initiatives, maintaining motivation, avoiding burnout, and keeping communities fresh and exciting over 5+ years. Coffee and pastries available from 9:45.",
           "publicAccess": "private",
@@ -197,7 +219,7 @@
         },
         {
           "title": "Travel to Montjuïc",
-          "time": "11:00 - 12:00",
+          "time": "10:45 - 12:00",
           "locationId": null,
           "details": "Meet at Sants Station (Pl. dels Països Catalans, 1, 7) to travel together to Montjuïc Park.",
           "publicAccess": "private",
@@ -205,9 +227,17 @@
         },
         {
           "title": "Lunch at Montjuïc",
-          "time": "12:00 - 13:30",
+          "time": "12:00 - 13:15",
           "locationId": "MONTJUIC",
           "details": "Participants buy their own lunch from a variety of outdoor stalls (Salts or Paperines).",
+          "publicAccess": "private",
+          "participants": []
+        },
+                {
+          "title": "Lunch at Montjuïc",
+          "time": "13:15 - 13:30",
+          "locationId": "MONTJUIC",
+          "details": "Walk to session location.",
           "publicAccess": "private",
           "participants": []
         },
@@ -226,7 +256,7 @@
         },
         {
           "title": "Travel back to POMPEU",
-          "time": "14:30 - 15:45",
+          "time": "14:30 - 15:30",
           "locationId": null,
           "details": "Return journey to POMPEU campus.",
           "publicAccess": "private",
@@ -274,7 +304,7 @@
           "title": "Chill out time",
           "time": "18:00 - 19:00",
           "locationId": "POMPEU",
-          "details": "Gaians are free to wander around, feed yourselves, lie down and relax.",
+          "details": "Gaians are free to wander around, get snacks, take a break.",
           "publicAccess": "private",
           "participants": []
         },
@@ -301,6 +331,15 @@
       "id": "day3",
       "date": "Thursday October 9th",
       "sessions": [
+        {
+          "title": "Arrival (Private session)",
+          "time": "09:45 - 10:00",
+          "locationId": "POMPEU",
+          "details": "Coffee and pastries.",
+          "publicAccess": "private",
+          "participants": [
+          ]
+        },
         {
           "title": "Global South Curators (Private session)",
           "time": "10:00 - 11:00",
@@ -343,13 +382,13 @@
           "title": "Lunch break",
           "time": "12:15 - 13:45",
           "locationId": "POMPEU",
-          "details": "Lunch at SOPA (3 minute walk from Pompeu).",
+          "details": "GAIAns buy their own lunch or snacks at SOPA (3 minute walk from Pompeu).",
           "publicAccess": "private",
           "participants": []
         },
         {
           "title": "Travel to beach",
-          "time": "14:00 - 14:30",
+          "time": "13:45 - 14:30",
           "locationId": null,
           "details": "Make your way to Platja del Bogatell (25 minute walk or public transit).",
           "publicAccess": "private",
@@ -384,7 +423,7 @@
           "title": "Travel to DemoDay",
           "time": "18:00 - 18:30",
           "locationId": null,
-          "details": "Make your way via bus or Metro to Palo Alto Barcelona. Grab snacks on the way if you're hungry!",
+          "details": "Together, GAINs will travel to Palo Alto Barcelona.",
           "publicAccess": "private",
           "participants": []
         },
