@@ -122,7 +122,7 @@
           "title": "GAIA Housekeeping",
           "time": "14:45 - 15:00",
           "locationId": "POMPEU",
-          "details": "Includes GAIA housekeeping and oops/ouch protocol.",
+          "details": "Welcome to GAIA attendees, agenda, and ouch/oops protocol.",
           "publicAccess": "private",
           "participants": [
           ]
@@ -131,7 +131,7 @@
           "title": "Scene Report (Private session)",
           "time": "15:00 - 16:30",
           "locationId": "POMPEU",
-          "details": "GAIA participants share a snapshot update on their current projects.",
+          "details": "Together, GAIA participants share a snapshot update on current projects.",
           "publicAccess": "private",
           "participants": [
             {
@@ -188,7 +188,7 @@
       "date": "Wednesday October 8th",
       "sessions": [
         {
-          "title": "Arrival (Private session)",
+          "title": "Arrival time for GAIA participants (Private session)",
           "time": "09:45 - 10:00",
           "locationId": "POMPEU",
           "details": "Coffee and pastries.",
@@ -200,7 +200,7 @@
           "title": "Sustainability Roundtable (Private session)",
           "time": "10:00 - 10:45",
           "locationId": "POMPEU",
-          "details": "Discussion on running long-term initiatives, maintaining motivation, avoiding burnout, and keeping communities fresh and exciting over 5+ years. Coffee and pastries available from 9:45.",
+          "details": "Discussion on running long-term initiatives, maintaining motivation, avoiding burnout, and keeping communities fresh and exciting over 5+ years.",
           "publicAccess": "private",
           "participants": [
             {
@@ -217,7 +217,7 @@
           "title": "Travel to Montjuïc",
           "time": "10:45 - 12:00",
           "locationId": null,
-          "details": "Meet at Sants Station (Pl. dels Països Catalans, 1, 7) to travel together to Montjuïc Park.",
+          "details": "Together, GAINs will travel together to Montjuïc Park.",
           "publicAccess": "private",
           "participants": []
         },
@@ -230,10 +230,10 @@
           "participants": []
         },
                 {
-          "title": "Lunch at Montjuïc",
+          "title": "Short walk",
           "time": "13:15 - 13:30",
           "locationId": "MONTJUIC",
-          "details": "Walk to session location.",
+          "details": "Together, GAINs will walk to session location.",
           "publicAccess": "private",
           "participants": []
         },
@@ -254,7 +254,7 @@
           "title": "Travel back to POMPEU",
           "time": "14:30 - 15:30",
           "locationId": null,
-          "details": "Return journey to POMPEU campus.",
+          "details": "Together, GAINs return to POMPEU campus.",
           "publicAccess": "private",
           "participants": []
         },
@@ -300,7 +300,7 @@
           "title": "Chill out time",
           "time": "18:00 - 19:00",
           "locationId": "POMPEU",
-          "details": "Gaians are free to wander around, get snacks, take a break.",
+          "details": "GAIA participants are free to wander around, get snacks, take a break.",
           "publicAccess": "private",
           "participants": []
         },
@@ -328,7 +328,7 @@
       "date": "Thursday October 9th",
       "sessions": [
         {
-          "title": "Arrival (Private session)",
+          "title": "Arrival time for GAIA participants (Private session)",
           "time": "09:45 - 10:00",
           "locationId": "POMPEU",
           "details": "Coffee and pastries.",
@@ -340,7 +340,7 @@
           "title": "Global South Curators (Private session)",
           "time": "10:00 - 11:00",
           "locationId": "POMPEU",
-          "details": "Two perspectives on game development advocacy: self-producing game jams in the Philippines and 11 years of supporting the African game development ecosystem. Coffee and pastries available from 9:45.",
+          "details": "Two perspectives on game development advocacy: self-producing game jams in the Philippines and 11 years of supporting the African game development ecosystem.",
           "publicAccess": "private",
           "participants": [
             {
@@ -378,7 +378,7 @@
           "title": "Lunch break",
           "time": "12:15 - 13:45",
           "locationId": "POMPEU",
-          "details": "GAIAns buy their own lunch or snacks at SOPA (3 minute walk from Pompeu).",
+          "details": "GAIA participants will buy their own lunch or snacks at SOPA (3 minute walk from Pompeu).",
           "publicAccess": "private",
           "participants": []
         },
@@ -386,7 +386,7 @@
           "title": "Travel to beach",
           "time": "13:45 - 14:30",
           "locationId": null,
-          "details": "Make your way to Platja del Bogatell (25 minute walk or public transit).",
+          "details": "Together, GAINs will walk to Platja del Bogatell.",
           "publicAccess": "private",
           "participants": []
         },
