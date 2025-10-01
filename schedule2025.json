@@ -122,20 +122,16 @@
           "title": "GAIA Housekeeping",
           "time": "14:45 - 15:00",
           "locationId": "POMPEU",
-          "details": "Exploring the translations of play, fun, and games in different cultures.",
+          "details": "Includes GAIA housekeeping and oops/ouch protocol.",
           "publicAccess": "private",
           "participants": [
-            {
-              "id": "EmilyK",
-              "role": "host"
-            }
           ]
         },
         {
           "title": "Scene Report (Private session)",
           "time": "14:45 - 16:30",
           "locationId": "POMPEU",
-          "details": "GAIA participants share a snapshot update on their current projects. Includes GAIA housekeeping and oops/ouch protocol.",
+          "details": "GAIA participants share a snapshot update on their current projects.",
           "publicAccess": "private",
           "participants": [
             {
