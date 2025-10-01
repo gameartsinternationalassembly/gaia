@@ -6,9 +6,9 @@
       "address": "Carrer de Roc Boronat, 138, 08018 Barcelona, Spain",
       "url": "https://maps.app.goo.gl/n3itGZ3xYeP4TsWRA"
     },
-    "MOUNTAINS": {
-      "name": "Mountains/Outdoor Location",
-      "address": null,
+    "MONTJUIC": {
+      "name": "Montjuïc Park",
+      "address": "Montjuïc, Barcelona, Spain",
       "url": null
     },
     "BEACH": {
@@ -18,7 +18,7 @@
     },
     "DEMODAY": {
       "name": "Palo Alto Barcelona, Sala XYZ",
-      "address": "Barcelona, Spain",
+      "address": "Carrer dels Pellaires 30-38, Barcelona, Spain",
       "url": null
     }
   },
@@ -31,7 +31,7 @@
           "title": "Welcome and Introductions (Open to Public)",
           "time": "09:00 - 10:00",
           "locationId": "POMPEU",
-          "details": "Welcoming words by Pompeu Fabra University and GAIA team.",
+          "details": "Welcoming words by Pompeu Fabra University and GAIA team. Coffee & pastries.",
           "publicAccess": "publicMustRegister",
           "signup": {
             "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
@@ -46,11 +46,11 @@
               "id": "LuO",
               "role": "host"
             },
-                  {
+            {
               "id": "ShalevM",
               "role": "host"
             },
-               {
+            {
               "id": "JimM",
               "role": "host"
             }
@@ -98,10 +98,18 @@
           ]
         },
         {
-          "title": "Games + Play (Private session)",
-          "time": "13:30 - 14:15",
+          "title": "Lunch",
+          "time": "12:15 - 13:15",
           "locationId": "POMPEU",
-          "details": "Exploring the translations of play, fun, and games in different cultures.",
+          "details": "Enjoy the lunch provided by GAIA in the lunch room or on the open patio.",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
+          "title": "Games + Play (Private session)",
+          "time": "13:15 - 14:30",
+          "locationId": "POMPEU",
+          "details": "Exploring the translations of play, fun, and games in different cultures. Emily plays 4 corners and hot takes!",
           "publicAccess": "private",
           "participants": [
             {
@@ -112,9 +120,9 @@
         },
         {
           "title": "Scene Report (Private session)",
-          "time": "15:00 - 16:30",
+          "time": "14:45 - 16:30",
           "locationId": "POMPEU",
-          "details": "GAIA participants share a snapshot update on their current projects.",
+          "details": "GAIA participants share a snapshot update on their current projects. Includes GAIA housekeeping and oops/ouch protocol.",
           "publicAccess": "private",
           "participants": [
             {
@@ -159,7 +167,7 @@
           "details": "Showcase of the videogame projects that are been incubated at the Pompeu Gamelab + pica pica",
           "publicAccess": "publicMustRegister",
           "signup": {
-            "url": "https://eventum.upf.edu",
+            "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
             "text": "Members of the public must register. GAIA attendees are pre-registered."
           },
           "participants": []
@@ -172,9 +180,9 @@
       "sessions": [
         {
           "title": "Sustainability Roundtable (Private session)",
-          "time": "10:30 - 11:30",
-          "locationId": "MOUNTAINS",
-          "details": "Discussion on running long-term initiatives, maintaining motivation, avoiding burnout, and keeping communities fresh and exciting over 5+ years.",
+          "time": "09:45 - 10:45",
+          "locationId": "POMPEU",
+          "details": "Discussion on running long-term initiatives, maintaining motivation, avoiding burnout, and keeping communities fresh and exciting over 5+ years. Coffee and pastries available from 9:45.",
           "publicAccess": "private",
           "participants": [
             {
@@ -188,9 +196,25 @@
           ]
         },
         {
+          "title": "Travel to Montjuïc",
+          "time": "11:00 - 12:00",
+          "locationId": null,
+          "details": "Meet at Sants Station (Pl. dels Països Catalans, 1, 7) to travel together to Montjuïc Park.",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
+          "title": "Lunch at Montjuïc",
+          "time": "12:00 - 13:30",
+          "locationId": "MONTJUIC",
+          "details": "Participants buy their own lunch from a variety of outdoor stalls (Salts or Paperines).",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
           "title": "Public Sector Hustle (Private session)",
-          "time": "11:45 - 12:45",
-          "locationId": "MOUNTAINS",
+          "time": "13:30 - 14:30",
+          "locationId": "MONTJUIC",
           "details": "Making it work! How we hustle, from public sector organizations, NGOs, and foundations.",
           "publicAccess": "private",
           "participants": [
@@ -201,8 +225,16 @@
           ]
         },
         {
+          "title": "Travel back to POMPEU",
+          "time": "14:30 - 15:45",
+          "locationId": null,
+          "details": "Return journey to POMPEU campus.",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
           "title": "Non-interactive Exhibits (Private session)",
-          "time": "15:15 - 16:15",
+          "time": "15:45 - 16:45",
           "locationId": "POMPEU",
           "details": "Exploring exhibition strategies for displaying videogames in art contexts, the place of spectatorship, and making invisible game content visible to audiences.",
           "publicAccess": "private",
@@ -219,7 +251,7 @@
         },
         {
           "title": "Browser Museums (Private session)",
-          "time": "16:30 - 18:00",
+          "time": "17:00 - 18:00",
           "locationId": "POMPEU",
           "details": "Building new online platforms for curating and accessing games, including 3D multi-user browser exhibitions and alternatives to algorithmic recommendations.",
           "publicAccess": "private",
@@ -239,16 +271,29 @@
           ]
         },
         {
+          "title": "Chill out time",
+          "time": "18:00 - 19:00",
+          "locationId": "POMPEU",
+          "details": "Gaians are free to wander around, feed yourselves, lie down and relax.",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
           "title": "Playformance! (Open to Public)",
-          "time": "19:00 - 19:45",
-          "locationId": null,
-          "details": "Playformance blends video games, performance, and critical reflection. This practice. coined by French collective Sous les néons uses the act of play to tell stories, spark meaning, and question the systems inside digital worlds. What does it mean to play with intention? To resist, to be moved, to perform together? This session features Celeste by Diane Landais and Ghost Recon: Wildlands by Hugo Sastre-Fournès.",
+          "time": "19:00 - 20:00",
+          "locationId": "POMPEU",
+          "details": "Playformance blends video games, performance, and critical reflection. This practice, coined by French collective Sous les néons, uses the act of play to tell stories, spark meaning, and question the systems inside digital worlds. What does it mean to play with intention? To resist, to be moved, to perform together? This session features Celeste by Diane Landais and Ghost Recon: Wildlands by Hugo Sastre-Fournès.",
           "publicAccess": "everyoneMustRegister",
           "signup": {
             "url": "https://eventum.upf.edu/139810/detail/inscripcio-playformances.html?private=d5cb078d946f96c265e0",
             "text": "Registration required - limited seats"
           },
-          "participants": []
+          "participants": [
+            {
+              "id": "SimonB",
+              "role": "host"
+            }
+          ]
         }
       ]
     },
@@ -260,7 +305,7 @@
           "title": "Global South Curators (Private session)",
           "time": "10:00 - 11:00",
           "locationId": "POMPEU",
-          "details": "Two perspectives on game development advocacy: self-producing game jams in the Philippines and 11 years of supporting the African game development ecosystem.",
+          "details": "Two perspectives on game development advocacy: self-producing game jams in the Philippines and 11 years of supporting the African game development ecosystem. Coffee and pastries available from 9:45.",
           "publicAccess": "private",
           "participants": [
             {
@@ -275,7 +320,7 @@
         },
         {
           "title": "Fighting back (Private session)",
-          "time": "12:00 - 13:00",
+          "time": "11:15 - 12:15",
           "locationId": "POMPEU",
           "details": "Videogame co-ops, collective organizations, and game arts initiatives as alternatives",
           "publicAccess": "private",
@@ -295,10 +340,26 @@
           ]
         },
         {
+          "title": "Lunch break",
+          "time": "12:15 - 13:45",
+          "locationId": "POMPEU",
+          "details": "Lunch at SOPA (3 minute walk from Pompeu).",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
+          "title": "Travel to beach",
+          "time": "14:00 - 14:30",
+          "locationId": null,
+          "details": "Make your way to Platja del Bogatell (25 minute walk or public transit).",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
           "title": "Outdoors! Unconference (Private session)",
-          "time": "15:00 - 18:00",
+          "time": "14:30 - 18:00",
           "locationId": "BEACH",
-          "details": "Open session led by all participants to discuss emerging topics and collaborative ideas",
+          "details": "Open session led by all participants to discuss emerging topics and collaborative ideas. Let's turn those seeds into seedlings!",
           "publicAccess": "private",
           "participants": [
             {
@@ -320,14 +381,22 @@
           ]
         },
         {
+          "title": "Travel to DemoDay",
+          "time": "18:00 - 18:30",
+          "locationId": null,
+          "details": "Make your way via bus or Metro to Palo Alto Barcelona. Grab snacks on the way if you're hungry!",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
           "title": "DemoDay (By invitation)",
           "time": "18:30 - 21:30",
           "locationId": "DEMODAY",
-          "details": "Demo Day is the grand finale of GameBCN’s 10th incubation program. GAIA’s delegation will join the celebration and will get to know this year’s GameBCN cohort, play their games, test new projects, connect with the local scene, and discover the future of the Catalan games industry. This event is possible thanks to the Ajuntament de Barcelona, Generalitat de Catalunya, Peninsula Corporate Innovation, and partners like Socialpoint, Gameloft Barcelona, FunPlus, Ubisoft Barcelona, Tilting Point, IO Interactive, Anchor Point Studios, and Marvelous.",
+          "details": "Demo Day is the grand finale of GameBCN's 10th incubation program. GAIA's delegation will join the celebration and will get to know this year's GameBCN cohort, play their games, test new projects, connect with the local scene, and discover the future of the Catalan games industry. This event is possible thanks to the Ajuntament de Barcelona, Generalitat de Catalunya, Peninsula Corporate Innovation, and partners like Socialpoint, Gameloft Barcelona, FunPlus, Ubisoft Barcelona, Tilting Point, IO Interactive, Anchor Point Studios, and Marvelous.",
           "publicAccess": "private",
           "signup": {
-            "url": "https://eventum.upf.edu/139748",
-            "text": "Members of the public must register. GAIA attendees are pre-registered."
+            "url": "https://www.eventbrite.com/e/gamebcn-10-demo-day-tickets-1649898684379",
+            "text": "GAIA members are pre-registered."
           },
           "participants": []
         }
