@@ -217,7 +217,7 @@
           "title": "Travel to Montjuïc (Private session)",
           "time": "10:45 - 12:00",
           "locationId": null,
-          "details": "Together, GAINs will travel together to Montjuïc Park.",
+          "details": "Together, GAIA participants will travel together to Montjuïc Park.",
           "publicAccess": "private",
           "participants": []
         },
@@ -233,7 +233,7 @@
           "title": "Short walk (Private session)",
           "time": "13:15 - 13:30",
           "locationId": "MONTJUIC",
-          "details": "Together, GAINs will walk to session location.",
+          "details": "Together, GAIA participants will walk to session location.",
           "publicAccess": "private",
           "participants": []
         },
@@ -254,7 +254,7 @@
           "title": "Travel back to POMPEU",
           "time": "14:30 - 15:30",
           "locationId": null,
-          "details": "Together, GAINs return to POMPEU campus.",
+          "details": "Together, GAIA participants return to POMPEU campus.",
           "publicAccess": "private",
           "participants": []
         },
@@ -386,7 +386,7 @@
           "title": "Travel to beach (Private session)",
           "time": "13:45 - 14:30",
           "locationId": null,
-          "details": "Together, GAINs will walk to Platja del Bogatell.",
+          "details": "Together, GAIA participants will walk to Platja del Bogatell.",
           "publicAccess": "private",
           "participants": []
         },
@@ -419,7 +419,7 @@
           "title": "Travel to DemoDay",
           "time": "18:00 - 18:30",
           "locationId": null,
-          "details": "Together, GAINs will travel to Palo Alto Barcelona.",
+          "details": "Together, GAIA participants will travel to Palo Alto Barcelona.",
           "publicAccess": "private",
           "participants": []
         },
