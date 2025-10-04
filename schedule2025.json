@@ -200,7 +200,7 @@
           "title": "Sustainability Roundtable (Private session)",
           "time": "10:00 - 10:45",
           "locationId": "POMPEU",
-          "details": "Discussion on running long-term initiatives, maintaining motivation, avoiding burnout, and keeping communities fresh and exciting over 5+ years.",
+          "details": "Discussion on running long-term initiatives, maintaining motivation, avoiding burnout, and keeping communities fresh and exciting.",
           "publicAccess": "private",
           "participants": [
             {
@@ -259,7 +259,7 @@
           "participants": []
         },
         {
-          "title": "Non-interactive Exhibits (Private session)",
+          "title": "Beyond Interactivity (Private session)",
           "time": "15:45 - 16:45",
           "locationId": "POMPEU",
           "details": "Exploring exhibition strategies for displaying videogames in art contexts, the place of spectatorship, and making invisible game content visible to audiences.",
@@ -276,10 +276,10 @@
           ]
         },
         {
-          "title": "Browser Museums (Private session)",
+          "title": "Browser Shows (Private session)",
           "time": "17:00 - 18:00",
           "locationId": "POMPEU",
-          "details": "Building new online platforms for curating and accessing games, including 3D multi-user browser exhibitions and alternatives to algorithmic recommendations.",
+          "details": "Building new online platforms for curating and accessing games, including digital festivals, 3D multi-user browser exhibitions, and alternatives to algorithmic recommendations.",
           "publicAccess": "private",
           "participants": [
             {
