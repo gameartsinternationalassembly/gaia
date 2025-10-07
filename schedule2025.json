@@ -12,14 +12,14 @@
       "url": null
     },
     "BEACH": {
-      "name": "Beach (25' walk to Bogatell)",
+      "name": "Bogatell",
       "address": "Platja del Bogatell, Barcelona, Spain",
       "url": "https://maps.google.com/?q=Platja+del+Bogatell+Barcelona"
     },
     "DEMODAY": {
       "name": "Palo Alto Barcelona, Sala XYZ",
       "address": "Carrer dels Pellaires 30-38, Barcelona, Spain",
-      "url": null
+      "url": "https://share.google/CHVIXafYuqIYbfwFb"
     }
   },
   "days": [
@@ -172,7 +172,7 @@
           "title": "Gamelab showcase (Open to Public)",
           "time": "18:30 - 19:30",
           "locationId": "POMPEU",
-          "details": "Showcase of the videogame projects that are been incubated at the Pompeu Gamelab + pica pica",
+          "details": "Showcase of the videogame projects that are been incubated at the Pompeu Gamelab + pica pica.",
           "publicAccess": "publicMustRegister",
           "signup": {
             "url": "https://eventum.upf.edu/139748/detail/iii-jornades-gameplay-x-gaia-symposium.html",
@@ -228,15 +228,15 @@
           "title": "Get takeout lunch and walk to beach",
           "time": "12:00 - 12:30",
           "locationId": null,
-          "details": "All GAIA attendees are free to get a takeout lunch at a place of their choosing, we'll bring it to the beach for a picnic.",
+          "details": "All GAIA attendees will purchase takeout lunch at a place of their choosing and we'll bring it to the beach for a picnic.",
           "publicAccess": "private",
           "participants": []
         },
         {
           "title": "Picnic lunch at the beach",
           "time": "12:30 - 14:00",
-          "locationId": null,
-          "details": "All GAIA attendees are free to get a takeout lunch at a place of their choosing, we'll bring it to the beach for a picnic.",
+          "locationId": "BEACH",
+          "details": "Picnic!",
           "publicAccess": "private",
           "participants": []
         },
@@ -269,14 +269,13 @@
           "title": "Chill out time",
           "time": "17:30 - 18:15",
           "locationId": "BEACH",
-          "details": "Take a nap or get snacks. Or both!",
+          "details": "Take a nap? Swim? Get snacks? Do what feels good.",
           "publicAccess": "private",
           "participants": []
         },
         {
           "title": "Travel",
           "time": "18:15 - 18:45",
-          "locationId": "BEACH",
           "details": "Walk back to Pompeu, get stuff from the session room before we close it for the night",
           "publicAccess": "private",
           "participants": []
@@ -285,7 +284,7 @@
           "title": "Playformance! (Open to Public)",
           "time": "19:00 - 20:00",
           "locationId": "POMPEU",
-          "details": "Playformance blends video games, performance, and critical reflection. This practice, coined by French collective Sous les néons, uses the act of play to tell stories, spark meaning, and question the systems inside digital worlds. What does it mean to play with intention? To resist, to be moved, to perform together? This session features Celeste by Diane Landais and Ghost Recon: Wildlands by Hugo Sastre-Fournès.",
+          "details": "Playformance blends video games, performance, and critical reflection. This practice, coined by French collective Sous les néons, uses the act of play to tell stories, spark meaning, and question the systems inside digital worlds. What does it mean to play with intention? To resist, to be moved, to perform together? This session features Celeste by Diane Landais and Ghost Recon: Wildlands by Hugo Sastre-Fournès. SALA ARANYÓ (EDIFICIO TANGER 55)",
           "publicAccess": "everyoneMustRegister",
           "signup": {
             "url": "https://eventum.upf.edu/139810/detail/inscripcio-playformances.html?private=d5cb078d946f96c265e0",
@@ -399,8 +398,7 @@
          {
           "title": "Chill out time",
           "time": "16:30 - 17:30",
-          "locationId": "POMPEU",
-          "details": "Take a nap or get snacks. Or both!",
+          "details": "Take a nap? Get snacks? Take a break.",
           "publicAccess": "private",
           "participants": []
         },
