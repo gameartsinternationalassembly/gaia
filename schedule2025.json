@@ -124,8 +124,7 @@
           "locationId": "POMPEU",
           "details": "Welcome to GAIA attendees, agenda, and ouch/oops protocol.",
           "publicAccess": "private",
-          "participants": [
-          ]
+          "participants": []
         },
         {
           "title": "Scene Report (Private session)",
@@ -193,8 +192,7 @@
           "locationId": "POMPEU",
           "details": "Coffee and pastries.",
           "publicAccess": "private",
-          "participants": [
-          ]
+          "participants": []
         },
         {
           "title": "Sustainability Roundtable (Private session)",
@@ -214,33 +212,9 @@
           ]
         },
         {
-          "title": "Travel to Montjuïc (Private session)",
-          "time": "10:45 - 12:00",
-          "locationId": null,
-          "details": "Together, GAIA participants will travel together to Montjuïc Park.",
-          "publicAccess": "private",
-          "participants": []
-        },
-        {
-          "title": "Lunch at Montjuïc (Private session)",
-          "time": "12:00 - 13:00",
-          "locationId": "MONTJUIC",
-          "details": "Participants buy their own lunch from a variety of outdoor stalls (Salts or Paperines).",
-          "publicAccess": "private",
-          "participants": []
-        },
-                {
-          "title": "Short walk (Private session)",
-          "time": "13:15 - 13:30",
-          "locationId": "MONTJUIC",
-          "details": "Together, GAIA participants will walk to session location.",
-          "publicAccess": "private",
-          "participants": []
-        },
-        {
           "title": "Public Sector Hustle (Private session)",
-          "time": "13:30 - 14:30",
-          "locationId": "MONTJUIC",
+          "time": "11:00 - 12:00",
+          "locationId": "POMPEU",
           "details": "Making it work! How we hustle, from public sector organizations, NGOs, and foundations.",
           "publicAccess": "private",
           "participants": [
@@ -251,56 +225,59 @@
           ]
         },
         {
-          "title": "Travel back to POMPEU",
-          "time": "14:30 - 15:30",
+          "title": "Get takeout lunch and walk to beach",
+          "time": "12:00 - 12:30",
           "locationId": null,
-          "details": "Together, GAIA participants return to POMPEU campus.",
+          "details": "All GAIA attendees are free to get a takeout lunch at a place of their choosing, we'll bring it to the beach for a picnic.",
           "publicAccess": "private",
           "participants": []
         },
         {
-          "title": "Beyond Interactivity (Private session)",
-          "time": "15:45 - 16:45",
-          "locationId": "POMPEU",
-          "details": "Exploring exhibition strategies for displaying videogames in art contexts, the place of spectatorship, and making invisible game content visible to audiences.",
+          "title": "Picnic lunch at the beach",
+          "time": "12:30 - 14:00",
+          "locationId": null,
+          "details": "All GAIA attendees are free to get a takeout lunch at a place of their choosing, we'll bring it to the beach for a picnic.",
           "publicAccess": "private",
-          "participants": [
-            {
-              "id": "RuixuanL",
-              "role": "host"
-            },
-            {
-              "id": "SimonB",
-              "role": "host"
-            }
-          ]
+          "participants": []
         },
         {
-          "title": "Browser Shows (Private session)",
-          "time": "17:00 - 18:00",
-          "locationId": "POMPEU",
-          "details": "Building new online platforms for curating and accessing games, including digital festivals, 3D multi-user browser exhibitions, and alternatives to algorithmic recommendations.",
+          "title": "Outdoors! Unconference (Private session)",
+          "time": "14:00 - 17:30",
+          "locationId": "BEACH",
+          "details": "Open session led by all participants to discuss emerging topics and collaborative ideas. Let's turn those seeds into seedlings!",
           "publicAccess": "private",
           "participants": [
             {
-              "id": "CatB",
+              "id": "MarieF",
               "role": "host"
             },
             {
-              "id": "FarfamaH",
+              "id": "LuO",
               "role": "host"
             },
             {
-              "id": "PietroR",
+              "id": "ShalevM",
+              "role": "host"
+            },
+            {
+              "id": "JimM",
               "role": "host"
             }
           ]
         },
         {
           "title": "Chill out time",
-          "time": "18:00 - 19:00",
-          "locationId": "POMPEU",
-          "details": "GAIA participants are free to wander around, get snacks, take a break.",
+          "time": "17:30 - 18:15",
+          "locationId": "BEACH",
+          "details": "Take a nap or get snacks. Or both!",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
+          "title": "Travel",
+          "time": "18:15 - 18:45",
+          "locationId": "BEACH",
+          "details": "Walk back to Pompeu, get stuff from the session room before we close it for the night",
           "publicAccess": "private",
           "participants": []
         },
@@ -329,16 +306,15 @@
       "sessions": [
         {
           "title": "Arrival time for GAIA participants (Private session)",
-          "time": "09:45 - 10:00",
+          "time": "10:15 - 10:30",
           "locationId": "POMPEU",
           "details": "Coffee and pastries.",
           "publicAccess": "private",
-          "participants": [
-          ]
+          "participants": []
         },
         {
           "title": "Global South Curators (Private session)",
-          "time": "10:00 - 11:00",
+          "time": "10:30 - 11:30",
           "locationId": "POMPEU",
           "details": "Two perspectives on game development advocacy: self-producing game jams in the Philippines and 11 years of supporting the African game development ecosystem.",
           "publicAccess": "private",
@@ -355,7 +331,7 @@
         },
         {
           "title": "Fighting back (Private session)",
-          "time": "11:15 - 12:15",
+          "time": "11:45 - 12:45",
           "locationId": "POMPEU",
           "details": "Videogame co-ops, collective organizations, and game arts initiatives as alternatives",
           "publicAccess": "private",
@@ -376,48 +352,61 @@
         },
         {
           "title": "Lunch break",
-          "time": "12:15 - 13:45",
+          "time": "12:45 - 14:15",
           "locationId": "POMPEU",
           "details": "GAIA participants will buy their own lunch or snacks at SOPA (3 minute walk from Pompeu).",
           "publicAccess": "private",
           "participants": []
         },
         {
-          "title": "Travel to beach (Private session)",
-          "time": "13:45 - 14:30",
-          "locationId": null,
-          "details": "Together, GAIA participants will walk to Platja del Bogatell.",
-          "publicAccess": "private",
-          "participants": []
-        },
-        {
-          "title": "Outdoors! Unconference (Private session)",
-          "time": "14:30 - 18:00",
-          "locationId": "BEACH",
-          "details": "Open session led by all participants to discuss emerging topics and collaborative ideas. Let's turn those seeds into seedlings!",
+          "title": "Beyond Interactivity (Private session)",
+          "time": "14:15 - 15:15",
+          "locationId": "POMPEU",
+          "details": "Exploring exhibition strategies for displaying videogames in art contexts, the place of spectatorship, and making invisible game content visible to audiences.",
           "publicAccess": "private",
           "participants": [
             {
-              "id": "MarieF",
+              "id": "RuixuanL",
               "role": "host"
             },
             {
-              "id": "LuO",
-              "role": "host"
-            },
-            {
-              "id": "ShalevM",
-              "role": "host"
-            },
-            {
-              "id": "JimM",
+              "id": "SimonB",
               "role": "host"
             }
           ]
         },
         {
+          "title": "Browser Shows (Private session)",
+          "time": "15:30 - 16:30",
+          "locationId": "POMPEU",
+          "details": "Building new online platforms for curating and accessing games, including digital festivals, 3D multi-user browser exhibitions, and alternatives to algorithmic recommendations.",
+          "publicAccess": "private",
+          "participants": [
+            {
+              "id": "CatB",
+              "role": "host"
+            },
+            {
+              "id": "FarfamaH",
+              "role": "host"
+            },
+            {
+              "id": "PietroR",
+              "role": "host"
+            }
+          ]
+        },
+         {
+          "title": "Chill out time",
+          "time": "16:30 - 17:30",
+          "locationId": "POMPEU",
+          "details": "Take a nap or get snacks. Or both!",
+          "publicAccess": "private",
+          "participants": []
+        },
+        {
           "title": "Travel to DemoDay",
-          "time": "18:00 - 18:30",
+          "time": "17:30 - 18:15",
           "locationId": null,
           "details": "Together, GAIA participants will travel to Palo Alto Barcelona.",
           "publicAccess": "private",
@@ -425,7 +414,7 @@
         },
         {
           "title": "DemoDay (By invitation)",
-          "time": "18:30 - 21:30",
+          "time": "18:15 - 21:30",
           "locationId": "DEMODAY",
           "details": "Demo Day is the grand finale of GameBCN's 10th incubation program. GAIA's delegation will join the celebration and will get to know this year's GameBCN cohort, play their games, test new projects, connect with the local scene, and discover the future of the Catalan games industry. This event is possible thanks to the Ajuntament de Barcelona, Generalitat de Catalunya, Peninsula Corporate Innovation, and partners like Socialpoint, Gameloft Barcelona, FunPlus, Ubisoft Barcelona, Tilting Point, IO Interactive, Anchor Point Studios, and Marvelous.",
           "publicAccess": "private",
